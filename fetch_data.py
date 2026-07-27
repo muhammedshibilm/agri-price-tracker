@@ -4,8 +4,8 @@ fetch_data.py
 Daily pipeline for the Agri Price Tracker app.
 
 What it does, in order:
-1. Fetches today's price for each tracked commodity (PLUG IN YOUR REAL SOURCE
-   in `fetch_price_from_source()` below — see the notes there).
+1. Fetches today's price for each tracked commodity (see
+   `fetch_price_from_source()` below).
 2. Validates the new price against yesterday's (rejects garbage/outlier data).
 3. Appends it to a per-commodity CSV history file under data/history/.
 4. Computes a next-day prediction using a per-commodity backtested EWMA.
@@ -21,15 +21,45 @@ import json
 import os
 from datetime import datetime, timezone
 
+import requests
+
 # --------------------------------------------------------------------------
 # CONFIG
 # --------------------------------------------------------------------------
 
 # Add/remove commodities here. `unit_label` is just for display in the app.
+#
+# `source` tells fetch_price_from_source() how to fetch this commodity:
+#   - "agmarknet": pulled from data.gov.in's Agmarknet variety-wise daily
+#     market prices resource. Needs agmarknet_commodity/state/district/market.
+#   - anything else: not wired up yet, will raise NotImplementedError.
 COMMODITIES = {
-    "Coconut": {"unit_label": "per_kg_rs"},
-    "Paddy": {"unit_label": "per_kg_rs"},
-    "Egg_NECC": {"unit_label": "per_piece_rs"},
+    "Coconut": {
+        "unit_label": "per_kg_rs",
+        "source": "agmarknet",
+        "agmarknet_commodity": "Coconut",
+        "state": "Kerala",
+        # Leave district/market as None to average across all Kerala
+        # markets reporting that day, or set them to pin to one mandi.
+        "district": None,
+        "market": None,
+    },
+    "Paddy": {
+        "unit_label": "per_kg_rs",
+        "source": "agmarknet",
+        # NOTE: verify this against the actual value Agmarknet uses —
+        # it's sometimes listed as "Paddy(Dhan)(Common)" rather than "Paddy".
+        "agmarknet_commodity": "Paddy",
+        "state": "Kerala",
+        "district": None,
+        "market": None,
+    },
+    "Egg_NECC": {
+        "unit_label": "per_piece_rs",
+        # Not wired up: NECC egg rates aren't in the Agmarknet dataset.
+        # You'll need a different source (e.g. necc.in) for this one.
+        "source": None,
+    },
 }
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -40,6 +70,11 @@ DATA_JSON_PATH = os.path.join(BASE_DIR, "data", "data.json")
 # always means a scrape/parsing error, not a real market move.
 MAX_ALLOWED_DAILY_CHANGE_PCT = 50.0
 
+# data.gov.in resource ID for "Variety-wise Daily Market Prices" (Agmarknet).
+# Double-check this on data.gov.in against the dataset you actually
+# registered for — resource IDs can differ by dataset version.
+AGMARKNET_RESOURCE_ID = "9ef84268-d588-465a-a308-a864a43d0070"
+
 os.makedirs(HISTORY_DIR, exist_ok=True)
 
 
@@ -47,27 +82,71 @@ os.makedirs(HISTORY_DIR, exist_ok=True)
 # STEP 1: FETCH TODAY'S PRICE
 # --------------------------------------------------------------------------
 
+def _fetch_from_agmarknet(meta: dict) -> float:
+    """
+    Queries data.gov.in's Agmarknet resource for a commodity's modal price
+    and returns the average modal price across whatever markets reported
+    today (or the most recent day the dataset has, if today isn't posted
+    yet — Agmarknet is often ~1 day behind).
+    """
+    api_key = os.environ.get("DATA_GOV_IN_API_KEY")
+    if not api_key:
+        raise RuntimeError("DATA_GOV_IN_API_KEY is not set in the environment")
+
+    url = f"https://api.data.gov.in/resource/{AGMARKNET_RESOURCE_ID}"
+    params = {
+        "api-key": api_key,
+        "format": "json",
+        "limit": 100,
+        "filters[commodity]": meta["agmarknet_commodity"],
+        "filters[state]": meta.get("state") or "Kerala",
+    }
+    if meta.get("district"):
+        params["filters[district]"] = meta["district"]
+    if meta.get("market"):
+        params["filters[market]"] = meta["market"]
+
+    resp = requests.get(url, params=params, timeout=30)
+    resp.raise_for_status()
+    payload = resp.json()
+    records = payload.get("records", [])
+
+    if not records:
+        raise RuntimeError(
+            f"Agmarknet returned no records for "
+            f"{meta['agmarknet_commodity']} in {meta.get('state')}"
+        )
+
+    # Records carry a "modal_price" (Rs per quintal) per market. Average
+    # across markets reporting today, then convert quintal -> kg.
+    modal_prices = []
+    for r in records:
+        try:
+            modal_prices.append(float(r["modal_price"]))
+        except (KeyError, TypeError, ValueError):
+            continue
+
+    if not modal_prices:
+        raise RuntimeError("Agmarknet records had no usable modal_price field")
+
+    avg_price_per_quintal = sum(modal_prices) / len(modal_prices)
+    return round(avg_price_per_quintal / 100.0, 2)  # Rs/quintal -> Rs/kg
+
+
 def fetch_price_from_source(commodity_name: str):
     """
-    *** REPLACE THIS FUNCTION WITH YOUR REAL DATA SOURCE ***
-
-    This is the one function you need to customize. Options, roughly in
-    order of how much I'd trust them:
-
-    1. Official open-data API (best) — e.g. data.gov.in / Agmarknet API if
-       you can get access, or a state agri-marketing board API.
-    2. A licensed/paid market-data provider.
-    3. Scraping a public site — only if permitted by that site's Terms of
-       Service. Respect robots.txt, don't hammer the server, and cache
-       aggressively (you only need ONE fetch per commodity per day).
-
-    Return a single float (price), or None if the fetch failed — never
-    return 0 or a guess, since that will silently corrupt your history.
+    Returns a single float (price), or raises if the fetch failed — never
+    returns 0 or a guess, since that would silently corrupt history.
     """
+    meta = COMMODITIES[commodity_name]
+    source = meta.get("source")
+
+    if source == "agmarknet":
+        return _fetch_from_agmarknet(meta)
+
     raise NotImplementedError(
-        f"Wire up a real price source for '{commodity_name}' here. "
-        "Returning None for now so the pipeline fails loudly instead of "
-        "writing fake data."
+        f"No data source configured for '{commodity_name}'. "
+        "Set 'source' in COMMODITIES and add a fetch branch for it."
     )
 
 
