@@ -31,15 +31,22 @@ import requests
 #
 # `source` tells fetch_price_from_source() how to fetch this commodity:
 #   - "agmarknet": pulled from data.gov.in's Agmarknet variety-wise daily
-#     market prices resource. Needs agmarknet_commodity/state/district/market.
+#     market prices resource. Needs agmarknet_commodity/state_candidates/
+#     district/market.
 #   - anything else: not wired up yet, will raise NotImplementedError.
 COMMODITIES = {
     "Coconut": {
         "unit_label": "per_kg_rs",
         "source": "agmarknet",
         "agmarknet_commodity": "Coconut",
-        "state": "Kerala",
-        # Leave district/market as None to average across all Kerala
+        # Agmarknet's exact spelling for Kerala isn't 100% confirmed from
+        # here (my test queries all hit a cached response and couldn't
+        # tell "Kerala" vs "Keralam" apart). Try both, in order, and log
+        # whichever one actually returns records. Run the snippet in the
+        # chat writeup once to confirm, then trim this list to just the
+        # correct spelling.
+        "state_candidates": ["Kerala", "Keralam"],
+        # Leave district/market as None to average across all matching
         # markets reporting that day, or set them to pin to one mandi.
         "district": None,
         "market": None,
@@ -50,7 +57,7 @@ COMMODITIES = {
         # NOTE: verify this against the actual value Agmarknet uses —
         # it's sometimes listed as "Paddy(Dhan)(Common)" rather than "Paddy".
         "agmarknet_commodity": "Paddy",
-        "state": "Kerala",
+        "state_candidates": ["Kerala", "Keralam"],
         "district": None,
         "market": None,
     },
@@ -82,40 +89,66 @@ os.makedirs(HISTORY_DIR, exist_ok=True)
 # STEP 1: FETCH TODAY'S PRICE
 # --------------------------------------------------------------------------
 
+def _query_agmarknet(api_key: str, commodity: str, state: str, district=None, market=None):
+    """One raw call to the Agmarknet resource. Returns the records list (may be empty)."""
+    url = f"https://api.data.gov.in/resource/{AGMARKNET_RESOURCE_ID}"
+    params = {
+        "api-key": api_key,
+        "format": "json",
+        "limit": 100,
+        "filters[commodity]": commodity,
+        "filters[state]": state,
+    }
+    if district:
+        params["filters[district]"] = district
+    if market:
+        params["filters[market]"] = market
+
+    resp = requests.get(url, params=params, timeout=30)
+    resp.raise_for_status()
+    return resp.json().get("records", [])
+
+
 def _fetch_from_agmarknet(meta: dict) -> float:
     """
     Queries data.gov.in's Agmarknet resource for a commodity's modal price
     and returns the average modal price across whatever markets reported
     today (or the most recent day the dataset has, if today isn't posted
     yet — Agmarknet is often ~1 day behind).
+
+    Tries each spelling in `state_candidates` in order and uses the first
+    one that actually returns records, so a state-name mismatch doesn't
+    silently produce zero data forever.
     """
     api_key = os.environ.get("DATA_GOV_IN_API_KEY")
     if not api_key:
         raise RuntimeError("DATA_GOV_IN_API_KEY is not set in the environment")
 
-    url = f"https://api.data.gov.in/resource/{AGMARKNET_RESOURCE_ID}"
-    params = {
-        "api-key": api_key,
-        "format": "json",
-        "limit": 100,
-        "filters[commodity]": meta["agmarknet_commodity"],
-        "filters[state]": meta.get("state") or "Kerala",
-    }
-    if meta.get("district"):
-        params["filters[district]"] = meta["district"]
-    if meta.get("market"):
-        params["filters[market]"] = meta["market"]
+    commodity = meta["agmarknet_commodity"]
+    district = meta.get("district")
+    market = meta.get("market")
 
-    resp = requests.get(url, params=params, timeout=30)
-    resp.raise_for_status()
-    payload = resp.json()
-    records = payload.get("records", [])
+    records = []
+    matched_state = None
+    for state in meta["state_candidates"]:
+        records = _query_agmarknet(api_key, commodity, state, district, market)
+        if records:
+            matched_state = state
+            break
 
     if not records:
         raise RuntimeError(
-            f"Agmarknet returned no records for "
-            f"{meta['agmarknet_commodity']} in {meta.get('state')}"
+            f"Agmarknet returned no records for '{commodity}' under any of "
+            f"{meta['state_candidates']}. Either none of those markets "
+            f"reported this commodity today, or the state/commodity string "
+            f"doesn't match what Agmarknet uses — check with a filterless "
+            f"query."
         )
+
+    if matched_state != meta["state_candidates"][0]:
+        print(f"    NOTE: '{meta['state_candidates'][0]}' returned nothing; "
+              f"'{matched_state}' is the spelling that actually works. "
+              f"Consider trimming state_candidates to just that value.")
 
     # Records carry a "modal_price" (Rs per quintal) per market. Average
     # across markets reporting today, then convert quintal -> kg.
