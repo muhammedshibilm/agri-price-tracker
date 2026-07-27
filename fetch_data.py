@@ -19,9 +19,24 @@ Run daily via the GitHub Action in .github/workflows/daily-update.yml
 import csv
 import json
 import os
+import time
 from datetime import datetime, timezone
 
 import requests
+
+# api.data.gov.in is known to be slow/flaky from datacenter IPs (which is
+# exactly what a GitHub Actions runner is) — sometimes it just stalls
+# instead of erroring. A generic User-Agent seems to make this worse, so
+# we set a normal-looking one, use a generous timeout, and retry a couple
+# of times before giving up.
+_SESSION = requests.Session()
+_SESSION.headers.update({
+    "User-Agent": "Mozilla/5.0 (compatible; agri-price-tracker/1.0; "
+                  "+https://github.com/muhammedshibilm/agri-price-tracker)"
+})
+AGMARKNET_TIMEOUT_SECONDS = 60
+AGMARKNET_MAX_RETRIES = 3
+AGMARKNET_RETRY_BACKOFF_SECONDS = 5
 
 # --------------------------------------------------------------------------
 # CONFIG
@@ -90,12 +105,17 @@ os.makedirs(HISTORY_DIR, exist_ok=True)
 # --------------------------------------------------------------------------
 
 def _query_agmarknet(api_key: str, commodity: str, state: str, district=None, market=None):
-    """One raw call to the Agmarknet resource. Returns the records list (may be empty)."""
+    """
+    One call to the Agmarknet resource, with retries — this API frequently
+    just stalls (TCP connects fine, no response) rather than erroring
+    cleanly, especially from cloud/CI IP ranges. Returns the records list
+    (may be empty). Re-raises the last error if every attempt fails.
+    """
     url = f"https://api.data.gov.in/resource/{AGMARKNET_RESOURCE_ID}"
     params = {
         "api-key": api_key,
         "format": "json",
-        "limit": 100,
+        "limit": 50,
         "filters[commodity]": commodity,
         "filters[state]": state,
     }
@@ -104,9 +124,21 @@ def _query_agmarknet(api_key: str, commodity: str, state: str, district=None, ma
     if market:
         params["filters[market]"] = market
 
-    resp = requests.get(url, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp.json().get("records", [])
+    last_error = None
+    for attempt in range(1, AGMARKNET_MAX_RETRIES + 1):
+        try:
+            resp = _SESSION.get(url, params=params, timeout=AGMARKNET_TIMEOUT_SECONDS)
+            resp.raise_for_status()
+            return resp.json().get("records", [])
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            last_error = e
+            print(f"    attempt {attempt}/{AGMARKNET_MAX_RETRIES} for "
+                  f"'{commodity}'/'{state}' failed ({e!r}); "
+                  f"{'retrying' if attempt < AGMARKNET_MAX_RETRIES else 'giving up'}")
+            if attempt < AGMARKNET_MAX_RETRIES:
+                time.sleep(AGMARKNET_RETRY_BACKOFF_SECONDS * attempt)
+
+    raise last_error
 
 
 def _fetch_from_agmarknet(meta: dict) -> float:
