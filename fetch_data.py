@@ -1,20 +1,3 @@
-"""
-fetch_data.py
---------------
-Daily pipeline for the Agri Price Tracker app.
-
-What it does, in order:
-1. Fetches today's price for each tracked commodity (see
-   `fetch_price_from_source()` below).
-2. Validates the new price against yesterday's (rejects garbage/outlier data).
-3. Appends it to a per-commodity CSV history file under data/history/.
-4. Computes a next-day prediction using a per-commodity backtested EWMA.
-5. Tracks how accurate yesterday's prediction actually was.
-6. Writes everything to data/data.json for the Flutter app to consume.
-
-Run manually with:  python fetch_data.py
-Run daily via the GitHub Action in .github/workflows/daily-update.yml
-"""
 
 import csv
 import json
