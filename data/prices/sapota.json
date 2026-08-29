@@ -1,0 +1,19 @@
+{
+  "product": "sapota",
+  "product_name": "Sapota (Chikoo)",
+  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "sapota-6c4e64bda5",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 3950.0,
+      "max_price": 4050.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

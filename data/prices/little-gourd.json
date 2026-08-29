@@ -1,0 +1,118 @@
+{
+  "product": "little-gourd",
+  "product_name": "Little Gourd (Kundru)",
+  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "little-gourd-dc2c984b66",
+      "market": "Athirampuzha VFPCK Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 4500.0,
+      "max_price": 4500.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-c9598990db",
+      "market": "Athirampuzha Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3200.0,
+      "modal_price": 3100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-d003bdf736",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 4500.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-b3a4d82f6d",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 5200.0,
+      "max_price": 5600.0,
+      "modal_price": 5400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-2156f635f9",
+      "market": "Pala Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 5400.0,
+      "max_price": 6800.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-f0ff57ed5a",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-29",
+      "min_price": 2300.0,
+      "max_price": 3000.0,
+      "modal_price": 2700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-0cc4a4c096",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 6000.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-400e982c5f",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 10000.0,
+      "max_price": 12000.0,
+      "modal_price": 11000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-fe40ed6431",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3100.0,
+      "max_price": 3100.0,
+      "modal_price": 3100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "little-gourd-6ecd6ea7d6",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 4000.0,
+      "max_price": 6000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}
