@@ -1,0 +1,238 @@
+{
+  "product": "banana",
+  "product_name": "Banana",
+  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "history": [
+    {
+      "id": "banana-e2a4ca3a72",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-5487ede328",
+      "market": "Mankada VFPCK Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 5700.0,
+      "max_price": 5900.0,
+      "modal_price": 5800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-5fafc78a0b",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-29",
+      "min_price": 5500.0,
+      "max_price": 6500.0,
+      "modal_price": 6100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-a5814bcabc",
+      "market": "Kolayad VFPCK Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 6400.0,
+      "max_price": 6400.0,
+      "modal_price": 6400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-00136502c4",
+      "market": "Pala Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 7400.0,
+      "max_price": 8000.0,
+      "modal_price": 7800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-48c26ba94c",
+      "market": "Vayala  VFPCK Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 6500.0,
+      "max_price": 6500.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-a101c277a7",
+      "market": "Kunnukara  VFPCK Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
+      "modal_price": 6100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-9479b124d7",
+      "market": "Parassala VFPCK Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 7000.0,
+      "max_price": 7200.0,
+      "modal_price": 7100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-76b700a9fd",
+      "market": "Vaniyamkulam  VFPCK Market",
+      "district": "Palakad",
+      "date": "2026-08-29",
+      "min_price": 4200.0,
+      "max_price": 4400.0,
+      "modal_price": 4300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-94ca0862be",
+      "market": "ARWM Muvattupuzha",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 6200.0,
+      "max_price": 7300.0,
+      "modal_price": 6800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-05e950168f",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-b2eae02979",
+      "market": "Bharananganam VFPCK",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 6800.0,
+      "max_price": 7000.0,
+      "modal_price": 6900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-b10c52989e",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 6800.0,
+      "max_price": 7200.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-c5cddf57e6",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 5000.0,
+      "modal_price": 4900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-c9d21c785f",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 5000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-1995e70128",
+      "market": "Taliparamba Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 8400.0,
+      "max_price": 8600.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-11f0ca7cd7",
+      "market": "Perambra Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 2500.0,
+      "max_price": 2600.0,
+      "modal_price": 2600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-64f25869ba",
+      "market": "Vakathanam VFPCK Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 2500.0,
+      "max_price": 3000.0,
+      "modal_price": 2800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-24f529a1c0",
+      "market": "Thiruvali  VFPCK Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 5700.0,
+      "max_price": 59000.0,
+      "modal_price": 5800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-081a29d01f",
+      "market": "Aymanam VFPCK Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 6500.0,
+      "max_price": 7000.0,
+      "modal_price": 6800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-fb5f3d8318",
+      "market": "Kaithepalam VFPCK Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
+      "modal_price": 6100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "product": "pineapple",
+  "product_name": "Pineapple",
+  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "history": [
+    {
+      "id": "pineapple-89872bf9d9",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 8200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-aa8fac222b",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 6000.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-ebe06ac245",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-29",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-e1e9f7813b",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 7200.0,
+      "max_price": 8000.0,
+      "modal_price": 7600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-48683cef08",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 8500.0,
+      "max_price": 9000.0,
+      "modal_price": 8800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

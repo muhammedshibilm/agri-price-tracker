@@ -1,0 +1,84 @@
+{
+  "product": "ginger",
+  "product_name": "Ginger",
+  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "history": [
+    {
+      "id": "ginger-c284b4f0ff",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 17000.0,
+      "max_price": 18500.0,
+      "modal_price": 18000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-7188145638",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 10000.0,
+      "max_price": 14000.0,
+      "modal_price": 12000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-6a90bb088f",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 7500.0,
+      "max_price": 10000.0,
+      "modal_price": 8750.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-6d1f95426e",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-29",
+      "min_price": 7500.0,
+      "max_price": 8500.0,
+      "modal_price": 8100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-a01eea8528",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 20000.0,
+      "max_price": 25000.0,
+      "modal_price": 21000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-a370fb4da3",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-08-29",
+      "min_price": 17000.0,
+      "max_price": 20000.0,
+      "modal_price": 20000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-9b5c76e48f",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-08-29",
+      "min_price": 9400.0,
+      "max_price": 9600.0,
+      "modal_price": 9500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

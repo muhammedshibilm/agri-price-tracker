@@ -1,0 +1,73 @@
+{
+  "product": "tapioca",
+  "product_name": "Tapioca",
+  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "history": [
+    {
+      "id": "tapioca-5e2b150237",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 4000.0,
+      "modal_price": 3700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-e70e02045a",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 3500.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-caa766cda0",
+      "market": "ARWM Muvattupuzha",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 2200.0,
+      "max_price": 3200.0,
+      "modal_price": 2700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-61eb695336",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3600.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-6945a649b3",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 2600.0,
+      "max_price": 4000.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-666990cd14",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}
