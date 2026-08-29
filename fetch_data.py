@@ -25,27 +25,73 @@ MAX_ATTEMPTS = 4
 BASE_BACKOFF_SEC = 5
 RETENTION_DAYS = 60
 
+# Kerala-only for now. (API's state filter value is "Keralam", not "Kerala".)
+STATE = "Keralam"
+
 # Maps our app's product id -> list of exact commodity name(s) the API uses.
-# Confirmed against a live pull on 2026-08-29 (62 distinct commodities seen).
+# NOTE: verify these against a live pull before relying on them - AGMARKNET
+# commodity strings are exact-match and vary slightly (spacing, parentheses).
+# See the diagnostic snippet below the script for how to check.
 TARGET_PRODUCTS = {
+    # Vegetables
     "tomato": ["Tomato"],
     "onion": ["Onion"],
     "potato": ["Potato"],
     "carrot": ["Carrot"],
     "cabbage": ["Cabbage"],
-    "banana": ["Banana"],
-    "banana-green": ["Banana - Green"],
+    "cauliflower": ["Cauliflower"],
     "beans": ["French Beans(Frasbean)"],
-    "ginger": ["Ginger(Green)"],
-    "garlic": ["Garlic"],
-    "green-chilli": ["Green Chilli"],
+    "cluster-beans": ["Cluster beans"],
     "brinjal": ["Brinjal"],
     "bhindi": ["Bhindi(Ladies Finger)"],
     "cucumber": ["Cucumbar(Kheera)"],
+    "bottle-gourd": ["Bottle gourd"],
+    "bitter-gourd": ["Bitter gourd"],
+    "ridge-gourd": ["Ridgeguard(Tori)"],
     "pumpkin": ["Pumpkin"],
-    "coconut": ["Coconut"],
-    "tapioca": ["Tapioca"],
+    "ash-gourd": ["Ashgourd"],
+    "drumstick": ["Drumstick"],
+    "beetroot": ["Beetroot"],
+    "green-chilli": ["Green Chilli"],
+    "capsicum": ["Capsicum"],
+    "ginger": ["Ginger(Green)"],
+    "garlic": ["Garlic"],
+    "spinach": ["Spinach"],
+    "amaranthus": ["Amaranthus"],
+    "colocasia": ["Colocosia"],
+
+    # Fruits
+    "banana": ["Banana"],
+    "banana-green": ["Banana - Green"],
     "pineapple": ["Pineapple"],
+    "papaya": ["Papaya"],
+    "mango": ["Mango"],
+    "watermelon": ["Water Melon"],
+    "muskmelon": ["Muskmelon"],
+    "orange": ["Orange"],
+    "sweet-lime": ["Mousambi(Sweet Lime)"],
+    "lemon": ["Lemon"],
+    "grapes": ["Grapes"],
+    "apple": ["Apple"],
+    "pomegranate": ["Pomegranate"],
+    "guava": ["Guava"],
+    "jackfruit": ["Jack Fruit"],
+
+    # Tubers / roots
+    "tapioca": ["Tapioca"],
+    "sweet-potato": ["Sweet Potato"],
+    "yam": ["Elephant Yam (Suran)"],
+
+    # Others / plantation crops
+    "coconut": ["Coconut"],
+    "arecanut": ["Arecanut(Betelnut/Supari)"],
+    "coffee": ["Coffee"],
+    "pepper": ["Pepper garbled"],
+    "cardamom": ["Cardamom"],
+    "turmeric": ["Turmeric"],
+    "groundnut": ["Groundnut"],
+    "rice": ["Paddy(Dhan)(Common)"],
+    "wheat": ["Wheat"],
 }
 
 PRODUCT_NAMES = {
@@ -54,19 +100,53 @@ PRODUCT_NAMES = {
     "potato": "Potato",
     "carrot": "Carrot",
     "cabbage": "Cabbage",
-    "banana": "Banana",
-    "banana-green": "Banana (Green)",
+    "cauliflower": "Cauliflower",
     "beans": "French Beans",
-    "ginger": "Ginger",
-    "garlic": "Garlic",
-    "green-chilli": "Green Chilli",
+    "cluster-beans": "Cluster Beans",
     "brinjal": "Brinjal",
     "bhindi": "Bhindi (Ladies Finger)",
     "cucumber": "Cucumber",
+    "bottle-gourd": "Bottle Gourd",
+    "bitter-gourd": "Bitter Gourd",
+    "ridge-gourd": "Ridge Gourd",
     "pumpkin": "Pumpkin",
-    "coconut": "Coconut",
-    "tapioca": "Tapioca",
+    "ash-gourd": "Ash Gourd",
+    "drumstick": "Drumstick",
+    "beetroot": "Beetroot",
+    "green-chilli": "Green Chilli",
+    "capsicum": "Capsicum",
+    "ginger": "Ginger",
+    "garlic": "Garlic",
+    "spinach": "Spinach",
+    "amaranthus": "Amaranthus (Cheera)",
+    "colocasia": "Colocasia (Chembu)",
+    "banana": "Banana",
+    "banana-green": "Banana (Green)",
     "pineapple": "Pineapple",
+    "papaya": "Papaya",
+    "mango": "Mango",
+    "watermelon": "Watermelon",
+    "muskmelon": "Muskmelon",
+    "orange": "Orange",
+    "sweet-lime": "Sweet Lime (Mosambi)",
+    "lemon": "Lemon",
+    "grapes": "Grapes",
+    "apple": "Apple",
+    "pomegranate": "Pomegranate",
+    "guava": "Guava",
+    "jackfruit": "Jackfruit",
+    "tapioca": "Tapioca",
+    "sweet-potato": "Sweet Potato",
+    "yam": "Elephant Yam (Chena)",
+    "coconut": "Coconut",
+    "arecanut": "Arecanut",
+    "coffee": "Coffee",
+    "pepper": "Black Pepper",
+    "cardamom": "Cardamom",
+    "turmeric": "Turmeric",
+    "groundnut": "Groundnut",
+    "rice": "Rice (Paddy)",
+    "wheat": "Wheat",
 }
 
 COMMODITY_TO_PRODUCT = {
@@ -86,7 +166,7 @@ def fetch_kerala_csv() -> list:
                     "api-key": API_KEY,
                     "format": "csv",
                     "limit": "all",
-                    "filters[state]": "Keralam",
+                    "filters[state]": STATE,
                 },
                 headers={
                     "User-Agent": (
@@ -146,9 +226,13 @@ def main():
         print("Missing DATA_GOV_IN_API_KEY environment variable.", file=sys.stderr)
         sys.exit(1)
 
-    print("Fetching Kerala mandi prices...")
+    print(f"Fetching {STATE} mandi prices...")
     raw_records = fetch_kerala_csv()
-    print(f"Fetched {len(raw_records)} raw Kerala records")
+    print(f"Fetched {len(raw_records)} raw {STATE} records")
+
+    if not raw_records:
+        print("No records fetched - aborting without overwriting existing data.", file=sys.stderr)
+        sys.exit(1)
 
     PRICES_DIR.mkdir(parents=True, exist_ok=True)
     cutoff = (datetime.now(timezone.utc).date() - timedelta(days=RETENTION_DAYS)).isoformat()
@@ -190,7 +274,7 @@ def main():
 
     if unmatched_commodities:
         print(f"\n(info) {len(unmatched_commodities)} commodities in today's pull "
-              f"aren't mapped to a product yet - ignored: {sorted(unmatched_commodities)[:10]}...")
+              f"aren't mapped to a product yet - ignored: {sorted(unmatched_commodities)[:15]}...")
 
     manifest_products = []
     now_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
@@ -213,6 +297,7 @@ def main():
                     "product": product_id,
                     "product_name": product_name,
                     "generated_at": now_iso,
+                    "state": STATE,
                     "history": merged,
                 },
                 f, indent=2, ensure_ascii=False,
@@ -259,6 +344,7 @@ def main():
     with open(MANIFEST_PATH, "w") as f:
         json.dump(
             {"generated_at": now_iso, "source": "Agmarknet / data.gov.in, Government of India",
+             "state": STATE,
              "products": manifest_products},
             f, indent=2, ensure_ascii=False,
         )
@@ -270,4 +356,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
