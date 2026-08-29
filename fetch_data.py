@@ -1,18 +1,3 @@
-"""
-Daily Kerala price collector.
-
-Fetches current Kerala mandi prices (CSV format - proven reliable over JSON
-for this dataset), maps raw commodity names to our app's product IDs, and
-writes:
-  - data/prices/<product_id>.json   per-product history, one row per
-                                     (market, date), retained for RETENTION_DAYS
-  - data/manifest.json              lightweight summary the Home screen reads:
-                                     today's average price per product, yesterday's
-                                     average, change, % change, market count
-
-Architecture mirrors the quiz app: no server, GitHub Actions writes flat
-JSON files, the Android app fetches them directly from raw.githubusercontent.com.
-"""
 
 import os
 import sys
