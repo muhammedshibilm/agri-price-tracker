@@ -1,7 +1,8 @@
 {
   "product": "tapioca",
   "product_name": "Tapioca",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "tapioca-5e2b150237",
@@ -66,6 +67,94 @@
       "min_price": 3000.0,
       "max_price": 4000.0,
       "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-c2089bbd73",
+      "market": "Nedumkandam Market",
+      "district": "Idukki",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-2fc55ba3ea",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-ace08facfd",
+      "market": "Nedumbram VFPCK Market",
+      "district": "Pathanamthitta",
+      "date": "2026-08-29",
+      "min_price": 2000.0,
+      "max_price": 2500.0,
+      "modal_price": 2300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-5f1af251a8",
+      "market": "Ernakulam Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3800.0,
+      "modal_price": 3400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-eb8631056e",
+      "market": "Kuttoor Market",
+      "district": "Pathanamthitta",
+      "date": "2026-08-29",
+      "min_price": 3600.0,
+      "max_price": 4000.0,
+      "modal_price": 3800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-3f9ee74a90",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-a7a15f8e5f",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 4500.0,
+      "max_price": 5000.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-662bf6ad5e",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 4300.0,
+      "max_price": 4500.0,
+      "modal_price": 4400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

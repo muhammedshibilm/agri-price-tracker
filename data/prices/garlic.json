@@ -1,7 +1,8 @@
 {
   "product": "garlic",
   "product_name": "Garlic",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "garlic-155e69583f",
@@ -33,6 +34,17 @@
       "min_price": 21500.0,
       "max_price": 22300.0,
       "modal_price": 22000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-d3ef489221",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 20000.0,
+      "max_price": 22000.0,
+      "modal_price": 21000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

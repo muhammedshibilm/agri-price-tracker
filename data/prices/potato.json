@@ -1,7 +1,8 @@
 {
   "product": "potato",
   "product_name": "Potato",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "potato-ed6b3ee302",
@@ -120,6 +121,105 @@
       "date": "2026-08-29",
       "min_price": 2300.0,
       "max_price": 2400.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-352b6c5e09",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-21cb5c494c",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3400.0,
+      "modal_price": 3200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-4264f2244d",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-cf7793c36c",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 1900.0,
+      "max_price": 2100.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-ef599aa331",
+      "market": "Nedumkandam Market",
+      "district": "Idukki",
+      "date": "2026-08-29",
+      "min_price": 2800.0,
+      "max_price": 2800.0,
+      "modal_price": 2800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-bf42fdafdf",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 3400.0,
+      "max_price": 3800.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-9d6c49ed38",
+      "market": "Thalasserry Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 1800.0,
+      "max_price": 2800.0,
+      "modal_price": 2200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-edcd43e264",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 4000.0,
+      "max_price": 4500.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-ac98a97514",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 2200.0,
+      "max_price": 2600.0,
       "modal_price": 2400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"

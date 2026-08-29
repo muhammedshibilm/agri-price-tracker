@@ -1,7 +1,8 @@
 {
   "product": "cabbage",
   "product_name": "Cabbage",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "cabbage-6d5d3d0592",
@@ -154,6 +155,72 @@
       "min_price": 4600.0,
       "max_price": 6000.0,
       "modal_price": 5400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cabbage-b82354bb2c",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 3400.0,
+      "max_price": 4000.0,
+      "modal_price": 3700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cabbage-cd3856f1c2",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 1700.0,
+      "max_price": 1900.0,
+      "modal_price": 1800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cabbage-8fd6789da3",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 3800.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cabbage-585aefa50c",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 2600.0,
+      "max_price": 2800.0,
+      "modal_price": 2700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cabbage-80546459b8",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 2300.0,
+      "max_price": 2700.0,
+      "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cabbage-eedd0fa4af",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 2200.0,
+      "max_price": 2200.0,
+      "modal_price": 2200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

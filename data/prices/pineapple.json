@@ -1,7 +1,8 @@
 {
   "product": "pineapple",
   "product_name": "Pineapple",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "pineapple-89872bf9d9",
@@ -55,6 +56,28 @@
       "min_price": 8500.0,
       "max_price": 9000.0,
       "modal_price": 8800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-7724ff842d",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 5950.0,
+      "max_price": 6050.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-d151bdb4ff",
+      "market": "Thalayolaparambu Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 7300.0,
+      "max_price": 7600.0,
+      "modal_price": 7400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

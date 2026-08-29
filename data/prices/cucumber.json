@@ -1,7 +1,8 @@
 {
   "product": "cucumber",
   "product_name": "Cucumber",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "cucumber-7b881e7183",
@@ -154,6 +155,138 @@
       "min_price": 2200.0,
       "max_price": 2500.0,
       "modal_price": 2300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-e472147e18",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 2200.0,
+      "max_price": 2600.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-d5c917011a",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 2500.0,
+      "max_price": 2700.0,
+      "modal_price": 2600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-cab5ca7c73",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-fbe3d21f0d",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 1300.0,
+      "max_price": 1500.0,
+      "modal_price": 1400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-fbeda32834",
+      "market": "Kuttoor Market",
+      "district": "Pathanamthitta",
+      "date": "2026-08-29",
+      "min_price": 4600.0,
+      "max_price": 5000.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-8cc19a574d",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 5200.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-2b70e4d11d",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 3400.0,
+      "max_price": 4000.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-82c5c67af9",
+      "market": "Ernakulam Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 2300.0,
+      "max_price": 3000.0,
+      "modal_price": 2600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-93cdfeafdc",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 2800.0,
+      "max_price": 3200.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-db51476ee8",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 1500.0,
+      "max_price": 1900.0,
+      "modal_price": 1700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-5c4b80ec8f",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 1400.0,
+      "max_price": 1600.0,
+      "modal_price": 1500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-62fb8f00ee",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 2000.0,
+      "max_price": 2400.0,
+      "modal_price": 2200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

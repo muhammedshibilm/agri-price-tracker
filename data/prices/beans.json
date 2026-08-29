@@ -1,7 +1,8 @@
 {
   "product": "beans",
   "product_name": "French Beans",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "beans-8b8a68c464",
@@ -33,6 +34,17 @@
       "min_price": 5500.0,
       "max_price": 5700.0,
       "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beans-8e9ab9706c",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 8200.0,
+      "max_price": 8400.0,
+      "modal_price": 8300.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

@@ -1,7 +1,8 @@
 {
   "product": "bhindi",
   "product_name": "Bhindi (Ladies Finger)",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "bhindi-e12a87e370",
@@ -187,6 +188,105 @@
       "min_price": 6500.0,
       "max_price": 7800.0,
       "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-4c7d6de60b",
+      "market": "Attingal Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 3800.0,
+      "max_price": 4500.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-e824844743",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 5800.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-0c65346ff7",
+      "market": "Thalasserry Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-3d8a4b9940",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 3800.0,
+      "max_price": 4200.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-4843a29985",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3800.0,
+      "max_price": 3800.0,
+      "modal_price": 3800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-8d103c26ef",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 5400.0,
+      "max_price": 6000.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-fb14a3b82b",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 2600.0,
+      "max_price": 2800.0,
+      "modal_price": 2700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-3fc714ed00",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 4300.0,
+      "max_price": 4500.0,
+      "modal_price": 4400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-01028009a3",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 7600.0,
+      "max_price": 8000.0,
+      "modal_price": 7800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

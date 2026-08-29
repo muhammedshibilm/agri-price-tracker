@@ -1,7 +1,8 @@
 {
   "product": "onion",
   "product_name": "Onion",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "onion-b8296f043f",
@@ -132,6 +133,116 @@
       "min_price": 5500.0,
       "max_price": 6500.0,
       "modal_price": 6100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-0e1dee2c9b",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 6900.0,
+      "max_price": 7100.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-4eaba6006f",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 4200.0,
+      "max_price": 4800.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-8b4555ea33",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 5400.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-8cdb6f600a",
+      "market": "Kodungalloor Market",
+      "district": "Thirssur",
+      "date": "2026-08-29",
+      "min_price": 4500.0,
+      "max_price": 4500.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-4436248bba",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 5200.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-3c254911b6",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-e24f034a62",
+      "market": "Thalasserry Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 4500.0,
+      "max_price": 5500.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-146a75012e",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 5400.0,
+      "max_price": 5600.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-4a723f96e6",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 5400.0,
+      "max_price": 5800.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-8568636394",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 5100.0,
+      "max_price": 5500.0,
+      "modal_price": 5300.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

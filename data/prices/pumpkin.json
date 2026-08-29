@@ -1,7 +1,8 @@
 {
   "product": "pumpkin",
   "product_name": "Pumpkin",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "pumpkin-6e4956326c",
@@ -121,6 +122,94 @@
       "min_price": 2300.0,
       "max_price": 2600.0,
       "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-a4ccc5e726",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 2500.0,
+      "max_price": 3000.0,
+      "modal_price": 2700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-2f5d297e89",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 3400.0,
+      "max_price": 3800.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-0ff34baa60",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-2d8e97b632",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 2000.0,
+      "max_price": 2400.0,
+      "modal_price": 2200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-9d3099a92b",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 2500.0,
+      "max_price": 4000.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-47394ea961",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 3000.0,
+      "max_price": 3200.0,
+      "modal_price": 3100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-c0ec67a1eb",
+      "market": "Nedumkandam Market",
+      "district": "Idukki",
+      "date": "2026-08-29",
+      "min_price": 2000.0,
+      "max_price": 2500.0,
+      "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-a4953e2ea7",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 1400.0,
+      "max_price": 1600.0,
+      "modal_price": 1500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

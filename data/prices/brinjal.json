@@ -1,7 +1,8 @@
 {
   "product": "brinjal",
   "product_name": "Brinjal",
-  "generated_at": "2026-08-29T09:31:38.247723Z",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
   "history": [
     {
       "id": "brinjal-eb1df93efb",
@@ -198,6 +199,127 @@
       "min_price": 3800.0,
       "max_price": 4800.0,
       "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-2903b78bf8",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 4400.0,
+      "max_price": 4800.0,
+      "modal_price": 4600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-6c933ef7e5",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 3800.0,
+      "max_price": 4000.0,
+      "modal_price": 3900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-9504cc3b56",
+      "market": "Kuttoor Market",
+      "district": "Pathanamthitta",
+      "date": "2026-08-29",
+      "min_price": 4100.0,
+      "max_price": 4500.0,
+      "modal_price": 4300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-e19a671295",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 2000.0,
+      "max_price": 2000.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-7e568ea970",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 4300.0,
+      "max_price": 4800.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-75e1bd7edb",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 3500.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-63549e4520",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 3300.0,
+      "max_price": 3700.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-e53327de1d",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 5400.0,
+      "max_price": 6000.0,
+      "modal_price": 5700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-8fa81e2d4b",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 5800.0,
+      "max_price": 6200.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-37974a4978",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 3800.0,
+      "max_price": 4000.0,
+      "modal_price": 3900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "brinjal-9ab943c538",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 4900.0,
+      "modal_price": 3700.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

@@ -1,0 +1,19 @@
+{
+  "product": "pepper",
+  "product_name": "Black Pepper",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "pepper-53a99628d4",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 67500.0,
+      "max_price": 67700.0,
+      "modal_price": 67600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

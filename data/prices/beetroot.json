@@ -1,0 +1,250 @@
+{
+  "product": "beetroot",
+  "product_name": "Beetroot",
+  "generated_at": "2026-08-29T19:05:23.379722Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "beetroot-29cb838b16",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 5200.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-d4b900ca97",
+      "market": "Broadway market Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 6000.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-5527438bd0",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 2000.0,
+      "max_price": 2000.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-f529cc69dc",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 3500.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-0d170ec69f",
+      "market": "Cherthala Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 5200.0,
+      "modal_price": 5100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-7a010ac187",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-d61d9f953f",
+      "market": "Pala Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 6500.0,
+      "max_price": 7800.0,
+      "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-499809c307",
+      "market": "Mannar Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 4000.0,
+      "max_price": 4200.0,
+      "modal_price": 4100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-206d6f6c22",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 4500.0,
+      "max_price": 5500.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-f1c4842550",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-29",
+      "min_price": 3500.0,
+      "max_price": 5000.0,
+      "modal_price": 4250.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-b4f6c08749",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-29",
+      "min_price": 4500.0,
+      "max_price": 5500.0,
+      "modal_price": 5100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-3d5b2f3383",
+      "market": "Quilandy Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 5100.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-8598f611f2",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 5300.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-d739fbc39f",
+      "market": "Athirampuzha Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 7000.0,
+      "max_price": 7400.0,
+      "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-036aa045d4",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-29",
+      "min_price": 5400.0,
+      "max_price": 6000.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-5af357a07e",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-08-29",
+      "min_price": 5000.0,
+      "max_price": 5400.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-03a7f6c27e",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 4100.0,
+      "max_price": 4300.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-e415f39a2d",
+      "market": "Harippad Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-12e10d94c2",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-29",
+      "min_price": 5600.0,
+      "max_price": 6400.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-7ba55be5ee",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-08-29",
+      "min_price": 3800.0,
+      "max_price": 4000.0,
+      "modal_price": 3900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-37c8465123",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 6000.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "beetroot-d9791148a8",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-08-29",
+      "min_price": 4800.0,
+      "max_price": 5100.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}
