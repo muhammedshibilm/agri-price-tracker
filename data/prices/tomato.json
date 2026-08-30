@@ -1,9 +1,119 @@
 {
   "product": "tomato",
   "product_name": "Tomato",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "tomato-e1f0e90669",
+      "market": "Kanjirappally Market",
+      "district": "Kottayam",
+      "date": "2026-08-30",
+      "min_price": 3500.0,
+      "max_price": 4000.0,
+      "modal_price": 3800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-37d1ead452",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-30",
+      "min_price": 1700.0,
+      "max_price": 2100.0,
+      "modal_price": 1900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-c102a6bda6",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-88bcf67a5e",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-30",
+      "min_price": 4700.0,
+      "max_price": 4700.0,
+      "modal_price": 4700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-8ac733a088",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-08-30",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-5e1c1dd4c7",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-08-30",
+      "min_price": 1800.0,
+      "max_price": 2600.0,
+      "modal_price": 2600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-a5e3b69ece",
+      "market": "Kattappana Market",
+      "district": "Idukki",
+      "date": "2026-08-30",
+      "min_price": 3500.0,
+      "max_price": 5500.0,
+      "modal_price": 5300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-377d7de8df",
+      "market": "Wadakkanchery Market",
+      "district": "Thirssur",
+      "date": "2026-08-30",
+      "min_price": 2600.0,
+      "max_price": 3100.0,
+      "modal_price": 2800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-b4821e22a2",
+      "market": "Balarampuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-3e7576d437",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-30",
+      "min_price": 1750.0,
+      "max_price": 1850.0,
+      "modal_price": 1800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "tomato-76aa76634f",
       "market": "Thrippunithura Market",

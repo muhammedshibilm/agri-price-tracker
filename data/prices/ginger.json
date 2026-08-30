@@ -1,9 +1,53 @@
 {
   "product": "ginger",
   "product_name": "Ginger",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "ginger-13324320af",
+      "market": "Kanjirappally Market",
+      "district": "Kottayam",
+      "date": "2026-08-30",
+      "min_price": 20000.0,
+      "max_price": 21000.0,
+      "modal_price": 20800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-63416e5bf5",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 15000.0,
+      "max_price": 18000.0,
+      "modal_price": 18000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-517e435b57",
+      "market": "Wadakkanchery Market",
+      "district": "Thirssur",
+      "date": "2026-08-30",
+      "min_price": 16000.0,
+      "max_price": 18000.0,
+      "modal_price": 17000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-72869443b9",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-30",
+      "min_price": 15800.0,
+      "max_price": 16200.0,
+      "modal_price": 16000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "ginger-c284b4f0ff",
       "market": "Mukkom Market",

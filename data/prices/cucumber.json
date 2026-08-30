@@ -1,9 +1,119 @@
 {
   "product": "cucumber",
   "product_name": "Cucumber",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "cucumber-b280f1304c",
+      "market": "Kanjirappally Market",
+      "district": "Kottayam",
+      "date": "2026-08-30",
+      "min_price": 3500.0,
+      "max_price": 4000.0,
+      "modal_price": 3800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-e8a9d11bd3",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-08-30",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-1678f1225f",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-30",
+      "min_price": 1500.0,
+      "max_price": 1900.0,
+      "modal_price": 1700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-438174cc84",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-5d5d67fa6a",
+      "market": "Wadakkanchery Market",
+      "district": "Thirssur",
+      "date": "2026-08-30",
+      "min_price": 2200.0,
+      "max_price": 2700.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-0b6593d167",
+      "market": "Pappanchani VFPCK Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 5000.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-ea0e8edf39",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-30",
+      "min_price": 2800.0,
+      "max_price": 2800.0,
+      "modal_price": 2800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-f7ff942600",
+      "market": "Pampady Market",
+      "district": "Kottayam",
+      "date": "2026-08-30",
+      "min_price": 2500.0,
+      "max_price": 4500.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-f2632dc080",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-30",
+      "min_price": 1450.0,
+      "max_price": 1550.0,
+      "modal_price": 1500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-ec18738cce",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-08-30",
+      "min_price": 1800.0,
+      "max_price": 2200.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cucumber-7b881e7183",
       "market": "Thrippunithura Market",

@@ -1,9 +1,97 @@
 {
   "product": "carrot",
   "product_name": "Carrot",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "carrot-60aeac3ec5",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-30",
+      "min_price": 5800.0,
+      "max_price": 7200.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-472c953930",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 4000.0,
+      "max_price": 8000.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-05fd61f1ff",
+      "market": "Wadakkanchery Market",
+      "district": "Thirssur",
+      "date": "2026-08-30",
+      "min_price": 7000.0,
+      "max_price": 7500.0,
+      "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-2bbbd0ce1c",
+      "market": "Aroor Market",
+      "district": "Alappuzha",
+      "date": "2026-08-30",
+      "min_price": 8800.0,
+      "max_price": 9000.0,
+      "modal_price": 8900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-00725e3c60",
+      "market": "Kanjirappally Market",
+      "district": "Kottayam",
+      "date": "2026-08-30",
+      "min_price": 8500.0,
+      "max_price": 9000.0,
+      "modal_price": 8800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-93b685a432",
+      "market": "Balarampuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-180f76d482",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-30",
+      "min_price": 4800.0,
+      "max_price": 4800.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-08eece6978",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-30",
+      "min_price": 6950.0,
+      "max_price": 7050.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "carrot-85b26df8ac",
       "market": "Chavakkad Market",

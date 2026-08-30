@@ -1,9 +1,53 @@
 {
   "product": "yam-suran",
   "product_name": "Elephant Yam (Suran/Chena)",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "yam-suran-19ef87906a",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-30",
+      "min_price": 4800.0,
+      "max_price": 4800.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-d4295f9950",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-30",
+      "min_price": 4400.0,
+      "max_price": 4800.0,
+      "modal_price": 4600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-22b90c305c",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-69ad204d5a",
+      "market": "Wadakkanchery Market",
+      "district": "Thirssur",
+      "date": "2026-08-30",
+      "min_price": 4500.0,
+      "max_price": 5000.0,
+      "modal_price": 4700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "yam-suran-33919c3a93",
       "market": "Mannackanad  VFPCK Market",

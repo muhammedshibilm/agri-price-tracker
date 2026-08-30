@@ -1,9 +1,20 @@
 {
   "product": "coconut",
   "product_name": "Coconut",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "coconut-6eb21067cf",
+      "market": "Ranniangadi Market",
+      "district": "Pathanamthitta",
+      "date": "2026-08-30",
+      "min_price": 5500.0,
+      "max_price": 6000.0,
+      "modal_price": 5800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coconut-4658b9c134",
       "market": "Athirampuzha Market",

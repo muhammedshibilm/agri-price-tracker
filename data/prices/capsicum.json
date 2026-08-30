@@ -1,9 +1,53 @@
 {
   "product": "capsicum",
   "product_name": "Capsicum",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "capsicum-406b5e5dfe",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-08-30",
+      "min_price": 5600.0,
+      "max_price": 5600.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "capsicum-d30e4da9d2",
+      "market": "Balarampuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-30",
+      "min_price": 8000.0,
+      "max_price": 8000.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "capsicum-3ca4f27b08",
+      "market": "Aroor Market",
+      "district": "Alappuzha",
+      "date": "2026-08-30",
+      "min_price": 9000.0,
+      "max_price": 9200.0,
+      "modal_price": 9100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "capsicum-135dbb70bd",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-30",
+      "min_price": 5950.0,
+      "max_price": 6050.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "capsicum-df7925b96a",
       "market": "Thrippunithura Market",

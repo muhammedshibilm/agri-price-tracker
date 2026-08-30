@@ -1,9 +1,20 @@
 {
   "product": "coconut-seed",
   "product_name": "Coconut Seed",
-  "generated_at": "2026-08-29T19:52:39.300293Z",
+  "generated_at": "2026-08-30T19:40:08.379014Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "coconut-seed-8b8d5c413c",
+      "market": "Venmony  VFPCK Market",
+      "district": "Alappuzha",
+      "date": "2026-08-30",
+      "min_price": 5500.0,
+      "max_price": 6800.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coconut-seed-520e2e856e",
       "market": "Kuttoor Market",
