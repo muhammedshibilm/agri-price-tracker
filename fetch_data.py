@@ -104,6 +104,10 @@ TARGET_PRODUCTS = {
     "tomato": ["Tomato"],
     "watermelon": ["Water Melon"],
     "yam-ratalu": ["Yam(Ratalu)"],
+    "alsandikai": ["Alsandikai"],
+    "amla": ["Amla(Nelli Kai)"],
+    "egg": ["Egg"],
+    "papaya-raw": ["Papaya(Raw)"],
 }
 
 # Clean display names for the app UI (raw AGMARKNET strings are kept only
@@ -180,6 +184,10 @@ PRODUCT_NAMES = {
     "tomato": "Tomato",
     "watermelon": "Watermelon",
     "yam-ratalu": "Yam (Ratalu)",
+    "alsandikai": "Alsandikai (Long Beans)",
+    "amla": "Amla (Indian Gooseberry)",
+    "egg": "Egg",
+    "papaya-raw": "Papaya (Raw)",
 }
 
 COMMODITY_TO_PRODUCT = {
