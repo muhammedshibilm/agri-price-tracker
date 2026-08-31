@@ -1,9 +1,20 @@
 {
   "product": "red-gram",
   "product_name": "Red Gram / Arhar / Tur (Whole)",
-  "generated_at": "2026-08-30T19:40:08.379014Z",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "red-gram-9e51df28d2",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-31",
+      "min_price": 11500.0,
+      "max_price": 13000.0,
+      "modal_price": 12300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "red-gram-07f7ef06f0",
       "market": "Palakkad Market",

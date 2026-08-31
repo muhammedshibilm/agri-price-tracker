@@ -1,0 +1,19 @@
+{
+  "product": "egg",
+  "product_name": "Egg",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "egg-b9b9a412f1",
+      "market": "Thamarakkulam VFPCK Market",
+      "district": "Alappuzha",
+      "date": "2026-08-31",
+      "min_price": 8.5,
+      "max_price": 9.0,
+      "modal_price": 8.7,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

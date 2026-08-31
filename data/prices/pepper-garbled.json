@@ -1,9 +1,20 @@
 {
   "product": "pepper-garbled",
   "product_name": "Black Pepper (Garbled)",
-  "generated_at": "2026-08-30T19:40:08.379014Z",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "pepper-garbled-ae0266b2ba",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-31",
+      "min_price": 67500.0,
+      "max_price": 68000.0,
+      "modal_price": 67750.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "pepper-garbled-e0c72e7cba",
       "market": "Manjeswaram Market",

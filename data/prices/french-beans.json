@@ -1,9 +1,97 @@
 {
   "product": "french-beans",
   "product_name": "French Beans",
-  "generated_at": "2026-08-30T19:40:08.379014Z",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "french-beans-bfd5328efe",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-31",
+      "min_price": 5950.0,
+      "max_price": 6050.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-3e8b032876",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-31",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-3a34d4713e",
+      "market": "Vadakkenchery Market",
+      "district": "Palakad",
+      "date": "2026-08-31",
+      "min_price": 8500.0,
+      "max_price": 9000.0,
+      "modal_price": 9000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-99f1c00167",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-08-31",
+      "min_price": 8300.0,
+      "max_price": 8500.0,
+      "modal_price": 8400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-2e9f01d5fe",
+      "market": "Quilandy Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-31",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-08e5c67475",
+      "market": "Pattambi Market",
+      "district": "Palakad",
+      "date": "2026-08-31",
+      "min_price": 6500.0,
+      "max_price": 7000.0,
+      "modal_price": 6800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-1f6622426a",
+      "market": "Kattappana Market",
+      "district": "Idukki",
+      "date": "2026-08-31",
+      "min_price": 6700.0,
+      "max_price": 7500.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-40f909c61c",
+      "market": "Vengeri(Kozhikode) Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-08-31",
+      "min_price": 5600.0,
+      "max_price": 5900.0,
+      "modal_price": 5900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "french-beans-99bf3a4cac",
       "market": "Quilandy Market",

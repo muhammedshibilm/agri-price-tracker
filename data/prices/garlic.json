@@ -1,9 +1,75 @@
 {
   "product": "garlic",
   "product_name": "Garlic",
-  "generated_at": "2026-08-30T19:40:08.379014Z",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "garlic-b302839388",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-08-31",
+      "min_price": 18950.0,
+      "max_price": 19050.0,
+      "modal_price": 19000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-90e89dd4a4",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-08-31",
+      "min_price": 23000.0,
+      "max_price": 25000.0,
+      "modal_price": 24100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-9e51107efb",
+      "market": "Kattappana Market",
+      "district": "Idukki",
+      "date": "2026-08-31",
+      "min_price": 16000.0,
+      "max_price": 24000.0,
+      "modal_price": 18000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-7b93758643",
+      "market": "Kondotty Market",
+      "district": "Malappuram",
+      "date": "2026-08-31",
+      "min_price": 20000.0,
+      "max_price": 22300.0,
+      "modal_price": 22000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-b25b25fb40",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-31",
+      "min_price": 21000.0,
+      "max_price": 28000.0,
+      "modal_price": 25000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-a488132f9c",
+      "market": "Vadakkenchery Market",
+      "district": "Palakad",
+      "date": "2026-08-31",
+      "min_price": 22000.0,
+      "max_price": 26000.0,
+      "modal_price": 22000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "garlic-4740dbeb02",
       "market": "Manjeri Market",

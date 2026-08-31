@@ -1,9 +1,53 @@
 {
   "product": "copra",
   "product_name": "Copra",
-  "generated_at": "2026-08-30T19:40:08.379014Z",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "copra-bdc1bcfde9",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-08-31",
+      "min_price": 15000.0,
+      "max_price": 17000.0,
+      "modal_price": 16000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "copra-d31c5a8312",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-08-31",
+      "min_price": 14000.0,
+      "max_price": 14200.0,
+      "modal_price": 14100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "copra-eae8339863",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-08-31",
+      "min_price": 17000.0,
+      "max_price": 17200.0,
+      "modal_price": 17100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "copra-8b68edf371",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-08-31",
+      "min_price": 13900.0,
+      "max_price": 14100.0,
+      "modal_price": 14000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "copra-31108a43e7",
       "market": "Manjeswaram Market",

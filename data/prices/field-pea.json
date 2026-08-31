@@ -1,9 +1,20 @@
 {
   "product": "field-pea",
   "product_name": "Field Pea",
-  "generated_at": "2026-08-30T19:40:08.379014Z",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "field-pea-2f68dfea21",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-08-31",
+      "min_price": 8000.0,
+      "max_price": 9400.0,
+      "modal_price": 8600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "field-pea-7db12f7e71",
       "market": "Angamaly Market",

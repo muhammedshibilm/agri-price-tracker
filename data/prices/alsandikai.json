@@ -1,0 +1,19 @@
+{
+  "product": "alsandikai",
+  "product_name": "Alsandikai (Long Beans)",
+  "generated_at": "2026-08-31T18:36:48.598962Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "alsandikai-cf366cd060",
+      "market": "Balarampuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-08-31",
+      "min_price": 10000.0,
+      "max_price": 10000.0,
+      "modal_price": 10000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}
