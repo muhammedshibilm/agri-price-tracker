@@ -706,19 +706,6 @@
       "history_days": 2
     },
     {
-      "id": "sweet-lime",
-      "name": "Sweet Lime (Mosambi)",
-      "unit": "per quintal",
-      "today_date": "2026-08-30",
-      "today_avg_price": 4000.0,
-      "yesterday_date": "2026-08-29",
-      "yesterday_avg_price": 4000.0,
-      "change": 0.0,
-      "pct_change": 0.0,
-      "market_count": 1,
-      "history_days": 2
-    },
-    {
       "id": "onion",
       "name": "Onion",
       "unit": "per quintal",
