@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T18:36:48.598962Z",
+  "generated_at": "2026-08-31T21:47:17.256610Z",
   "source": "Agmarknet / data.gov.in, Government of India",
   "state": "Keralam",
   "products": [
@@ -73,12 +73,12 @@
       "name": "Banana",
       "unit": "per quintal",
       "today_date": "2026-08-31",
-      "today_avg_price": 5902.29,
+      "today_avg_price": 5868.01,
       "yesterday_date": "2026-08-30",
       "yesterday_avg_price": 5559.64,
-      "change": 342.65,
-      "pct_change": 6.2,
-      "market_count": 86,
+      "change": 308.37,
+      "pct_change": 5.5,
+      "market_count": 97,
       "history_days": 3
     },
     {
@@ -515,12 +515,12 @@
       "name": "Ginger",
       "unit": "per quintal",
       "today_date": "2026-08-31",
-      "today_avg_price": 15269.23,
+      "today_avg_price": 15648.15,
       "yesterday_date": "2026-08-30",
       "yesterday_avg_price": 17950.0,
-      "change": -2680.77,
-      "pct_change": -14.9,
-      "market_count": 26,
+      "change": -2301.85,
+      "pct_change": -12.8,
+      "market_count": 27,
       "history_days": 3
     },
     {
@@ -775,12 +775,12 @@
       "name": "Pineapple",
       "unit": "per quintal",
       "today_date": "2026-08-31",
-      "today_avg_price": 6909.09,
+      "today_avg_price": 6875.0,
       "yesterday_date": "2026-08-30",
       "yesterday_avg_price": 6166.67,
-      "change": 742.42,
-      "pct_change": 12.0,
-      "market_count": 11,
+      "change": 708.33,
+      "pct_change": 11.5,
+      "market_count": 12,
       "history_days": 3
     },
     {

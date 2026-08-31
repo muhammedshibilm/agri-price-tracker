@@ -1,7 +1,7 @@
 {
   "product": "pineapple",
   "product_name": "Pineapple",
-  "generated_at": "2026-08-31T18:36:48.598962Z",
+  "generated_at": "2026-08-31T21:47:17.256610Z",
   "state": "Keralam",
   "history": [
     {
@@ -122,6 +122,17 @@
       "min_price": 7000.0,
       "max_price": 7400.0,
       "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-a6acf42440",
+      "market": "Keerampara VFPCK Market",
+      "district": "Ernakulam",
+      "date": "2026-08-31",
+      "min_price": 6500.0,
+      "max_price": 6500.0,
+      "modal_price": 6500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
