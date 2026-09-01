@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T18:33:49.240439Z",
+  "generated_at": "2026-09-01T20:09:42.518514Z",
   "source": "Agmarknet / data.gov.in, Government of India",
   "state": "Keralam",
   "products": [
@@ -85,12 +85,12 @@
       "image_url": null,
       "unit": "per quintal",
       "today_date": "2026-09-01",
-      "today_avg_price": 5225.27,
+      "today_avg_price": 5219.46,
       "yesterday_date": "2026-08-31",
       "yesterday_avg_price": 5868.01,
-      "change": -642.74,
-      "pct_change": -11.0,
-      "market_count": 55,
+      "change": -648.55,
+      "pct_change": -11.1,
+      "market_count": 56,
       "history_days": 4
     },
     {
@@ -1129,21 +1129,6 @@
       "history_days": 2
     },
     {
-      "id": "mint-pudina",
-      "name": "Mint(Pudina)",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-01",
-      "today_avg_price": 4800.0,
-      "yesterday_date": null,
-      "yesterday_avg_price": null,
-      "change": null,
-      "pct_change": null,
-      "market_count": 1,
-      "history_days": 1
-    },
-    {
       "id": "raddish",
       "name": "Raddish",
       "category": null,
@@ -1156,6 +1141,21 @@
       "change": null,
       "pct_change": null,
       "market_count": 4,
+      "history_days": 1
+    },
+    {
+      "id": "mint-pudina",
+      "name": "Mint(Pudina)",
+      "category": null,
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-01",
+      "today_avg_price": 4800.0,
+      "yesterday_date": null,
+      "yesterday_avg_price": null,
+      "change": null,
+      "pct_change": null,
+      "market_count": 1,
       "history_days": 1
     },
     {

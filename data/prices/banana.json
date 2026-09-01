@@ -1,7 +1,7 @@
 {
   "product": "banana",
   "product_name": "Banana",
-  "generated_at": "2026-09-01T18:33:49.240439Z",
+  "generated_at": "2026-09-01T20:09:42.518514Z",
   "state": "Keralam",
   "history": [
     {
@@ -606,6 +606,17 @@
       "min_price": 4800.0,
       "max_price": 5500.0,
       "modal_price": 5100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-1443c442b0",
+      "market": "Parappanangadi VFPCK Market",
+      "district": "Malappuram",
+      "date": "2026-09-01",
+      "min_price": 4800.0,
+      "max_price": 5000.0,
+      "modal_price": 4900.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
