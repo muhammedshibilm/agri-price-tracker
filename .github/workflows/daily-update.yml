@@ -22,6 +22,7 @@ jobs:
       - name: Run price fetch + prediction pipeline
         env:
           DATA_GOV_IN_API_KEY: ${{ secrets.DATA_GOV_IN_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python fetch_data.py
       - name: Commit updated data
         run: |
