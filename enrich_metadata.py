@@ -47,11 +47,64 @@ DATA_DIR = Path(__file__).parent / "data"
 METADATA_PATH = DATA_DIR / "product-metadata.json"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_MODEL = "gemini-2.0-flash"
-GEMINI_URL = (
-    f"https://generativelanguage.googleapis.com/v1beta/models/"
-    f"{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
-)
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
+
+# Preferred model names, in order. Google renames/retires "flash" aliases
+# periodically, so instead of hardcoding one and getting a silent 404 wall
+# (like gemini-2.0-flash just did), we ask the API what's actually
+# available to this key and pick the best match at runtime.
+PREFERRED_MODEL_SUBSTRINGS = [
+    "gemini-flash-latest",
+    "gemini-2.5-flash",
+    "gemini-2.0-flash",
+    "gemini-1.5-flash",
+]
+
+_resolved_model_cache = None
+
+
+def resolve_gemini_model() -> str | None:
+    """Return a valid model name (e.g. 'models/gemini-2.5-flash') that
+    supports generateContent for this API key, or None if none found /
+    the key is invalid. Cached for the life of the process."""
+    global _resolved_model_cache
+    if _resolved_model_cache is not None:
+        return _resolved_model_cache
+
+    if not GEMINI_API_KEY:
+        return None
+
+    try:
+        resp = requests.get(
+            f"{GEMINI_API_BASE}/models",
+            params={"key": GEMINI_API_KEY},
+            timeout=20,
+        )
+        resp.raise_for_status()
+        models = resp.json().get("models", [])
+    except Exception as e:
+        print(f"  [enrich] Could not list Gemini models: {e}", file=sys.stderr)
+        return None
+
+    usable = [
+        m["name"] for m in models
+        if "generateContent" in m.get("supportedGenerationMethods", [])
+    ]
+    if not usable:
+        print("  [enrich] No Gemini models with generateContent support for this key", file=sys.stderr)
+        return None
+
+    for pref in PREFERRED_MODEL_SUBSTRINGS:
+        for name in usable:
+            if pref in name:
+                _resolved_model_cache = name
+                print(f"  [enrich] Using Gemini model: {name}")
+                return name
+
+    # Fall back to whatever's first if none of our preferred names matched.
+    _resolved_model_cache = usable[0]
+    print(f"  [enrich] Using Gemini model (fallback): {usable[0]}")
+    return usable[0]
 
 ALLOWED_CATEGORIES = [
     "Vegetables",
@@ -85,6 +138,13 @@ def classify_with_gemini(product_id: str, display_name: str) -> dict | None:
         print("  [enrich] GEMINI_API_KEY not set - skipping AI classification", file=sys.stderr)
         return None
 
+    model_name = resolve_gemini_model()
+    if not model_name:
+        print("  [enrich] No usable Gemini model available - skipping AI classification", file=sys.stderr)
+        return None
+
+    url = f"{GEMINI_API_BASE}/{model_name}:generateContent"
+
     prompt = f"""You are helping classify Indian agricultural commodities for a
 mandi (wholesale market) price tracking app for the state of Kerala.
 
@@ -103,7 +163,7 @@ Respond with ONLY a JSON object, no markdown, no code fences, no extra text:
     }
 
     try:
-        resp = requests.post(GEMINI_URL, json=body, timeout=30)
+        resp = requests.post(url, params={"key": GEMINI_API_KEY}, json=body, timeout=30)
         resp.raise_for_status()
         data = resp.json()
         text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
@@ -118,7 +178,7 @@ Respond with ONLY a JSON object, no markdown, no code fences, no extra text:
 
         return parsed
     except Exception as e:
-        print(f"  [enrich] Gemini classification failed for {product_id}: {e}", file=sys.stderr)
+        print(f"  [enrich] Gemini classification failed for {product_id} (model={model_name}): {e}", file=sys.stderr)
         return None
 
 
