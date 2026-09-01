@@ -62,6 +62,13 @@ PREFERRED_MODEL_SUBSTRINGS = [
 
 _resolved_model_cache = None
 
+# Free-tier Gemini has a low requests-per-minute ceiling. Rather than
+# fighting it, we (a) only classify a small batch per run, and (b) retry
+# individual calls with backoff if we still get rate-limited.
+MAX_NEW_PER_RUN = 15
+MAX_CLASSIFY_ATTEMPTS = 4
+CLASSIFY_BASE_BACKOFF_SEC = 15
+
 
 def resolve_gemini_model() -> str | None:
     """Return a valid model name (e.g. 'models/gemini-2.5-flash') that
@@ -163,8 +170,19 @@ Respond with ONLY a JSON object, no markdown, no code fences, no extra text:
     }
 
     try:
-        resp = requests.post(url, params={"key": GEMINI_API_KEY}, json=body, timeout=30)
-        resp.raise_for_status()
+        for attempt in range(1, MAX_CLASSIFY_ATTEMPTS + 1):
+            resp = requests.post(url, params={"key": GEMINI_API_KEY}, json=body, timeout=30)
+            if resp.status_code in (429, 503):
+                if attempt == MAX_CLASSIFY_ATTEMPTS:
+                    resp.raise_for_status()
+                backoff = CLASSIFY_BASE_BACKOFF_SEC * attempt
+                print(f"  [enrich] {resp.status_code} for {product_id}, retrying in {backoff}s "
+                      f"(attempt {attempt}/{MAX_CLASSIFY_ATTEMPTS})", file=sys.stderr)
+                time.sleep(backoff)
+                continue
+            resp.raise_for_status()
+            break
+
         data = resp.json()
         text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
         # Strip accidental code fences just in case.
@@ -219,7 +237,7 @@ def find_wikimedia_image(query: str) -> str | None:
         return None
 
 
-def enrich_new_products(product_names: dict, sleep_between_calls: float = 1.0):
+def enrich_new_products(product_names: dict, sleep_between_calls: float = 4.5):
     """Main entry point. product_names: {product_id: display_name}"""
     metadata = load_metadata()
     missing = [pid for pid in product_names if pid not in metadata]
@@ -228,7 +246,13 @@ def enrich_new_products(product_names: dict, sleep_between_calls: float = 1.0):
         print("[enrich] No new products need metadata.")
         return
 
-    print(f"[enrich] {len(missing)} product(s) missing metadata: {missing}")
+    if len(missing) > MAX_NEW_PER_RUN:
+        print(f"[enrich] {len(missing)} product(s) missing metadata - classifying "
+              f"{MAX_NEW_PER_RUN} this run to stay under Gemini's free-tier rate limit; "
+              f"the rest will be picked up on subsequent runs.")
+        missing = missing[:MAX_NEW_PER_RUN]
+    else:
+        print(f"[enrich] {len(missing)} product(s) missing metadata: {missing}")
     now_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     updated = False
 
