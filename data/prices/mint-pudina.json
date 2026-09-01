@@ -1,0 +1,19 @@
+{
+  "product": "mint-pudina",
+  "product_name": "Mint(Pudina)",
+  "generated_at": "2026-09-01T18:02:59.490687Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "mint-pudina-2f49826202",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-01",
+      "min_price": 4700.0,
+      "max_price": 4900.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

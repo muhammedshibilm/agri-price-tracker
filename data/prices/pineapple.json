@@ -1,9 +1,119 @@
 {
   "product": "pineapple",
   "product_name": "Pineapple",
-  "generated_at": "2026-08-31T21:47:17.256610Z",
+  "generated_at": "2026-09-01T18:02:59.490687Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "pineapple-c7c93bb6eb",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-01",
+      "min_price": 7700.0,
+      "max_price": 8500.0,
+      "modal_price": 8200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-080fb160fc",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-09-01",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-df1fa24620",
+      "market": "Mazhuvannur VFPCK Market",
+      "district": "Ernakulam",
+      "date": "2026-09-01",
+      "min_price": 5500.0,
+      "max_price": 6500.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-b8ff75c7ea",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-01",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 8200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-167b6cc0cd",
+      "market": "Vengola  VFPCK Market",
+      "district": "Ernakulam",
+      "date": "2026-09-01",
+      "min_price": 5000.0,
+      "max_price": 6100.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-31c9bde7d7",
+      "market": "Chala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-01",
+      "min_price": 7200.0,
+      "max_price": 7400.0,
+      "modal_price": 7300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-3ccccb3806",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-01",
+      "min_price": 7500.0,
+      "max_price": 7900.0,
+      "modal_price": 7700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-3208112310",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-09-01",
+      "min_price": 6800.0,
+      "max_price": 6800.0,
+      "modal_price": 6800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-d3589cf822",
+      "market": "Thalayolaparambu Market",
+      "district": "Kottayam",
+      "date": "2026-09-01",
+      "min_price": 7300.0,
+      "max_price": 7600.0,
+      "modal_price": 7400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pineapple-31a41e9ed0",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-01",
+      "min_price": 6450.0,
+      "max_price": 6550.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "pineapple-ba43376f71",
       "market": "Aralamoodu Market",

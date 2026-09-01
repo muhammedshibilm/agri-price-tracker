@@ -1,0 +1,52 @@
+{
+  "product": "raddish",
+  "product_name": "Raddish",
+  "generated_at": "2026-09-01T18:02:59.490687Z",
+  "state": "Keralam",
+  "history": [
+    {
+      "id": "raddish-353564ea91",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-01",
+      "min_price": 3300.0,
+      "max_price": 3500.0,
+      "modal_price": 3400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "raddish-aa8e6d51b6",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-01",
+      "min_price": 1000.0,
+      "max_price": 1500.0,
+      "modal_price": 1200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "raddish-5e73c4fa59",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-01",
+      "min_price": 2200.0,
+      "max_price": 2600.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "raddish-ef2ed76517",
+      "market": "Munnar Market",
+      "district": "Idukki",
+      "date": "2026-09-01",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

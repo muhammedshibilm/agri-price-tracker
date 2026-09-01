@@ -1,9 +1,20 @@
 {
   "product": "papaya-raw",
   "product_name": "Papaya (Raw)",
-  "generated_at": "2026-08-31T21:47:17.256610Z",
+  "generated_at": "2026-09-01T18:02:59.490687Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "papaya-raw-99282af4f2",
+      "market": "Munnar Market",
+      "district": "Idukki",
+      "date": "2026-09-01",
+      "min_price": 7000.0,
+      "max_price": 7000.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "papaya-raw-e9fd4c12ad",
       "market": "Balarampuram Market",
