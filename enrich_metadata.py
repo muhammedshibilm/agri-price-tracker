@@ -15,7 +15,7 @@ IMAGES_PATH = DATA_DIR / "images.json"
 # endpoint. Free-tier rate limits here are much more generous than the
 # Gemini flash tier that was previously getting hammered with 429s.
 NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY")
-NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
 NVIDIA_MODEL = os.environ.get("NVIDIA_MODEL", "meta/llama-3.1-8b-instruct")
 
 CATEGORIES = [
