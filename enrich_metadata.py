@@ -34,6 +34,13 @@ THROTTLE_SEC = 1.0  # small pause between calls, stays well under any RPM cap
 
 WIKIMEDIA_API = "https://commons.wikimedia.org/w/api.php"
 
+# Wikimedia's API policy rejects requests without a descriptive User-Agent
+# identifying the application - a bare/default one gets a blanket 403.
+# See: https://meta.wikimedia.org/wiki/User-Agent_policy
+WIKIMEDIA_HEADERS = {
+    "User-Agent": "agri-price-tracker/1.0 (https://github.com/muhammedshibilm/agri-price-tracker)"
+}
+
 
 def _load_json(path: Path) -> dict:
     if not path.exists():
@@ -56,14 +63,15 @@ def load_images() -> dict:
     return _load_json(IMAGES_PATH)
 
 
-def _classify_with_nvidia(product_name: str) -> str:
+def _classify_with_nvidia(product_name: str) -> str | None:
     """Ask an NVIDIA-hosted LLM to classify a commodity into one of
-    CATEGORIES. Falls back to 'Other' on any failure so a bad response
-    never crashes the whole enrichment run - that product just sits out
-    of the app until a future run retries it."""
+    CATEGORIES. Returns None (not 'Other') on any failure - including a
+    missing API key - so a transient problem never gets permanently
+    cached as a real classification. The product is simply left pending
+    and retried on the next run."""
     if not NVIDIA_API_KEY:
         print("  [enrich] NVIDIA_API_KEY not set - skipping classification")
-        return "Other"
+        return None
 
     prompt = (
         "Classify the following agricultural commodity sold in Indian mandi "
@@ -109,7 +117,7 @@ def _classify_with_nvidia(product_name: str) -> str:
 
     print(f"  [enrich] NVIDIA classification failed for {product_name} "
           f"(model={NVIDIA_MODEL}): {last_error}")
-    return "Other"
+    return None
 
 
 def _find_wikimedia_image(product_name: str) -> str | None:
@@ -128,6 +136,7 @@ def _find_wikimedia_image(product_name: str) -> str | None:
                 "srlimit": 1,
                 "format": "json",
             },
+            headers=WIKIMEDIA_HEADERS,
             timeout=15,
         )
         search_resp.raise_for_status()
@@ -146,6 +155,7 @@ def _find_wikimedia_image(product_name: str) -> str | None:
                 "iiurlwidth": 400,
                 "format": "json",
             },
+            headers=WIKIMEDIA_HEADERS,
             timeout=15,
         )
         info_resp.raise_for_status()
@@ -175,8 +185,9 @@ def enrich_new_products(product_names: dict) -> None:
 
     for i, (product_id, product_name) in enumerate(pending, 1):
         category = _classify_with_nvidia(product_name)
-        metadata[product_id] = {"category": category}
-        _save_json(METADATA_PATH, metadata)
+        if category is not None:
+            metadata[product_id] = {"category": category}
+            _save_json(METADATA_PATH, metadata)
 
         if product_id not in images:
             image_url = _find_wikimedia_image(product_name)
