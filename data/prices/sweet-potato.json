@@ -1,7 +1,7 @@
 {
   "product": "sweet-potato",
   "product_name": "Sweet Potato",
-  "generated_at": "2026-09-02T16:54:13.827526Z",
+  "generated_at": "2026-09-02T17:56:46.680632Z",
   "state": "Keralam",
   "history": [
     {
@@ -45,6 +45,17 @@
       "min_price": 5000.0,
       "max_price": 6000.0,
       "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "sweet-potato-4a8e40ca03",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-02",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

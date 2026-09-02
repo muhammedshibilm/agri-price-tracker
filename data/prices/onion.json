@@ -1,7 +1,7 @@
 {
   "product": "onion",
   "product_name": "Onion",
-  "generated_at": "2026-09-02T16:54:13.827526Z",
+  "generated_at": "2026-09-02T17:56:46.680632Z",
   "state": "Keralam",
   "history": [
     {
@@ -276,6 +276,17 @@
       "min_price": 4900.0,
       "max_price": 5100.0,
       "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "onion-1f34424c06",
+      "market": "Thalasserry Market",
+      "district": "Kannur",
+      "date": "2026-09-02",
+      "min_price": 4800.0,
+      "max_price": 5800.0,
+      "modal_price": 5200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

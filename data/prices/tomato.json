@@ -1,7 +1,7 @@
 {
   "product": "tomato",
   "product_name": "Tomato",
-  "generated_at": "2026-09-02T16:54:13.827526Z",
+  "generated_at": "2026-09-02T17:56:46.680632Z",
   "state": "Keralam",
   "history": [
     {
@@ -309,6 +309,39 @@
       "min_price": 2500.0,
       "max_price": 3000.0,
       "modal_price": 2800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-4a8be6fb1f",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-02",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-bf7c11b568",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-02",
+      "min_price": 2200.0,
+      "max_price": 2600.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tomato-865be7c48d",
+      "market": "Thalasserry Market",
+      "district": "Kannur",
+      "date": "2026-09-02",
+      "min_price": 2000.0,
+      "max_price": 2800.0,
+      "modal_price": 2400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

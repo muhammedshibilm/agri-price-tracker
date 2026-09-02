@@ -1,7 +1,7 @@
 {
   "product": "snake-gourd",
   "product_name": "Snake Gourd",
-  "generated_at": "2026-09-02T16:54:13.827526Z",
+  "generated_at": "2026-09-02T17:56:46.680632Z",
   "state": "Keralam",
   "history": [
     {
@@ -309,6 +309,50 @@
       "min_price": 3100.0,
       "max_price": 3300.0,
       "modal_price": 3200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-e4422597d4",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-02",
+      "min_price": 2400.0,
+      "max_price": 2400.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-8a0f719049",
+      "market": "Thalasserry Market",
+      "district": "Kannur",
+      "date": "2026-09-02",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-9d7c15dba0",
+      "market": "Kizhakkancheri VFPCK Market",
+      "district": "Palakad",
+      "date": "2026-09-02",
+      "min_price": 2000.0,
+      "max_price": 2000.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-ca6b1544bc",
+      "market": "Paliyamangalam  VFPCK Market",
+      "district": "Palakad",
+      "date": "2026-09-02",
+      "min_price": 1600.0,
+      "max_price": 1600.0,
+      "modal_price": 1600.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
