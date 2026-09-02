@@ -11,7 +11,7 @@ from pathlib import Path
 
 import requests
 
-from enrich_metadata import enrich_new_products, load_metadata
+from enrich_metadata import enrich_new_products, load_metadata, load_images
 
 DATA_DIR = Path(__file__).parent / "data"
 PRICES_DIR = DATA_DIR / "prices"
@@ -230,7 +230,13 @@ def slugify_commodity(raw_commodity: str) -> str:
 def discover_new_commodities(raw_records: list) -> dict:
     """Find commodities in this pull that aren't in TARGET_PRODUCTS yet and
     auto-register them (id + raw-name mapping). Returns a dict of
-    {product_id: display_name} for the newly discovered ones only."""
+    {product_id: display_name} for the newly discovered ones only.
+
+    Registering a commodity here is what makes the rest of the pipeline
+    (price storage, category classification, image lookup, manifest
+    generation) automatically pick it up - nothing else needs to be
+    touched by hand for a brand-new commodity to eventually show up in
+    the app."""
     new_products = {}
     seen_raw = {c for commodities in TARGET_PRODUCTS.values() for c in commodities}
 
@@ -388,13 +394,16 @@ def main():
     # Classify anything missing category/image metadata - this covers both
     # brand-new auto-discovered commodities AND any of the original
     # hardcoded ones that haven't been classified yet. Runs BEFORE the
-    # manifest is built so we can filter by category below.
+    # manifest is built so we can filter by category below. Also looks up
+    # a Wikimedia Commons image for any product that doesn't have one yet.
     enrich_new_products(PRODUCT_NAMES)
     metadata = load_metadata()
+    images = load_images()
 
     manifest_products = []
     now_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     skipped_categories = []
+    skipped_stale = []
 
     for product_id, product_name in PRODUCT_NAMES.items():
         entry = metadata.get(product_id)
@@ -429,6 +438,18 @@ def main():
                 f, indent=2, ensure_ascii=False,
             )
 
+        # A commodity that AGMARKNET has stopped reporting on will have its
+        # price history naturally age out of the RETENTION_DAYS window over
+        # time (nothing new comes in to replace what expires). Once there's
+        # no data left at all within that window, drop it from the manifest
+        # instead of showing an entry with permanently null prices. The
+        # per-product .json file above is still written (empty history), so
+        # nothing is destroyed - it just stops appearing in the app until
+        # the commodity reappears in a future pull.
+        if not merged:
+            skipped_stale.append(product_id)
+            continue
+
         dates_available = sorted({row["date"] for row in merged}, reverse=True)
         today_avg = yesterday_avg = None
         today_date = yesterday_date = None
@@ -457,7 +478,7 @@ def main():
             "id": product_id,
             "name": product_name,
             "category": entry.get("category") if entry else None,
-            "image_url": entry.get("image_url") if entry else None,
+            "image_url": images.get(product_id) or (entry.get("image_url") if entry else None),
             "unit": "per quintal",
             "today_date": today_date,
             "today_avg_price": today_avg,
@@ -478,11 +499,15 @@ def main():
         )
 
     covered = len([p for p in manifest_products if p["today_avg_price"] is not None])
+    with_image = len([p for p in manifest_products if p["image_url"]])
     print(f"\nWrote {len(manifest_products)} displayable product files "
-          f"({covered} have today's data) and manifest.json")
+          f"({covered} have today's data, {with_image} have an image) and manifest.json")
     if skipped_categories:
         print(f"(info) {len(skipped_categories)} product(s) classified outside "
               f"farmer/market categories and left out of the app: {skipped_categories}")
+    if skipped_stale:
+        print(f"(info) {len(skipped_stale)} product(s) had no price data within the last "
+              f"{RETENTION_DAYS} days and were dropped from the manifest: {skipped_stale}")
 
 
 if __name__ == "__main__":
