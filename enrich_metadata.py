@@ -1,9 +1,14 @@
 """
 enrich_metadata.py
 
-Detects products that are missing category/image metadata and fills them in
-automatically using Gemini's free API for classification + Wikimedia Commons
-for a real (non-hallucinated) image URL.
+Detects products that are missing category metadata and fills it in
+automatically using Gemini's free API for classification.
+
+Image URLs are NOT auto-fetched. You add those manually to
+data/product-metadata.json for each product yourself - this script will
+never touch or overwrite an existing entry (including any image_url you've
+added), it only fills in `category` for products that don't have an entry
+yet.
 
 Usage (called from fetch_data.py after the main sync):
 
@@ -18,19 +23,19 @@ Output:
         {
           "carrot": {
             "category": "Vegetables",
-            "image_url": "https://upload.wikimedia.org/...",
-            "image_source": "wikimedia",
             "added_at": "2026-09-01T12:00:00Z"
           },
           ...
         }
+    Add "image_url" (and anything else you want) to individual entries by
+    hand - the script leaves existing keys on existing entries untouched.
 
 Design notes:
 - This never overwrites an existing entry. If you want to re-classify
   something, delete its entry manually first.
-- If Gemini or Wikimedia fails for a product, that product is just skipped
-  this run and retried next run - it will NOT block the rest of the pipeline
-  or corrupt the metadata file.
+- If Gemini fails for a product, that product is just skipped this run and
+  retried next run - it will NOT block the rest of the pipeline or corrupt
+  the metadata file.
 - Categories are constrained to a fixed list so your frontend filter UI
   doesn't have to deal with an open-ended set of strings.
 """
@@ -119,8 +124,6 @@ ALLOWED_CATEGORIES = [
     "Other",
 ]
 
-WIKIMEDIA_SEARCH_URL = "https://commons.wikimedia.org/w/api.php"
-
 
 def load_metadata() -> dict:
     if not METADATA_PATH.exists():
@@ -136,8 +139,8 @@ def save_metadata(metadata: dict):
 
 
 def classify_with_gemini(product_id: str, display_name: str) -> dict | None:
-    """Ask Gemini for a category + a good Wikimedia Commons search query.
-    Returns None on any failure (caller should skip and retry next run)."""
+    """Ask Gemini for just a category. Returns None on any failure (caller
+    should skip and retry next run)."""
     if not GEMINI_API_KEY:
         print("  [enrich] GEMINI_API_KEY not set - skipping AI classification", file=sys.stderr)
         return None
@@ -156,9 +159,7 @@ Commodity: "{display_name}" (internal id: "{product_id}")
 
 Respond with ONLY a JSON object, no markdown, no code fences, no extra text:
 {{
-  "category": one of {ALLOWED_CATEGORIES},
-  "wikimedia_query": "a short, specific search phrase (3-6 words) likely to
-      find a real, clear photo of this commodity on Wikimedia Commons"
+  "category": one of {ALLOWED_CATEGORIES}
 }}"""
 
     body = {
@@ -188,49 +189,10 @@ Respond with ONLY a JSON object, no markdown, no code fences, no extra text:
 
         if parsed.get("category") not in ALLOWED_CATEGORIES:
             parsed["category"] = "Other"
-        if not parsed.get("wikimedia_query"):
-            parsed["wikimedia_query"] = display_name
 
         return parsed
     except Exception as e:
         print(f"  [enrich] Gemini classification failed for {product_id} (model={model_name}): {e}", file=sys.stderr)
-        return None
-
-
-def find_wikimedia_image(query: str) -> str | None:
-    """Search Wikimedia Commons for a real, licensed image. Returns a direct
-    file URL or None if nothing suitable was found."""
-    try:
-        resp = requests.get(
-            WIKIMEDIA_SEARCH_URL,
-            params={
-                "action": "query",
-                "format": "json",
-                "generator": "search",
-                "gsrsearch": f"{query} filetype:bitmap",
-                "gsrlimit": 5,
-                "gsrnamespace": 6,  # File: namespace
-                "prop": "imageinfo",
-                "iiprop": "url|mime",
-            },
-            headers={"User-Agent": "agri-price-tracker/1.0 (metadata enrichment bot)"},
-            timeout=20,
-        )
-        resp.raise_for_status()
-        pages = resp.json().get("query", {}).get("pages", {})
-
-        for page in pages.values():
-            imageinfo = page.get("imageinfo")
-            if not imageinfo:
-                continue
-            info = imageinfo[0]
-            mime = info.get("mime", "")
-            if mime.startswith("image/") and mime != "image/svg+xml":
-                return info["url"]
-
-        return None
-    except Exception as e:
-        print(f"  [enrich] Wikimedia search failed for '{query}': {e}", file=sys.stderr)
         return None
 
 
@@ -261,22 +223,14 @@ def enrich_new_products(product_names: dict, sleep_between_calls: float = 4.5):
         if classification is None:
             continue  # retry next run
 
-        image_url = find_wikimedia_image(classification["wikimedia_query"])
-        if image_url is None:
-            # Fall back to searching on the plain display name if the
-            # AI's suggested query came up empty.
-            image_url = find_wikimedia_image(display_name)
-
         metadata[product_id] = {
             "category": classification["category"],
-            "image_url": image_url,  # may be None - frontend should show a placeholder
-            "image_source": "wikimedia" if image_url else None,
             "added_at": now_iso,
         }
         updated = True
-        print(f"  -> category={classification['category']!r} image={'found' if image_url else 'NOT FOUND'}")
+        print(f"  -> category={classification['category']!r}")
 
-        time.sleep(sleep_between_calls)  # be polite to both free APIs
+        time.sleep(sleep_between_calls)  # be polite to the free API
 
     if updated:
         save_metadata(metadata)
