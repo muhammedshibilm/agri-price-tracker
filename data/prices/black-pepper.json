@@ -1,9 +1,75 @@
 {
   "product": "black-pepper",
   "product_name": "Black Pepper",
-  "generated_at": "2026-09-01T20:09:42.518514Z",
+  "generated_at": "2026-09-02T16:54:13.827526Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "black-pepper-1a75372bc8",
+      "market": "Kuttoor Market",
+      "district": "Pathanamthitta",
+      "date": "2026-09-02",
+      "min_price": 68600.0,
+      "max_price": 70000.0,
+      "modal_price": 68800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-7da5b9e213",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-02",
+      "min_price": 70000.0,
+      "max_price": 80000.0,
+      "modal_price": 75000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-b2fe9b96ce",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-02",
+      "min_price": 67500.0,
+      "max_price": 69500.0,
+      "modal_price": 68500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-182ae4b190",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-02",
+      "min_price": 80000.0,
+      "max_price": 90000.0,
+      "modal_price": 85000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-7abc5c986b",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-09-02",
+      "min_price": 65000.0,
+      "max_price": 67000.0,
+      "modal_price": 65500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-ca351b108f",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-09-02",
+      "min_price": 66000.0,
+      "max_price": 68000.0,
+      "modal_price": 67000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "black-pepper-74d7bc2eb8",
       "market": "Kuthuparambu Market",
