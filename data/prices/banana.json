@@ -1,7 +1,7 @@
 {
   "product": "banana",
   "product_name": "Banana",
-  "generated_at": "2026-09-02T19:23:12.201323Z",
+  "generated_at": "2026-09-02T20:31:41.292272Z",
   "state": "Keralam",
   "history": [
     {
@@ -958,6 +958,61 @@
       "min_price": 6500.0,
       "max_price": 6700.0,
       "modal_price": 6600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-5d041d31f2",
+      "market": "Elamad  VFPCK Market",
+      "district": "Kollam",
+      "date": "2026-09-02",
+      "min_price": 6500.0,
+      "max_price": 7200.0,
+      "modal_price": 6800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-5427dd6590",
+      "market": "Moothedam  VFPCK Market",
+      "district": "Malappuram",
+      "date": "2026-09-02",
+      "min_price": 4900.0,
+      "max_price": 5100.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-1749734817",
+      "market": "Venmony  VFPCK Market",
+      "district": "Alappuzha",
+      "date": "2026-09-02",
+      "min_price": 1200.0,
+      "max_price": 2000.0,
+      "modal_price": 1800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-4cb9ea668a",
+      "market": "Thamarakkulam VFPCK Market",
+      "district": "Alappuzha",
+      "date": "2026-09-02",
+      "min_price": 5000.0,
+      "max_price": 10000.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-52ea4b85cc",
+      "market": "Chungathara VFPCK Market",
+      "district": "Malappuram",
+      "date": "2026-09-02",
+      "min_price": 4900.0,
+      "max_price": 5100.0,
+      "modal_price": 5000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

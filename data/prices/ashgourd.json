@@ -1,7 +1,7 @@
 {
   "product": "ashgourd",
   "product_name": "Ash Gourd",
-  "generated_at": "2026-09-02T19:23:12.201323Z",
+  "generated_at": "2026-09-02T20:31:41.292272Z",
   "state": "Keralam",
   "history": [
     {
@@ -452,6 +452,17 @@
       "min_price": 3500.0,
       "max_price": 3500.0,
       "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ashgourd-c9d8241124",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-02",
+      "min_price": 2200.0,
+      "max_price": 2400.0,
+      "modal_price": 2300.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

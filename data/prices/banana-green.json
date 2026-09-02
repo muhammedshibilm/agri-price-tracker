@@ -1,7 +1,7 @@
 {
   "product": "banana-green",
   "product_name": "Banana (Green)",
-  "generated_at": "2026-09-02T19:23:12.201323Z",
+  "generated_at": "2026-09-02T20:31:41.292272Z",
   "state": "Keralam",
   "history": [
     {
@@ -397,6 +397,39 @@
       "min_price": 6800.0,
       "max_price": 7200.0,
       "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-green-7510fe1ade",
+      "market": "Chathannoore VFPCK Market",
+      "district": "Kollam",
+      "date": "2026-09-02",
+      "min_price": 6800.0,
+      "max_price": 7000.0,
+      "modal_price": 6900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-green-fdb4fbfd9d",
+      "market": "Channapetta VFPCK Market",
+      "district": "Kollam",
+      "date": "2026-09-02",
+      "min_price": 6500.0,
+      "max_price": 7200.0,
+      "modal_price": 6900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "banana-green-e2ce998211",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-02",
+      "min_price": 3500.0,
+      "max_price": 3700.0,
+      "modal_price": 3600.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

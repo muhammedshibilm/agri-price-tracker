@@ -1,9 +1,20 @@
 {
   "product": "egg",
   "product_name": "Egg",
-  "generated_at": "2026-09-02T19:23:12.201323Z",
+  "generated_at": "2026-09-02T20:31:41.292272Z",
   "state": "Keralam",
   "history": [
+    {
+      "id": "egg-18912661f8",
+      "market": "Venmony  VFPCK Market",
+      "district": "Alappuzha",
+      "date": "2026-09-02",
+      "min_price": 8.7,
+      "max_price": 9.5,
+      "modal_price": 9.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "egg-b9b9a412f1",
       "market": "Thamarakkulam VFPCK Market",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:23:12.201323Z",
+  "generated_at": "2026-09-02T20:31:41.292272Z",
   "source": "Agmarknet / data.gov.in, Government of India",
   "state": "Keralam",
   "products": [
@@ -10,12 +10,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Apis_mellifera_-_Melilotus_albus_-_Keila.jpg/500px-Apis_mellifera_-_Melilotus_albus_-_Keila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 3714.29,
+      "today_avg_price": 3700.0,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 3546.67,
-      "change": 167.62,
-      "pct_change": 4.7,
-      "market_count": 35,
+      "change": 153.33,
+      "pct_change": 4.3,
+      "market_count": 36,
       "history_days": 5
     },
     {
@@ -70,12 +70,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/India_Ash_Gourd.jpg/500px-India_Ash_Gourd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 2580.37,
+      "today_avg_price": 2573.69,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 2610.78,
-      "change": -30.41,
-      "pct_change": -1.2,
-      "market_count": 41,
+      "change": -37.09,
+      "pct_change": -1.4,
+      "market_count": 42,
       "history_days": 5
     },
     {
@@ -85,12 +85,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cavendish_banana_from_Maracaibo.jpg/500px-Cavendish_banana_from_Maracaibo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 5321.85,
+      "today_avg_price": 5316.32,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 5219.46,
-      "change": 102.39,
-      "pct_change": 2.0,
-      "market_count": 87,
+      "change": 96.86,
+      "pct_change": 1.9,
+      "market_count": 92,
       "history_days": 5
     },
     {
@@ -100,12 +100,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cavendish_banana_from_Maracaibo.jpg/500px-Cavendish_banana_from_Maracaibo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 5891.67,
+      "today_avg_price": 5884.62,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 5676.39,
-      "change": 215.28,
-      "pct_change": 3.8,
-      "market_count": 36,
+      "change": 208.23,
+      "pct_change": 3.7,
+      "market_count": 39,
       "history_days": 5
     },
     {
@@ -220,12 +220,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/500px-Solanum_melongena_24_08_2012_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 4106.58,
+      "today_avg_price": 4091.03,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 4263.24,
-      "change": -156.66,
-      "pct_change": -3.7,
-      "market_count": 38,
+      "change": -172.21,
+      "pct_change": -4.0,
+      "market_count": 39,
       "history_days": 5
     },
     {
@@ -370,12 +370,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Coconuts_-_single_and_cracked_open.jpg/500px-Coconuts_-_single_and_cracked_open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 5900.0,
+      "today_avg_price": 5600.0,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 5600.0,
-      "change": 300.0,
-      "pct_change": 5.4,
-      "market_count": 2,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "market_count": 3,
       "history_days": 5
     },
     {
@@ -475,12 +475,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Cucumber_in_jaffna.JPG/500px-Cucumber_in_jaffna.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 3014.29,
+      "today_avg_price": 3041.67,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 3024.24,
-      "change": -9.95,
-      "pct_change": -0.3,
-      "market_count": 35,
+      "change": 17.43,
+      "pct_change": 0.6,
+      "market_count": 36,
       "history_days": 5
     },
     {
@@ -985,12 +985,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/The_flower_of_a_Trichosanthes_cucumerina_in_hand.jpg/500px-The_flower_of_a_Trichosanthes_cucumerina_in_hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 3827.27,
+      "today_avg_price": 3861.76,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 4125.81,
-      "change": -298.54,
-      "pct_change": -7.2,
-      "market_count": 33,
+      "change": -264.05,
+      "pct_change": -6.4,
+      "market_count": 34,
       "history_days": 5
     },
     {
@@ -1015,12 +1015,12 @@
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/A_plate_of_Tapioca.jpg/500px-A_plate_of_Tapioca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-02",
-      "today_avg_price": 3568.42,
+      "today_avg_price": 3540.0,
       "yesterday_date": "2026-09-01",
       "yesterday_avg_price": 3494.44,
-      "change": 73.98,
-      "pct_change": 2.1,
-      "market_count": 19,
+      "change": 45.56,
+      "pct_change": 1.3,
+      "market_count": 20,
       "history_days": 5
     },
     {
@@ -1104,14 +1104,14 @@
       "category": null,
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chicken_Egg_without_Eggshell_5859.jpg/500px-Chicken_Egg_without_Eggshell_5859.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
-      "today_date": "2026-08-31",
-      "today_avg_price": 8.7,
-      "yesterday_date": null,
-      "yesterday_avg_price": null,
-      "change": null,
-      "pct_change": null,
+      "today_date": "2026-09-02",
+      "today_avg_price": 9.0,
+      "yesterday_date": "2026-08-31",
+      "yesterday_avg_price": 8.7,
+      "change": 0.3,
+      "pct_change": 3.4,
       "market_count": 1,
-      "history_days": 1
+      "history_days": 2
     },
     {
       "id": "papaya-raw",
@@ -1129,21 +1129,6 @@
       "history_days": 3
     },
     {
-      "id": "cashewnuts",
-      "name": "Cashewnuts",
-      "category": null,
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kollam_Collage.png/500px-Kollam_Collage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "unit": "per quintal",
-      "today_date": "2026-09-02",
-      "today_avg_price": 12200.0,
-      "yesterday_date": null,
-      "yesterday_avg_price": null,
-      "change": null,
-      "pct_change": null,
-      "market_count": 1,
-      "history_days": 1
-    },
-    {
       "id": "raddish",
       "name": "Raddish",
       "category": null,
@@ -1155,21 +1140,6 @@
       "yesterday_avg_price": 2500.0,
       "change": -1300.0,
       "pct_change": -52.0,
-      "market_count": 1,
-      "history_days": 2
-    },
-    {
-      "id": "mint-pudina",
-      "name": "Mint(Pudina)",
-      "category": null,
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Mint_leaves_%28Mentha_spicata%29.jpg/500px-Mint_leaves_%28Mentha_spicata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "unit": "per quintal",
-      "today_date": "2026-09-02",
-      "today_avg_price": 7500.0,
-      "yesterday_date": "2026-09-01",
-      "yesterday_avg_price": 4800.0,
-      "change": 2700.0,
-      "pct_change": 56.2,
       "market_count": 1,
       "history_days": 2
     },
@@ -1189,6 +1159,21 @@
       "history_days": 1
     },
     {
+      "id": "mint-pudina",
+      "name": "Mint(Pudina)",
+      "category": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Mint_leaves_%28Mentha_spicata%29.jpg/500px-Mint_leaves_%28Mentha_spicata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "unit": "per quintal",
+      "today_date": "2026-09-02",
+      "today_avg_price": 7500.0,
+      "yesterday_date": "2026-09-01",
+      "yesterday_avg_price": 4800.0,
+      "change": 2700.0,
+      "pct_change": 56.2,
+      "market_count": 1,
+      "history_days": 2
+    },
+    {
       "id": "ginger-dry",
       "name": "Ginger(Dry)",
       "category": null,
@@ -1202,6 +1187,21 @@
       "pct_change": 0.0,
       "market_count": 1,
       "history_days": 2
+    },
+    {
+      "id": "cashewnuts",
+      "name": "Cashewnuts",
+      "category": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kollam_Collage.png/500px-Kollam_Collage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "unit": "per quintal",
+      "today_date": "2026-09-02",
+      "today_avg_price": 12200.0,
+      "yesterday_date": null,
+      "yesterday_avg_price": null,
+      "change": null,
+      "pct_change": null,
+      "market_count": 1,
+      "history_days": 1
     }
   ]
 }

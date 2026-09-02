@@ -1,7 +1,7 @@
 {
   "product": "snake-gourd",
   "product_name": "Snake Gourd",
-  "generated_at": "2026-09-02T19:23:12.201323Z",
+  "generated_at": "2026-09-02T20:31:41.292272Z",
   "state": "Keralam",
   "history": [
     {
@@ -364,6 +364,17 @@
       "min_price": 1500.0,
       "max_price": 1500.0,
       "modal_price": 1500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-f4975101f1",
+      "market": "Thamarakkulam VFPCK Market",
+      "district": "Alappuzha",
+      "date": "2026-09-02",
+      "min_price": 4500.0,
+      "max_price": 5500.0,
+      "modal_price": 5000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
