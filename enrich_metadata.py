@@ -54,10 +54,7 @@ GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 # (like gemini-2.0-flash just did), we ask the API what's actually
 # available to this key and pick the best match at runtime.
 PREFERRED_MODEL_SUBSTRINGS = [
-    "gemini-flash-latest",
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
+    "gemini-3.8-flash"
 ]
 
 _resolved_model_cache = None
