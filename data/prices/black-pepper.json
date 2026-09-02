@@ -1,7 +1,7 @@
 {
   "product": "black-pepper",
   "product_name": "Black Pepper",
-  "generated_at": "2026-09-02T17:56:46.680632Z",
+  "generated_at": "2026-09-02T19:23:12.201323Z",
   "state": "Keralam",
   "history": [
     {
@@ -78,6 +78,17 @@
       "min_price": 6500.0,
       "max_price": 70000.0,
       "modal_price": 67500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-e8a3108218",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-02",
+      "min_price": 60000.0,
+      "max_price": 60500.0,
+      "modal_price": 60200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

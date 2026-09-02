@@ -1,7 +1,7 @@
 {
   "product": "cowpea-veg",
   "product_name": "Cowpea (Vegetable)",
-  "generated_at": "2026-09-02T17:56:46.680632Z",
+  "generated_at": "2026-09-02T19:23:12.201323Z",
   "state": "Keralam",
   "history": [
     {
@@ -375,6 +375,17 @@
       "min_price": 6300.0,
       "max_price": 6300.0,
       "modal_price": 6300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cowpea-veg-73da95c222",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-02",
+      "min_price": 5000.0,
+      "max_price": 5500.0,
+      "modal_price": 5200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

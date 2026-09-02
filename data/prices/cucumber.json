@@ -1,7 +1,7 @@
 {
   "product": "cucumber",
   "product_name": "Cucumber",
-  "generated_at": "2026-09-02T17:56:46.680632Z",
+  "generated_at": "2026-09-02T19:23:12.201323Z",
   "state": "Keralam",
   "history": [
     {
@@ -375,6 +375,17 @@
       "min_price": 4000.0,
       "max_price": 4000.0,
       "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cucumber-f587e022ff",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-02",
+      "min_price": 1800.0,
+      "max_price": 2200.0,
+      "modal_price": 2000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

@@ -1,7 +1,7 @@
 {
   "product": "pumpkin",
   "product_name": "Pumpkin",
-  "generated_at": "2026-09-02T17:56:46.680632Z",
+  "generated_at": "2026-09-02T19:23:12.201323Z",
   "state": "Keralam",
   "history": [
     {
@@ -375,6 +375,28 @@
       "min_price": 3000.0,
       "max_price": 3000.0,
       "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-a79f6f6a05",
+      "market": "Kunnamangalam  VFPCK Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-02",
+      "min_price": 2000.0,
+      "max_price": 2500.0,
+      "modal_price": 2200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-c949b712ee",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-02",
+      "min_price": 1600.0,
+      "max_price": 2000.0,
+      "modal_price": 1800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
