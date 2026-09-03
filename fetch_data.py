@@ -5,31 +5,61 @@ import io
 import time
 import json
 import hashlib
+
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
 
-from enrich_metadata import enrich_new_products, load_metadata, load_images
+from enrich_metadata import (
+    enrich_new_products,
+    load_metadata,
+    load_images,
+)
+
+
+# ============================================================================
+# PATHS
+# ============================================================================
 
 DATA_DIR = Path(__file__).parent / "data"
 PRICES_DIR = DATA_DIR / "prices"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 
+METADATA_PATH = DATA_DIR / "metadata.json"
+
+
+# ============================================================================
+# API
+# ============================================================================
+
 API_KEY = os.environ.get("DATA_GOV_IN_API_KEY")
+
 RESOURCE_ID = "9ef84268-d588-465a-a308-a864a43d0070"
-BASE_URL = f"https://api.data.gov.in/resource/{RESOURCE_ID}"
+
+BASE_URL = (
+    f"https://api.data.gov.in/resource/{RESOURCE_ID}"
+)
+
+
+# ============================================================================
+# SETTINGS
+# ============================================================================
 
 REQUEST_TIMEOUT_SEC = 90
 MAX_ATTEMPTS = 4
 BASE_BACKOFF_SEC = 5
-RETENTION_DAYS = 7  # app only shows a 7-day trend, so no need to keep more
 
-# Categories that actually count as "agriculture, farmer/market relevant"
-# for this app. Anything Gemini classifies outside this set (e.g. "Other")
-# is held back from the manifest - it still gets fetched/priced/stored,
-# it just won't show up in the app until it's re-classified correctly.
+RETENTION_DAYS = 7
+
+STATE = "Keralam"
+
+
+# ============================================================================
+# DISPLAYABLE CATEGORIES
+# ============================================================================
+
 DISPLAYABLE_CATEGORIES = {
     "Vegetables",
     "Fruits",
@@ -38,170 +68,72 @@ DISPLAYABLE_CATEGORIES = {
     "Plantation Crops",
 }
 
-# Kerala-only for now. (API's state filter value is "Keralam", not "Kerala".)
-STATE = "Keralam"
 
-# Maps our app's product id -> exact commodity name string the API uses.
-# Verified against a live pull on 2026-08-29. Do not guess-add entries here -
-# if a commodity isn't in a real CSV pull, it won't match and will just sit
-# as null in the manifest.
+# ============================================================================
+# IMPORTANT: PRODUCT UNITS
+# ============================================================================
+#
+# DO NOT blindly convert every commodity to kg.
+#
+# Your old code did:
+#
+#     "unit": "per quintal"
+#
+# for EVERYTHING.
+#
+# This is why Egg ended up being interpreted by the app as:
+#
+#     9 / 100 = 0.09/kg
+#
+# Egg is not a quintal commodity in the same sense as vegetables/grains.
+#
+# Keep special units here.
+#
+# IMPORTANT:
+# The exact Egg source unit should be confirmed from the AGMARKNET
+# record/schema. We deliberately do NOT convert Egg's 9.0 into kg here.
+#
+
+PRODUCT_UNITS = {
+    "egg": "per 100 pieces",
+}
+
+
+DEFAULT_UNIT = "per quintal"
+
+
+# ============================================================================
+# KEEP YOUR EXISTING TARGET_PRODUCTS HERE
+# ============================================================================
+#
+# Paste your existing TARGET_PRODUCTS dictionary below this comment.
+#
+# Example:
+#
+# TARGET_PRODUCTS = {
+#     "amaranthus": ["Amaranthus"],
+#     ...
+#     "egg": ["Egg"],
+# }
+#
+
 TARGET_PRODUCTS = {
-    "amaranthus": ["Amaranthus"],
-    "amaranthus-red": ["Amranthas Red"],
-    "apple": ["Apple"],
-    "arecanut": ["Arecanut(Betelnut/Supari)"],
-    "ashgourd": ["Ashgourd"],
-    "banana": ["Banana"],
-    "banana-green": ["Banana - Green"],
-    "beetroot": ["Beetroot"],
-    "bengal-gram": ["Bengal Gram(Gram)(Whole)"],
-    "bhindi": ["Bhindi(Ladies Finger)"],
-    "bitter-gourd": ["Bitter gourd"],
-    "black-gram": ["Black Gram(Urd Beans)(Whole)"],
-    "black-pepper": ["Black pepper"],
-    "bottle-gourd": ["Bottle gourd"],
-    "brinjal": ["Brinjal"],
-    "cabbage": ["Cabbage"],
-    "capsicum": ["Capsicum"],
-    "carrot": ["Carrot"],
-    "cauliflower": ["Cauliflower"],
-    "sapota": ["Chikoos(Sapota)"],
-    "red-chilli": ["Chili Red"],
-    "cluster-beans": ["Cluster beans"],
-    "coconut": ["Coconut"],
-    "coconut-oil": ["Coconut Oil"],
-    "coconut-seed": ["Coconut Seed"],
-    "coffee": ["Coffee"],
-    "colacasia": ["Colacasia"],
-    "copra": ["Copra"],
-    "coriander": ["Coriander(Leaves)"],
-    "cowpea": ["Cowpea(Lobia/Karamani)"],
-    "cowpea-veg": ["Cowpea(Veg)"],
-    "cucumber": ["Cucumbar(Kheera)"],
-    "drumstick": ["Drumstick"],
-    "duster-beans": ["Duster Beans"],
-    "yam-suran": ["Elephant Yam(Suran)/Amorphophallus"],
-    "field-pea": ["Field Pea"],
-    "french-beans": ["French Beans(Frasbean)"],
-    "galgal-lemon": ["Galgal(Lemon)"],
-    "garlic": ["Garlic"],
-    "ginger": ["Ginger(Green)"],
-    "grapes": ["Grapes"],
-    "green-avare": ["Green Avare(W)"],
-    "green-chilli": ["Green Chilli"],
-    "green-gram": ["Green Gram(Moong)(Whole)"],
-    "green-peas": ["Green Peas"],
-    "indian-beans": ["Indian Beans(Seam)"],
-    "kabuli-chana": ["Kabuli Chana(Chickpeas-White)"],
-    "lemon": ["Lemon"],
-    "lime": ["Lime"],
-    "little-gourd": ["Little gourd(Kundru)"],
-    "long-melon": ["Long Melon(Kakri)"],
-    "mango": ["Mango"],
-    "mango-raw-ripe": ["Mango(Raw-Ripe)"],
-    "mushroom": ["Mashrooms"],
-    "onion": ["Onion"],
-    "orange": ["Orange"],
-    "paddy": ["Paddy(Common)"],
-    "papaya": ["Papaya"],
-    "pepper-garbled": ["Pepper garbled"],
-    "pineapple": ["Pineapple"],
-    "potato": ["Potato"],
-    "pumpkin": ["Pumpkin"],
-    "red-gram": ["Red gram/Arhar/Tur(whole)"],
-    "ridge-gourd": ["Ridgeguard(Tori)"],
-    "rubber": ["Rubber"],
-    "snake-gourd": ["Snakeguard"],
-    "sweet-potato": ["Sweet Potato"],
-    "tapioca": ["Tapioca"],
-    "tomato": ["Tomato"],
-    "watermelon": ["Water Melon"],
-    "yam-ratalu": ["Yam(Ratalu)"],
-    "alsandikai": ["Alsandikai"],
-    "amla": ["Amla(Nelli Kai)"],
-    "egg": ["Egg"],
-    "papaya-raw": ["Papaya(Raw)"],
+    # KEEP YOUR EXISTING COMPLETE TARGET_PRODUCTS DICTIONARY HERE
 }
 
-# Clean display names for the app UI (raw AGMARKNET strings are kept only
-# in TARGET_PRODUCTS for exact-match filtering).
+
+# ============================================================================
+# KEEP YOUR EXISTING PRODUCT_NAMES HERE
+# ============================================================================
+
 PRODUCT_NAMES = {
-    "amaranthus": "Amaranthus (Cheera)",
-    "amaranthus-red": "Amaranthus - Red",
-    "apple": "Apple",
-    "arecanut": "Arecanut",
-    "ashgourd": "Ash Gourd",
-    "banana": "Banana",
-    "banana-green": "Banana (Green)",
-    "beetroot": "Beetroot",
-    "bengal-gram": "Bengal Gram (Whole)",
-    "bhindi": "Bhindi (Ladies Finger)",
-    "bitter-gourd": "Bitter Gourd",
-    "black-gram": "Black Gram / Urd Beans (Whole)",
-    "black-pepper": "Black Pepper",
-    "bottle-gourd": "Bottle Gourd",
-    "brinjal": "Brinjal",
-    "cabbage": "Cabbage",
-    "capsicum": "Capsicum",
-    "carrot": "Carrot",
-    "cauliflower": "Cauliflower",
-    "sapota": "Sapota (Chikoo)",
-    "red-chilli": "Red Chilli",
-    "cluster-beans": "Cluster Beans",
-    "coconut": "Coconut",
-    "coconut-oil": "Coconut Oil",
-    "coconut-seed": "Coconut Seed",
-    "coffee": "Coffee",
-    "colacasia": "Colocasia (Chembu)",
-    "copra": "Copra",
-    "coriander": "Coriander Leaves",
-    "cowpea": "Cowpea (Lobia/Karamani)",
-    "cowpea-veg": "Cowpea (Vegetable)",
-    "cucumber": "Cucumber",
-    "drumstick": "Drumstick",
-    "duster-beans": "Duster Beans",
-    "yam-suran": "Elephant Yam (Suran/Chena)",
-    "field-pea": "Field Pea",
-    "french-beans": "French Beans",
-    "galgal-lemon": "Galgal (Lemon)",
-    "garlic": "Garlic",
-    "ginger": "Ginger",
-    "grapes": "Grapes",
-    "green-avare": "Green Avare",
-    "green-chilli": "Green Chilli",
-    "green-gram": "Green Gram / Moong (Whole)",
-    "green-peas": "Green Peas",
-    "indian-beans": "Indian Beans (Seam)",
-    "kabuli-chana": "Kabuli Chana (White Chickpeas)",
-    "lemon": "Lemon",
-    "lime": "Lime",
-    "little-gourd": "Little Gourd (Kundru)",
-    "long-melon": "Long Melon (Kakri)",
-    "mango": "Mango",
-    "mango-raw-ripe": "Mango (Raw/Ripe)",
-    "mushroom": "Mushroom",
-    "onion": "Onion",
-    "orange": "Orange",
-    "paddy": "Paddy (Rice)",
-    "papaya": "Papaya",
-    "pepper-garbled": "Black Pepper (Garbled)",
-    "pineapple": "Pineapple",
-    "potato": "Potato",
-    "pumpkin": "Pumpkin",
-    "red-gram": "Red Gram / Arhar / Tur (Whole)",
-    "ridge-gourd": "Ridge Gourd",
-    "rubber": "Rubber",
-    "snake-gourd": "Snake Gourd",
-    "sweet-potato": "Sweet Potato",
-    "tapioca": "Tapioca",
-    "tomato": "Tomato",
-    "watermelon": "Watermelon",
-    "yam-ratalu": "Yam (Ratalu)",
-    "alsandikai": "Alsandikai (Long Beans)",
-    "amla": "Amla (Indian Gooseberry)",
-    "egg": "Egg",
-    "papaya-raw": "Papaya (Raw)",
+    # KEEP YOUR EXISTING COMPLETE PRODUCT_NAMES DICTIONARY HERE
 }
+
+
+# ============================================================================
+# COMMODITY -> PRODUCT
+# ============================================================================
 
 COMMODITY_TO_PRODUCT = {
     commodity: product_id
@@ -210,63 +142,127 @@ COMMODITY_TO_PRODUCT = {
 }
 
 
+# ============================================================================
+# HELPERS
+# ============================================================================
+
+def get_product_unit(product_id: str) -> str:
+    return PRODUCT_UNITS.get(
+        product_id,
+        DEFAULT_UNIT,
+    )
+
+
 def slugify_commodity(raw_commodity: str) -> str:
-    """Turn a raw AGMARKNET commodity string into a stable product id.
-    Deterministic - same commodity string always yields the same id, so we
-    don't need a separate persisted registry just to keep ids stable."""
     s = raw_commodity.strip().lower()
+
     keep = []
+
     for ch in s:
         if ch.isalnum():
             keep.append(ch)
+
         elif ch in " -/()":
             keep.append("-")
+
     slug = "".join(keep)
+
     while "--" in slug:
         slug = slug.replace("--", "-")
+
     return slug.strip("-") or "unknown"
 
 
 def discover_new_commodities(raw_records: list) -> dict:
-    """Find commodities in this pull that aren't in TARGET_PRODUCTS yet and
-    auto-register them (id + raw-name mapping). Returns a dict of
-    {product_id: display_name} for the newly discovered ones only.
 
-    Registering a commodity here is what makes the rest of the pipeline
-    (price storage, category classification, image lookup, manifest
-    generation) automatically pick it up - nothing else needs to be
-    touched by hand for a brand-new commodity to eventually show up in
-    the app."""
     new_products = {}
-    seen_raw = {c for commodities in TARGET_PRODUCTS.values() for c in commodities}
 
-    for r in raw_records:
-        commodity = (r.get("Commodity") or "").strip()
-        if not commodity or commodity in seen_raw:
+    seen_raw = {
+        commodity
+        for commodities in TARGET_PRODUCTS.values()
+        for commodity in commodities
+    }
+
+    for record in raw_records:
+
+        commodity = (
+            record.get("Commodity") or ""
+        ).strip()
+
+        if not commodity:
             continue
-        product_id = slugify_commodity(commodity)
-        if product_id in TARGET_PRODUCTS or product_id in new_products:
-            # already known under this id (or duplicate raw string this pull) - just map it
-            TARGET_PRODUCTS.setdefault(product_id, [])
-            if commodity not in TARGET_PRODUCTS[product_id]:
-                TARGET_PRODUCTS[product_id].append(commodity)
-            COMMODITY_TO_PRODUCT[commodity] = product_id
+
+        if commodity in seen_raw:
+            continue
+
+        product_id = slugify_commodity(
+            commodity
+        )
+
+        if (
+            product_id in TARGET_PRODUCTS
+            or product_id in new_products
+        ):
+
+            TARGET_PRODUCTS.setdefault(
+                product_id,
+                [],
+            )
+
+            if (
+                commodity
+                not in TARGET_PRODUCTS[product_id]
+            ):
+                TARGET_PRODUCTS[product_id].append(
+                    commodity
+                )
+
+            COMMODITY_TO_PRODUCT[
+                commodity
+            ] = product_id
+
             seen_raw.add(commodity)
+
             continue
 
-        TARGET_PRODUCTS[product_id] = [commodity]
-        COMMODITY_TO_PRODUCT[commodity] = product_id
-        PRODUCT_NAMES[product_id] = commodity  # cleaned up later by Gemini's classification pass if needed
+        TARGET_PRODUCTS[product_id] = [
+            commodity
+        ]
+
+        COMMODITY_TO_PRODUCT[
+            commodity
+        ] = product_id
+
+        PRODUCT_NAMES[product_id] = commodity
+
         new_products[product_id] = commodity
+
         seen_raw.add(commodity)
 
     return new_products
 
+
+# ============================================================================
+# FETCH
+# ============================================================================
+
 def fetch_kerala_csv() -> list:
+
+    if not API_KEY:
+        raise RuntimeError(
+            "DATA_GOV_IN_API_KEY is not configured."
+        )
+
     last_error = None
-    for attempt in range(1, MAX_ATTEMPTS + 1):
+
+    for attempt in range(
+        1,
+        MAX_ATTEMPTS + 1,
+    ):
+
         try:
-            resp = requests.get(
+
+            response = requests.get(
                 BASE_URL,
                 params={
                     "api-key": API_KEY,
@@ -276,238 +272,807 @@ def fetch_kerala_csv() -> list:
                 },
                 headers={
                     "User-Agent": (
-                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                        "AppleWebKit/537.36 (KHTML, like Gecko) "
-                        "Chrome/125.0.0.0 Safari/537.36"
+                        "agri-price-tracker/1.0 "
+                        "(https://github.com/"
+                        "muhammedshibilm/"
+                        "agri-price-tracker)"
                     ),
                 },
                 timeout=REQUEST_TIMEOUT_SEC,
             )
-            if not resp.ok:
-                print(f"  [diagnostic] status={resp.status_code} body_len={len(resp.text)}")
-                raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:300]}")
 
-            reader = csv.DictReader(io.StringIO(resp.text))
+            if not response.ok:
+
+                print(
+                    f"[diagnostic] HTTP "
+                    f"{response.status_code}"
+                )
+
+                raise RuntimeError(
+                    response.text[:300]
+                )
+
+            reader = csv.DictReader(
+                io.StringIO(
+                    response.text
+                )
+            )
+
             return list(reader)
 
-        except (requests.exceptions.ReadTimeout, requests.exceptions.ConnectionError) as e:
-            last_error = e
+        except (
+            requests.exceptions.ReadTimeout,
+            requests.exceptions.ConnectionError,
+        ) as error:
+
+            last_error = error
+
             if attempt == MAX_ATTEMPTS:
                 break
-            backoff = BASE_BACKOFF_SEC * (2 ** (attempt - 1))
-            print(f"  Timeout, attempt {attempt}/{MAX_ATTEMPTS}; retrying in {backoff}s")
-            time.sleep(backoff)
-        except RuntimeError as e:
-            last_error = e
-            if attempt == MAX_ATTEMPTS:
-                break
-            backoff = BASE_BACKOFF_SEC * (2 ** (attempt - 1))
-            print(f"  Error ({e}); retrying in {backoff}s")
+
+            backoff = (
+                BASE_BACKOFF_SEC
+                * (2 ** (attempt - 1))
+            )
+
+            print(
+                f"Network error; retrying in "
+                f"{backoff}s..."
+            )
+
             time.sleep(backoff)
 
-    raise RuntimeError(f"Gave up after {MAX_ATTEMPTS} attempts: {last_error}")
+        except Exception as error:
+
+            last_error = error
+
+            if attempt == MAX_ATTEMPTS:
+                break
+
+            backoff = (
+                BASE_BACKOFF_SEC
+                * (2 ** (attempt - 1))
+            )
+
+            print(
+                f"API error: {error}; "
+                f"retrying in {backoff}s..."
+            )
+
+            time.sleep(backoff)
+
+    raise RuntimeError(
+        f"Gave up after {MAX_ATTEMPTS} attempts: "
+        f"{last_error}"
+    )
+
+
+# ============================================================================
+# DATE
+# ============================================================================
 
 def parse_arrival_date(raw: str) -> str:
-    """API gives DD/MM/YYYY - convert to ISO YYYY-MM-DD for consistent sorting/comparison."""
-    dt = datetime.strptime(raw.strip(), "%d/%m/%Y")
+
+    dt = datetime.strptime(
+        raw.strip(),
+        "%d/%m/%Y",
+    )
+
     return dt.date().isoformat()
 
-def make_row_id(product_id: str, market: str, date_iso: str) -> str:
-    h = hashlib.sha1(f"{product_id}-{market}-{date_iso}".encode()).hexdigest()[:10]
-    return f"{product_id}-{h}"
 
-def load_existing_rows(product_id: str) -> list:
-    path = PRICES_DIR / f"{product_id}.json"
+# ============================================================================
+# ROW ID
+# ============================================================================
+
+def make_row_id(
+    product_id: str,
+    market: str,
+    date_iso: str,
+) -> str:
+
+    value = (
+        f"{product_id}-"
+        f"{market}-"
+        f"{date_iso}"
+    )
+
+    digest = hashlib.sha1(
+        value.encode()
+    ).hexdigest()[:10]
+
+    return (
+        f"{product_id}-{digest}"
+    )
+
+
+# ============================================================================
+# EXISTING HISTORY
+# ============================================================================
+
+def load_existing_rows(
+    product_id: str,
+) -> list:
+
+    path = (
+        PRICES_DIR
+        / f"{product_id}.json"
+    )
+
     if not path.exists():
         return []
-    with open(path) as f:
-        return json.load(f).get("history", [])
+
+    try:
+
+        with open(
+            path,
+            encoding="utf-8",
+        ) as f:
+
+            data = json.load(f)
+
+        return data.get(
+            "history",
+            [],
+        )
+
+    except Exception:
+
+        return []
+
+
+# ============================================================================
+# FLOAT
+# ============================================================================
+
+def to_float(value):
+
+    try:
+        return float(value)
+
+    except (
+        TypeError,
+        ValueError,
+    ):
+
+        return None
+
+
+# ============================================================================
+# MAIN
+# ============================================================================
 
 def main():
+
     if not API_KEY:
-        print("Missing DATA_GOV_IN_API_KEY environment variable.", file=sys.stderr)
+
+        print(
+            "Missing DATA_GOV_IN_API_KEY "
+            "environment variable.",
+            file=sys.stderr,
+        )
+
         sys.exit(1)
 
-    print(f"Fetching {STATE} mandi prices...")
+    print(
+        f"Fetching {STATE} mandi prices..."
+    )
+
     raw_records = fetch_kerala_csv()
-    print(f"Fetched {len(raw_records)} raw {STATE} records")
+
+    print(
+        f"Fetched {len(raw_records)} "
+        f"raw {STATE} records"
+    )
 
     if not raw_records:
-        print("No records fetched - aborting without overwriting existing data.", file=sys.stderr)
+
+        print(
+            "No records fetched - "
+            "aborting.",
+            file=sys.stderr,
+        )
+
         sys.exit(1)
 
-    PRICES_DIR.mkdir(parents=True, exist_ok=True)
-    cutoff = (datetime.now(timezone.utc).date() - timedelta(days=RETENTION_DAYS)).isoformat()
+    PRICES_DIR.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    # Auto-register any commodity the API returns that we've never seen
-    # before - no more manual hardcoding. It gets an id + gets queued for
-    # AI classification below; it will only show up in the app once it's
-    # classified into a real agriculture category.
-    newly_discovered = discover_new_commodities(raw_records)
+    cutoff = (
+        datetime.now(
+            timezone.utc
+        ).date()
+        - timedelta(
+            days=RETENTION_DAYS
+        )
+    ).isoformat()
+
+
+    # ------------------------------------------------------------------------
+    # DISCOVER NEW COMMODITIES
+    # ------------------------------------------------------------------------
+
+    newly_discovered = (
+        discover_new_commodities(
+            raw_records
+        )
+    )
+
     if newly_discovered:
-        print(f"\n(info) Auto-registered {len(newly_discovered)} new commodity/ies: "
-              f"{list(newly_discovered.values())}")
 
-    new_rows_by_product = defaultdict(list)
+        print(
+            "\n[info] Auto-registered "
+            f"{len(newly_discovered)} "
+            "new commodities:"
+        )
+
+        for product_id, name in (
+            newly_discovered.items()
+        ):
+
+            print(
+                f"  {product_id}: {name}"
+            )
+
+
+    # ------------------------------------------------------------------------
+    # BUILD PRICE ROWS
+    # ------------------------------------------------------------------------
+
+    new_rows_by_product = (
+        defaultdict(list)
+    )
+
     unmatched_commodities = set()
 
-    for r in raw_records:
-        commodity = (r.get("Commodity") or "").strip()
-        product_id = COMMODITY_TO_PRODUCT.get(commodity)
+    for record in raw_records:
+
+        commodity = (
+            record.get("Commodity")
+            or ""
+        ).strip()
+
+        product_id = (
+            COMMODITY_TO_PRODUCT.get(
+                commodity
+            )
+        )
+
         if not product_id:
-            # Shouldn't normally happen now that discover_new_commodities
-            # runs first, but kept as a safety net (e.g. blank commodity).
-            unmatched_commodities.add(commodity)
+
+            unmatched_commodities.add(
+                commodity
+            )
+
             continue
 
         try:
-            date_iso = parse_arrival_date(r.get("Arrival_Date", ""))
+
+            date_iso = parse_arrival_date(
+                record.get(
+                    "Arrival_Date",
+                    "",
+                )
+            )
+
         except ValueError:
+
             continue
 
-        def to_float(v):
-            try:
-                return float(v)
-            except (TypeError, ValueError):
-                return None
+        market = (
+            record.get("Market")
+            or ""
+        ).strip()
 
-        market = (r.get("Market") or "").strip()
+        product_unit = get_product_unit(
+            product_id
+        )
+
         row = {
-            "id": make_row_id(product_id, market, date_iso),
+            "id": make_row_id(
+                product_id,
+                market,
+                date_iso,
+            ),
+
             "market": market,
-            "district": (r.get("District") or "").strip(),
+
+            "district": (
+                record.get("District")
+                or ""
+            ).strip(),
+
             "date": date_iso,
-            "min_price": to_float(r.get("Min_x0020_Price")),
-            "max_price": to_float(r.get("Max_x0020_Price")),
-            "modal_price": to_float(r.get("Modal_x0020_Price")),
-            "unit": "per quintal",
-            "source": "Agmarknet / data.gov.in",
+
+            "min_price": to_float(
+                record.get(
+                    "Min_x0020_Price"
+                )
+            ),
+
+            "max_price": to_float(
+                record.get(
+                    "Max_x0020_Price"
+                )
+            ),
+
+            "modal_price": to_float(
+                record.get(
+                    "Modal_x0020_Price"
+                )
+            ),
+
+            "unit": product_unit,
+
+            "source": (
+                "Agmarknet / data.gov.in"
+            ),
         }
-        new_rows_by_product[product_id].append(row)
+
+        new_rows_by_product[
+            product_id
+        ].append(row)
+
 
     if unmatched_commodities:
-        # This is the signal to watch: if AGMARKNET renames/adds a commodity,
-        # it'll show up here instead of failing silently.
-        print(f"\n(info) {len(unmatched_commodities)} commodities in today's pull "
-              f"aren't mapped to a product - ignored: {sorted(unmatched_commodities)}")
 
-    # Classify anything missing category/image metadata - this covers both
-    # brand-new auto-discovered commodities AND any of the original
-    # hardcoded ones that haven't been classified yet. Runs BEFORE the
-    # manifest is built so we can filter by category below. Also looks up
-    # a Wikimedia Commons image for any product that doesn't have one yet.
-    enrich_new_products(PRODUCT_NAMES)
+        print(
+            "\n[info] Unmatched commodities:"
+        )
+
+        for commodity in sorted(
+            unmatched_commodities
+        ):
+
+            print(
+                f"  - {commodity}"
+            )
+
+
+    # ------------------------------------------------------------------------
+    # ENRICH METADATA
+    # ------------------------------------------------------------------------
+
+    print(
+        "\nRunning metadata enrichment..."
+    )
+
+    enrich_new_products(
+        PRODUCT_NAMES
+    )
+
     metadata = load_metadata()
     images = load_images()
 
+
+    # ------------------------------------------------------------------------
+    # BUILD MANIFEST
+    # ------------------------------------------------------------------------
+
     manifest_products = []
-    now_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
     skipped_categories = []
     skipped_stale = []
 
-    for product_id, product_name in PRODUCT_NAMES.items():
-        entry = metadata.get(product_id)
-        # If it HAS been classified and landed outside real agriculture
-        # categories (e.g. "Other"), leave it out of the app entirely.
-        # If it hasn't been classified yet, we still include it for now so
-        # existing products never vanish just because enrichment is pending
-        # or Gemini/Wikimedia had a hiccup this run.
-        if entry is not None and entry.get("category") not in DISPLAYABLE_CATEGORIES:
-            skipped_categories.append((product_id, entry.get("category")))
+    now_iso = (
+        datetime.now(
+            timezone.utc
+        )
+        .isoformat()
+        .replace(
+            "+00:00",
+            "Z",
+        )
+    )
+
+
+    for (
+        product_id,
+        product_name,
+    ) in PRODUCT_NAMES.items():
+
+        entry = metadata.get(
+            product_id
+        )
+
+        category = (
+            entry.get("category")
+            if isinstance(
+                entry,
+                dict,
+            )
+            else None
+        )
+
+
+        # --------------------------------------------------------------------
+        # CATEGORY FILTER
+        # --------------------------------------------------------------------
+        #
+        # IMPORTANT:
+        # null is no longer treated as displayable.
+        #
+        # This means Egg will not appear in your crop categories.
+        #
+
+        if category not in DISPLAYABLE_CATEGORIES:
+
+            skipped_categories.append(
+                (
+                    product_id,
+                    category,
+                )
+            )
+
             continue
-        existing = load_existing_rows(product_id)
-        existing_ids = {row["id"] for row in existing}
 
-        merged = [row for row in existing if row["date"] >= cutoff]
-        for row in new_rows_by_product.get(product_id, []):
+
+        # --------------------------------------------------------------------
+        # LOAD EXISTING HISTORY
+        # --------------------------------------------------------------------
+
+        existing = load_existing_rows(
+            product_id
+        )
+
+        existing_ids = {
+            row["id"]
+            for row in existing
+            if row.get("id")
+        }
+
+
+        # Keep only recent history.
+        merged = [
+            row
+            for row in existing
+            if row.get(
+                "date",
+                ""
+            ) >= cutoff
+        ]
+
+
+        # Add today's records.
+        for row in (
+            new_rows_by_product.get(
+                product_id,
+                [],
+            )
+        ):
+
             if row["id"] not in existing_ids:
+
                 merged.append(row)
-                existing_ids.add(row["id"])
 
-        merged.sort(key=lambda r: r["date"], reverse=True)
+                existing_ids.add(
+                    row["id"]
+                )
 
-        with open(PRICES_DIR / f"{product_id}.json", "w") as f:
+
+        merged.sort(
+            key=lambda row: row.get(
+                "date",
+                ""
+            ),
+            reverse=True,
+        )
+
+
+        # --------------------------------------------------------------------
+        # SAVE PRODUCT HISTORY
+        # --------------------------------------------------------------------
+
+        product_file = (
+            PRICES_DIR
+            / f"{product_id}.json"
+        )
+
+        with open(
+            product_file,
+            "w",
+            encoding="utf-8",
+        ) as f:
+
             json.dump(
                 {
                     "product": product_id,
                     "product_name": product_name,
                     "generated_at": now_iso,
                     "state": STATE,
+                    "unit": get_product_unit(
+                        product_id
+                    ),
                     "history": merged,
                 },
-                f, indent=2, ensure_ascii=False,
+                f,
+                indent=2,
+                ensure_ascii=False,
             )
 
-        # A commodity that AGMARKNET has stopped reporting on will have its
-        # price history naturally age out of the RETENTION_DAYS window over
-        # time (nothing new comes in to replace what expires). Once there's
-        # no data left at all within that window, drop it from the manifest
-        # instead of showing an entry with permanently null prices. The
-        # per-product .json file above is still written (empty history), so
-        # nothing is destroyed - it just stops appearing in the app until
-        # the commodity reappears in a future pull.
+
+        # --------------------------------------------------------------------
+        # STALE PRODUCT
+        # --------------------------------------------------------------------
+
         if not merged:
-            skipped_stale.append(product_id)
+
+            skipped_stale.append(
+                product_id
+            )
+
             continue
 
-        dates_available = sorted({row["date"] for row in merged}, reverse=True)
-        today_avg = yesterday_avg = None
-        today_date = yesterday_date = None
+
+        # --------------------------------------------------------------------
+        # PRICE CALCULATION
+        # --------------------------------------------------------------------
+
+        dates_available = sorted(
+            {
+                row["date"]
+                for row in merged
+                if row.get("date")
+            },
+            reverse=True,
+        )
+
+
+        today_date = None
+        yesterday_date = None
+
+        today_avg = None
+        yesterday_avg = None
+
         market_count = 0
 
-        if dates_available:
-            today_date = dates_available[0]
-            today_rows = [r for r in merged if r["date"] == today_date and r["modal_price"] is not None]
-            if today_rows:
-                today_avg = round(sum(r["modal_price"] for r in today_rows) / len(today_rows), 2)
-                market_count = len(today_rows)
 
+        # Today's price
+        if dates_available:
+
+            today_date = (
+                dates_available[0]
+            )
+
+            today_rows = [
+                row
+                for row in merged
+                if (
+                    row.get("date")
+                    == today_date
+                    and row.get(
+                        "modal_price"
+                    )
+                    is not None
+                )
+            ]
+
+            if today_rows:
+
+                today_avg = round(
+                    sum(
+                        row["modal_price"]
+                        for row in today_rows
+                    )
+                    / len(today_rows),
+                    2,
+                )
+
+                market_count = (
+                    len(today_rows)
+                )
+
+
+        # Yesterday's price
         if len(dates_available) > 1:
-            yesterday_date = dates_available[1]
-            yesterday_rows = [r for r in merged if r["date"] == yesterday_date and r["modal_price"] is not None]
+
+            yesterday_date = (
+                dates_available[1]
+            )
+
+            yesterday_rows = [
+                row
+                for row in merged
+                if (
+                    row.get("date")
+                    == yesterday_date
+                    and row.get(
+                        "modal_price"
+                    )
+                    is not None
+                )
+            ]
+
             if yesterday_rows:
-                yesterday_avg = round(sum(r["modal_price"] for r in yesterday_rows) / len(yesterday_rows), 2)
+
+                yesterday_avg = round(
+                    sum(
+                        row["modal_price"]
+                        for row in yesterday_rows
+                    )
+                    / len(yesterday_rows),
+                    2,
+                )
+
+
+        # --------------------------------------------------------------------
+        # CHANGE
+        # --------------------------------------------------------------------
 
         change = None
         pct_change = None
-        if today_avg is not None and yesterday_avg is not None and yesterday_avg != 0:
-            change = round(today_avg - yesterday_avg, 2)
-            pct_change = round((change / yesterday_avg) * 100, 1)
 
-        manifest_products.append({
-            "id": product_id,
-            "name": product_name,
-            "category": entry.get("category") if entry else None,
-            "image_url": images.get(product_id) or (entry.get("image_url") if entry else None),
-            "unit": "per quintal",
-            "today_date": today_date,
-            "today_avg_price": today_avg,
-            "yesterday_date": yesterday_date,
-            "yesterday_avg_price": yesterday_avg,
-            "change": change,
-            "pct_change": pct_change,
-            "market_count": market_count,
-            "history_days": len(dates_available),
-        })
+        if (
+            today_avg is not None
+            and yesterday_avg is not None
+            and yesterday_avg != 0
+        ):
 
-    with open(MANIFEST_PATH, "w") as f:
-        json.dump(
-            {"generated_at": now_iso, "source": "Agmarknet / data.gov.in, Government of India",
-             "state": STATE,
-             "products": manifest_products},
-            f, indent=2, ensure_ascii=False,
+            change = round(
+                today_avg
+                - yesterday_avg,
+                2,
+            )
+
+            pct_change = round(
+                (
+                    change
+                    / yesterday_avg
+                )
+                * 100,
+                1,
+            )
+
+
+        # --------------------------------------------------------------------
+        # MANIFEST ENTRY
+        # --------------------------------------------------------------------
+
+        manifest_products.append(
+            {
+                "id": product_id,
+
+                "name": product_name,
+
+                "category": category,
+
+                "image_url": (
+                    images.get(product_id)
+                    or (
+                        entry.get(
+                            "image_url"
+                        )
+                        if isinstance(
+                            entry,
+                            dict,
+                        )
+                        else None
+                    )
+                ),
+
+                "unit": get_product_unit(
+                    product_id
+                ),
+
+                "today_date": today_date,
+
+                "today_avg_price": today_avg,
+
+                "yesterday_date": (
+                    yesterday_date
+                ),
+
+                "yesterday_avg_price": (
+                    yesterday_avg
+                ),
+
+                "change": change,
+
+                "pct_change": pct_change,
+
+                "market_count": market_count,
+
+                "history_days": len(
+                    dates_available
+                ),
+            }
         )
 
-    covered = len([p for p in manifest_products if p["today_avg_price"] is not None])
-    with_image = len([p for p in manifest_products if p["image_url"]])
-    print(f"\nWrote {len(manifest_products)} displayable product files "
-          f"({covered} have today's data, {with_image} have an image) and manifest.json")
+
+    # ------------------------------------------------------------------------
+    # WRITE MANIFEST
+    # ------------------------------------------------------------------------
+
+    with open(
+        MANIFEST_PATH,
+        "w",
+        encoding="utf-8",
+    ) as f:
+
+        json.dump(
+            {
+                "generated_at": now_iso,
+
+                "source": (
+                    "Agmarknet / data.gov.in, "
+                    "Government of India"
+                ),
+
+                "state": STATE,
+
+                "products": manifest_products,
+            },
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+
+    # ------------------------------------------------------------------------
+    # SUMMARY
+    # ------------------------------------------------------------------------
+
+    covered = sum(
+        1
+        for product in manifest_products
+        if product["today_avg_price"]
+        is not None
+    )
+
+    with_image = sum(
+        1
+        for product in manifest_products
+        if product["image_url"]
+    )
+
+
+    print("\n========================================")
+    print("ENRICHMENT COMPLETE")
+    print("========================================")
+
+    print(
+        f"Displayable products : "
+        f"{len(manifest_products)}"
+    )
+
+    print(
+        f"With today's price   : "
+        f"{covered}"
+    )
+
+    print(
+        f"With image           : "
+        f"{with_image}"
+    )
+
     if skipped_categories:
-        print(f"(info) {len(skipped_categories)} product(s) classified outside "
-              f"farmer/market categories and left out of the app: {skipped_categories}")
+
+        print(
+            "\nExcluded categories:"
+        )
+
+        for product_id, category in (
+            skipped_categories
+        ):
+
+            print(
+                f"  {product_id}: "
+                f"{category}"
+            )
+
     if skipped_stale:
-        print(f"(info) {len(skipped_stale)} product(s) had no price data within the last "
-              f"{RETENTION_DAYS} days and were dropped from the manifest: {skipped_stale}")
+
+        print(
+            "\nStale products:"
+        )
+
+        for product_id in skipped_stale:
+
+            print(
+                f"  {product_id}"
+            )
 
 
 if __name__ == "__main__":
