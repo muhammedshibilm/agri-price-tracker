@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:27:40.474296Z",
+  "generated_at": "2026-09-03T14:50:40.530715Z",
   "source": "Agmarknet / data.gov.in, Government of India",
   "state": "Keralam",
   "products": [
@@ -349,6 +349,21 @@
       "history_days": 5
     },
     {
+      "id": "rice",
+      "name": "Rice",
+      "category": "Grains & Pulses",
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-03",
+      "today_avg_price": 5550.0,
+      "yesterday_date": null,
+      "yesterday_avg_price": null,
+      "change": null,
+      "pct_change": null,
+      "market_count": 2,
+      "history_days": 1
+    },
+    {
       "id": "arecanut",
       "name": "Arecanut",
       "category": "Plantation Crops",
@@ -362,6 +377,21 @@
       "pct_change": -0.6,
       "market_count": 4,
       "history_days": 5
+    },
+    {
+      "id": "cashewnuts",
+      "name": "Cashewnuts",
+      "category": "Plantation Crops",
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-02",
+      "today_avg_price": 12200.0,
+      "yesterday_date": null,
+      "yesterday_avg_price": null,
+      "change": null,
+      "pct_change": null,
+      "market_count": 1,
+      "history_days": 1
     },
     {
       "id": "coconut",
@@ -454,6 +484,21 @@
       "history_days": 5
     },
     {
+      "id": "tender-coconut",
+      "name": "Tender Coconut",
+      "category": "Plantation Crops",
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-03",
+      "today_avg_price": 4500.0,
+      "yesterday_date": null,
+      "yesterday_avg_price": null,
+      "change": null,
+      "pct_change": null,
+      "market_count": 1,
+      "history_days": 1
+    },
+    {
       "id": "black-pepper",
       "name": "Black Pepper",
       "category": "Spices",
@@ -527,6 +572,21 @@
       "pct_change": -6.2,
       "market_count": 26,
       "history_days": 6
+    },
+    {
+      "id": "ginger-dry",
+      "name": "Ginger(Dry)",
+      "category": "Spices",
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-02",
+      "today_avg_price": 14700.0,
+      "yesterday_date": "2026-09-01",
+      "yesterday_avg_price": 14700.0,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "market_count": 1,
+      "history_days": 2
     },
     {
       "id": "green-chilli",
@@ -949,6 +1009,21 @@
       "history_days": 6
     },
     {
+      "id": "mint-pudina",
+      "name": "Mint(Pudina)",
+      "category": "Vegetables",
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-03",
+      "today_avg_price": 7500.0,
+      "yesterday_date": "2026-09-02",
+      "yesterday_avg_price": 7500.0,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "market_count": 1,
+      "history_days": 3
+    },
+    {
       "id": "mushroom",
       "name": "Mushroom",
       "category": "Vegetables",
@@ -1024,6 +1099,21 @@
       "history_days": 6
     },
     {
+      "id": "raddish",
+      "name": "Raddish",
+      "category": "Vegetables",
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-02",
+      "today_avg_price": 1200.0,
+      "yesterday_date": "2026-09-01",
+      "yesterday_avg_price": 2500.0,
+      "change": -1300.0,
+      "pct_change": -52.0,
+      "market_count": 1,
+      "history_days": 2
+    },
+    {
       "id": "ridge-gourd",
       "name": "Ridge Gourd",
       "category": "Vegetables",
@@ -1037,6 +1127,21 @@
       "pct_change": 8.8,
       "market_count": 3,
       "history_days": 5
+    },
+    {
+      "id": "seemebadnekai",
+      "name": "Seemebadnekai",
+      "category": "Vegetables",
+      "image_url": null,
+      "unit": "per quintal",
+      "today_date": "2026-09-03",
+      "today_avg_price": 2500.0,
+      "yesterday_date": "2026-09-02",
+      "yesterday_avg_price": 2500.0,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "market_count": 1,
+      "history_days": 2
     },
     {
       "id": "snake-gourd",
@@ -1118,7 +1223,7 @@
       "name": "Egg",
       "category": null,
       "image_url": null,
-      "unit": "per quintal",
+      "unit": "per 100 pieces",
       "today_date": "2026-09-02",
       "today_avg_price": 9.0,
       "yesterday_date": "2026-08-31",
@@ -1127,66 +1232,6 @@
       "pct_change": 3.4,
       "market_count": 1,
       "history_days": 2
-    },
-    {
-      "id": "mint-pudina",
-      "name": "Mint(Pudina)",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 7500.0,
-      "yesterday_date": "2026-09-02",
-      "yesterday_avg_price": 7500.0,
-      "change": 0.0,
-      "pct_change": 0.0,
-      "market_count": 1,
-      "history_days": 3
-    },
-    {
-      "id": "rice",
-      "name": "Rice",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 5550.0,
-      "yesterday_date": null,
-      "yesterday_avg_price": null,
-      "change": null,
-      "pct_change": null,
-      "market_count": 2,
-      "history_days": 1
-    },
-    {
-      "id": "seemebadnekai",
-      "name": "Seemebadnekai",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 2500.0,
-      "yesterday_date": "2026-09-02",
-      "yesterday_avg_price": 2500.0,
-      "change": 0.0,
-      "pct_change": 0.0,
-      "market_count": 1,
-      "history_days": 2
-    },
-    {
-      "id": "tender-coconut",
-      "name": "Tender Coconut",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 4500.0,
-      "yesterday_date": null,
-      "yesterday_avg_price": null,
-      "change": null,
-      "pct_change": null,
-      "market_count": 1,
-      "history_days": 1
     }
   ]
 }
