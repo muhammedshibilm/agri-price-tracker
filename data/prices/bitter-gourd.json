@@ -1,7 +1,7 @@
 {
   "product": "bitter-gourd",
   "product_name": "Bitter Gourd",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -464,6 +464,94 @@
       "min_price": 5500.0,
       "max_price": 5500.0,
       "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-ff95076bfa",
+      "market": "Vamanapuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 5500.0,
+      "max_price": 6000.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-bce109bea3",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 4100.0,
+      "max_price": 4100.0,
+      "modal_price": 4100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-e2ac8e39b5",
+      "market": "Kattakada Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 8000.0,
+      "max_price": 8000.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-329589687a",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-03",
+      "min_price": 3000.0,
+      "max_price": 3200.0,
+      "modal_price": 3100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-ab1b7688b0",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-a5fad2ff97",
+      "market": "Chathanoor Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 7500.0,
+      "max_price": 8200.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-32646d310c",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 6000.0,
+      "max_price": 6000.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bitter-gourd-60923d3feb",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

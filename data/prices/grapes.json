@@ -1,7 +1,7 @@
 {
   "product": "grapes",
   "product_name": "Grapes",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -21,9 +21,9 @@
       "market": "Thodupuzha Market",
       "district": "Idukki",
       "date": "2026-09-03",
-      "min_price": 14600.0,
-      "max_price": 14800.0,
-      "modal_price": 14800.0,
+      "min_price": 13700.0,
+      "max_price": 13900.0,
+      "modal_price": 13900.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
@@ -35,6 +35,17 @@
       "min_price": 8000.0,
       "max_price": 8800.0,
       "modal_price": 8400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "grapes-144bd673ff",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-03",
+      "min_price": 4450.0,
+      "max_price": 4550.0,
+      "modal_price": 4500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

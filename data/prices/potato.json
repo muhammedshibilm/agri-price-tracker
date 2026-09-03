@@ -1,7 +1,7 @@
 {
   "product": "potato",
   "product_name": "Potato",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -310,6 +310,50 @@
       "min_price": 3600.0,
       "max_price": 4500.0,
       "modal_price": 4100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-0cd27cd059",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 4500.0,
+      "max_price": 4800.0,
+      "modal_price": 4700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-a2a9a15fc5",
+      "market": "Vamanapuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 4000.0,
+      "max_price": 4500.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-9d79099dff",
+      "market": "Chathanoor Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2800.0,
+      "max_price": 3200.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "potato-4114c3060f",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2300.0,
+      "max_price": 2300.0,
+      "modal_price": 2300.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

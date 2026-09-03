@@ -1,7 +1,7 @@
 {
   "product": "bottle-gourd",
   "product_name": "Bottle Gourd",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -233,6 +233,39 @@
       "min_price": 2600.0,
       "max_price": 3500.0,
       "modal_price": 3100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-7254d52ef8",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 2000.0,
+      "max_price": 2500.0,
+      "modal_price": 2200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-eb3540e74d",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 1800.0,
+      "max_price": 1800.0,
+      "modal_price": 1800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-6252f83fb3",
+      "market": "Kattakada Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 7000.0,
+      "max_price": 7000.0,
+      "modal_price": 7000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

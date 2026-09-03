@@ -1,7 +1,7 @@
 {
   "product": "pumpkin",
   "product_name": "Pumpkin",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -288,6 +288,72 @@
       "min_price": 1200.0,
       "max_price": 2000.0,
       "modal_price": 1600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-b2a36e0e10",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-03",
+      "min_price": 1300.0,
+      "max_price": 1500.0,
+      "modal_price": 1400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-6120ee5ecf",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 600.0,
+      "max_price": 800.0,
+      "modal_price": 730.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-4919117e83",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 1300.0,
+      "max_price": 1300.0,
+      "modal_price": 1300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-0bb0626560",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2500.0,
+      "max_price": 3000.0,
+      "modal_price": 2900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-eac22eb0d2",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 2400.0,
+      "max_price": 3000.0,
+      "modal_price": 2700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-0b440e2f4b",
+      "market": "Chathanoor Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2800.0,
+      "max_price": 3200.0,
+      "modal_price": 3000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

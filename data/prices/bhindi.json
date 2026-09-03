@@ -1,7 +1,7 @@
 {
   "product": "bhindi",
   "product_name": "Bhindi (Ladies Finger)",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -420,6 +420,83 @@
       "min_price": 4500.0,
       "max_price": 4900.0,
       "modal_price": 4900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-4d43b2cfe6",
+      "market": "Vamanapuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 4500.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-c9c9d41e89",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 3000.0,
+      "max_price": 3500.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-ff2f340302",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-03",
+      "min_price": 2800.0,
+      "max_price": 3000.0,
+      "modal_price": 2900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-db8cf6c71d",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 3400.0,
+      "max_price": 4000.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-2a0092e8f6",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-bb3279f686",
+      "market": "Chathanoor Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 6800.0,
+      "max_price": 7200.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bhindi-26ec0c340d",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2000.0,
+      "max_price": 2000.0,
+      "modal_price": 2000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

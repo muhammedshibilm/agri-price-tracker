@@ -1,7 +1,7 @@
 {
   "product": "coffee",
   "product_name": "Coffee",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -24,6 +24,17 @@
       "min_price": 22200.0,
       "max_price": 22300.0,
       "modal_price": 22300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coffee-f276f60ab3",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-03",
+      "min_price": 21500.0,
+      "max_price": 21700.0,
+      "modal_price": 21600.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

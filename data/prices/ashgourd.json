@@ -1,7 +1,7 @@
 {
   "product": "ashgourd",
   "product_name": "Ash Gourd",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -398,6 +398,61 @@
       "min_price": 4000.0,
       "max_price": 4500.0,
       "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ashgourd-c0421ac9f0",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 600.0,
+      "max_price": 800.0,
+      "modal_price": 700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ashgourd-80b2c3e266",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 4000.0,
+      "max_price": 4500.0,
+      "modal_price": 4400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ashgourd-701f3150ce",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ashgourd-1c757c058c",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2000.0,
+      "max_price": 2000.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ashgourd-af0ad8b805",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-03",
+      "min_price": 1300.0,
+      "max_price": 1500.0,
+      "modal_price": 1400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

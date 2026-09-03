@@ -1,7 +1,7 @@
 {
   "product": "snake-gourd",
   "product_name": "Snake Gourd",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -343,6 +343,72 @@
       "min_price": 7000.0,
       "max_price": 7800.0,
       "modal_price": 7400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-c4b0eff7d4",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-03",
+      "min_price": 2800.0,
+      "max_price": 3000.0,
+      "modal_price": 2900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-1cfe4a66ad",
+      "market": "Chathanoor Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 3800.0,
+      "max_price": 4200.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-9f4e484cce",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2200.0,
+      "max_price": 2200.0,
+      "modal_price": 2200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-339e07d92e",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2100.0,
+      "max_price": 2100.0,
+      "modal_price": 2100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-1d90299d5e",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 1500.0,
+      "max_price": 2000.0,
+      "modal_price": 1700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "snake-gourd-56c29434a5",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 3400.0,
+      "max_price": 4000.0,
+      "modal_price": 3700.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

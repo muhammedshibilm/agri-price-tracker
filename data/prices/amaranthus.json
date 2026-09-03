@@ -1,7 +1,7 @@
 {
   "product": "amaranthus",
   "product_name": "Amaranthus (Cheera)",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -387,6 +387,61 @@
       "min_price": 2400.0,
       "max_price": 2600.0,
       "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amaranthus-8c0bdc75d8",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 6000.0,
+      "max_price": 6000.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amaranthus-3ba18eadf4",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 2900.0,
+      "max_price": 2900.0,
+      "modal_price": 2900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amaranthus-511de36025",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 4300.0,
+      "max_price": 5000.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amaranthus-160c4cc869",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 3400.0,
+      "max_price": 4000.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amaranthus-819989fb24",
+      "market": "Parakkodu Market",
+      "district": "Pathanamthitta",
+      "date": "2026-09-03",
+      "min_price": 3000.0,
+      "max_price": 3800.0,
+      "modal_price": 3500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

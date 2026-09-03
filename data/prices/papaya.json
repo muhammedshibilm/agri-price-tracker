@@ -1,10 +1,21 @@
 {
   "product": "papaya",
   "product_name": "Papaya",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "papaya-c1f1ae4eca",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-03",
+      "min_price": 3450.0,
+      "max_price": 3550.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "papaya-d8fc8965da",
       "market": "Anchal Market",

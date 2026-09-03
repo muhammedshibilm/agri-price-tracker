@@ -1,7 +1,7 @@
 {
   "product": "carrot",
   "product_name": "Carrot",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -354,6 +354,50 @@
       "min_price": 6000.0,
       "max_price": 7000.0,
       "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-a9efe5ff7e",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 5400.0,
+      "max_price": 6000.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-c56255a9d7",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 3700.0,
+      "max_price": 3700.0,
+      "modal_price": 3700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-c682971739",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 2000.0,
+      "max_price": 3000.0,
+      "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "carrot-82e779e09e",
+      "market": "Vamanapuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 5500.0,
+      "max_price": 6000.0,
+      "modal_price": 5500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

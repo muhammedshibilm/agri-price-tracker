@@ -1,7 +1,7 @@
 {
   "product": "green-chilli",
   "product_name": "Green Chilli",
-  "generated_at": "2026-09-03T14:47:44.669063Z",
+  "generated_at": "2026-09-03T21:47:29.358350Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -332,6 +332,50 @@
       "min_price": 4000.0,
       "max_price": 6000.0,
       "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-6beea611e9",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 7500.0,
+      "max_price": 8000.0,
+      "modal_price": 7700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-88590746fb",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-03",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-a4ad77102e",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 2000.0,
+      "max_price": 3000.0,
+      "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-12e64b4254",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-03",
+      "min_price": 3400.0,
+      "max_price": 3600.0,
+      "modal_price": 3500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
