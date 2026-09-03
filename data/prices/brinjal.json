@@ -1,9 +1,21 @@
 {
   "product": "brinjal",
   "product_name": "Brinjal",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "brinjal-55d82940cf",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 3800.0,
+      "max_price": 4200.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "brinjal-f37c60e00a",
       "market": "Athirampuzha Market",

@@ -1,9 +1,21 @@
 {
   "product": "cowpea-veg",
-  "product_name": "Cowpea (Vegetable)",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "product_name": "Cowpea(Veg)",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "cowpea-veg-c9e6917402",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 7800.0,
+      "max_price": 8200.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cowpea-veg-72b2f7ce49",
       "market": "Mukkom Market",

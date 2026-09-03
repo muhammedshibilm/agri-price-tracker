@@ -1,9 +1,21 @@
 {
   "product": "cabbage",
   "product_name": "Cabbage",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "cabbage-b95bd17c0c",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 2000.0,
+      "max_price": 2400.0,
+      "modal_price": 2200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cabbage-941598cb1c",
       "market": "Thrippunithura Market",

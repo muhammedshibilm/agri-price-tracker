@@ -1,9 +1,21 @@
 {
   "product": "onion",
   "product_name": "Onion",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "onion-2a9a84e100",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 5800.0,
+      "max_price": 6200.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "onion-0fb7434581",
       "market": "Kanjirappally Market",

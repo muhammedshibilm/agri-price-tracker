@@ -1,9 +1,21 @@
 {
   "product": "green-chilli",
   "product_name": "Green Chilli",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "green-chilli-38f7f2aeb4",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 7800.0,
+      "max_price": 8200.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "green-chilli-567f40a87b",
       "market": "Kanjirappally Market",

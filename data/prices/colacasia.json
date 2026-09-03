@@ -1,9 +1,21 @@
 {
   "product": "colacasia",
-  "product_name": "Colocasia (Chembu)",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "product_name": "Colacasia",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "colacasia-6ef5eae819",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 5800.0,
+      "max_price": 6200.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "colacasia-f044b4e7d7",
       "market": "Thalayolaparambu Market",

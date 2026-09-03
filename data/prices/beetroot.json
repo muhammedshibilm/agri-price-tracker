@@ -1,9 +1,21 @@
 {
   "product": "beetroot",
   "product_name": "Beetroot",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "beetroot-da47aee3f4",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 2800.0,
+      "max_price": 3200.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "beetroot-b9d934a8b0",
       "market": "Kanjirappally Market",

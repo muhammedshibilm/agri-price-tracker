@@ -1,9 +1,21 @@
 {
   "product": "banana",
   "product_name": "Banana",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "banana-b58ab5e8f6",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 6800.0,
+      "max_price": 7200.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "banana-f27c3f4324",
       "market": "Kollam Market",

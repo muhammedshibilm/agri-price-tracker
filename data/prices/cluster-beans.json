@@ -1,9 +1,21 @@
 {
   "product": "cluster-beans",
-  "product_name": "Cluster Beans",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "product_name": "Cluster beans",
+  "generated_at": "2026-09-03T03:56:44.275714Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "cluster-beans-de0a2e52ca",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 2800.0,
+      "max_price": 3200.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cluster-beans-af65a3b8c0",
       "market": "Thrippunithura Market",
