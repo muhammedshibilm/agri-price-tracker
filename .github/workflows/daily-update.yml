@@ -30,6 +30,9 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: python fetch_data.py
 
+      - name: Rebuild manifest from all valid price files
+        run: python rebuild_manifest.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
