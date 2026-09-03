@@ -1,34 +1,39 @@
 name: Daily Price Update
+
 on:
   schedule:
-    # Runs at 17:00 UTC = 22:30 IST every day — after most mandis have closed and reported prices.
+    # 17:00 UTC = 22:30 IST
     - cron: "0 17 * * *"
-  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
-# Only grant what this workflow actually needs — nothing more.
+  workflow_dispatch: {}
+
 permissions:
   contents: write
+
 jobs:
   update-prices:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v7
+
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
           python-version: "3.11"
+
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run price fetch + prediction pipeline
+
+      - name: Run price pipeline
         env:
           DATA_GOV_IN_API_KEY: ${{ secrets.DATA_GOV_IN_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: python fetch_data.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --quiet --cached || git commit -m "Daily price + prediction update: $(date -u +%Y-%m-%d)"
+          git diff --quiet --cached || git commit -m "Daily price update: $(date -u +%Y-%m-%d)"
           git push
