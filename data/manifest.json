@@ -154,36 +154,6 @@
       "history_days": 5
     },
     {
-      "id": "mango-raw-ripe",
-      "name": "Mango (Raw/Ripe)",
-      "category": "Fruits",
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 6694.44,
-      "yesterday_date": "2026-09-02",
-      "yesterday_avg_price": 6443.75,
-      "change": 250.69,
-      "pct_change": 3.9,
-      "market_count": 18,
-      "history_days": 6
-    },
-    {
-      "id": "orange",
-      "name": "Orange",
-      "category": "Fruits",
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 10833.33,
-      "yesterday_date": "2026-09-02",
-      "yesterday_avg_price": 10500.0,
-      "change": 333.33,
-      "pct_change": 3.2,
-      "market_count": 3,
-      "history_days": 5
-    },
-    {
       "id": "papaya",
       "name": "Papaya",
       "category": "Fruits",
