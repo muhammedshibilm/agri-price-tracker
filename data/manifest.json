@@ -22,7 +22,7 @@
       "id": "apple",
       "name": "Apple",
       "category": "Fruits",
-      "image_url": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/960px-Red_Apple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "unit": "per quintal",
       "today_date": "2026-09-03",
       "today_avg_price": 13300.0,
