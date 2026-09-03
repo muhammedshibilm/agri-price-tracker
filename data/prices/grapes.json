@@ -1,9 +1,43 @@
 {
   "product": "grapes",
   "product_name": "Grapes",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T14:27:40.474296Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "grapes-866f147ee6",
+      "market": "Chala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 10000.0,
+      "max_price": 11000.0,
+      "modal_price": 10000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "grapes-e6c13da306",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-03",
+      "min_price": 14600.0,
+      "max_price": 14800.0,
+      "modal_price": 14800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "grapes-a98160e313",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-03",
+      "min_price": 8000.0,
+      "max_price": 8800.0,
+      "modal_price": 8400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "grapes-4acc2606c5",
       "market": "Mukkom Market",

@@ -1,9 +1,43 @@
 {
   "product": "orange",
   "product_name": "Orange",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T14:27:40.474296Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "orange-24169d7091",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-03",
+      "min_price": 11300.0,
+      "max_price": 11500.0,
+      "modal_price": 11500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "orange-c6c054e568",
+      "market": "Chala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 10000.0,
+      "max_price": 11000.0,
+      "modal_price": 10000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "orange-70bcb13f5d",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-03",
+      "min_price": 10500.0,
+      "max_price": 11500.0,
+      "modal_price": 11000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "orange-10ed06425c",
       "market": "Chala Market",

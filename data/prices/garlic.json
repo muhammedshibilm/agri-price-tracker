@@ -1,9 +1,76 @@
 {
   "product": "garlic",
   "product_name": "Garlic",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T14:27:40.474296Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "garlic-75aa56dacb",
+      "market": "Athirampuzha Market",
+      "district": "Kottayam",
+      "date": "2026-09-03",
+      "min_price": 20000.0,
+      "max_price": 21000.0,
+      "modal_price": 20500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-d8912f3830",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-09-03",
+      "min_price": 21000.0,
+      "max_price": 25000.0,
+      "modal_price": 23000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-beb3e3e807",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-03",
+      "min_price": 21700.0,
+      "max_price": 22300.0,
+      "modal_price": 22000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-ab07d810c2",
+      "market": "Kollengode Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 16000.0,
+      "max_price": 20000.0,
+      "modal_price": 18000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-6494538ec4",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 25000.0,
+      "max_price": 26000.0,
+      "modal_price": 25600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-eff7fceae7",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-03",
+      "min_price": 20000.0,
+      "max_price": 21500.0,
+      "modal_price": 21000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "garlic-f56f1a9305",
       "market": "Aroor Market",

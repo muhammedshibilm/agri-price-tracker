@@ -1,9 +1,32 @@
 {
   "product": "lime",
   "product_name": "Lime",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T14:27:40.474296Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "lime-81ce4b8b9c",
+      "market": "Pattambi Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 20000.0,
+      "max_price": 22000.0,
+      "modal_price": 21000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lime-df188fbc88",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-03",
+      "min_price": 4500.0,
+      "max_price": 5500.0,
+      "modal_price": 5100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "lime-63674e6154",
       "market": "Palakkad Market",

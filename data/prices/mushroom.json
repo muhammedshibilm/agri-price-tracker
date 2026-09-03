@@ -1,8 +1,9 @@
 {
   "product": "mushroom",
   "product_name": "Mushroom",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T14:27:40.474296Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
     {
       "id": "mushroom-eecdd37a01",

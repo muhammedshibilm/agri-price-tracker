@@ -1,9 +1,43 @@
 {
   "product": "apple",
   "product_name": "Apple",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T14:27:40.474296Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "apple-9d512185d0",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-03",
+      "min_price": 18500.0,
+      "max_price": 19500.0,
+      "modal_price": 19000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-0b216f9a88",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-03",
+      "min_price": 8700.0,
+      "max_price": 8900.0,
+      "modal_price": 8900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-5d94cfd4b6",
+      "market": "Chala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-03",
+      "min_price": 12000.0,
+      "max_price": 13000.0,
+      "modal_price": 12000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "apple-d2a85b92db",
       "market": "Chala Market",

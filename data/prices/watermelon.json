@@ -1,9 +1,21 @@
 {
   "product": "watermelon",
   "product_name": "Watermelon",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-03T14:27:40.474296Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "watermelon-9fbcbe94e1",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-03",
+      "min_price": 1200.0,
+      "max_price": 1400.0,
+      "modal_price": 1400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "watermelon-9fb9d46b92",
       "market": "Manjeri Market",
