@@ -1173,50 +1173,6 @@
       "market_count": 2,
       "history_days": 6
     },
-    {
-      "id": "egg",
-      "name": "Egg",
-      "category": null,
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Struthio_camelus_MHNT.ZOO.2010.11.1.1.jpg/960px-Struthio_camelus_MHNT.ZOO.2010.11.1.1.jpg",
-      "unit": "per quintal",
-      "today_date": "2026-09-02",
-      "today_avg_price": 9.0,
-      "yesterday_date": "2026-08-31",
-      "yesterday_avg_price": 8.7,
-      "change": 0.3,
-      "pct_change": 3.4,
-      "market_count": 1,
-      "history_days": 2
-    },
-    {
-      "id": "mango-raw-ripe",
-      "name": "Mango(Raw-Ripe)",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 6485.0,
-      "yesterday_date": null,
-      "yesterday_avg_price": null,
-      "change": null,
-      "pct_change": null,
-      "market_count": 20,
-      "history_days": 1
-    },
-    {
-      "id": "mousambi-sweet-lime",
-      "name": "Mousambi(Sweet Lime)",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-03",
-      "today_avg_price": 4000.0,
-      "yesterday_date": null,
-      "yesterday_avg_price": null,
-      "change": null,
-      "pct_change": null,
-      "market_count": 1,
-      "history_days": 1
-    }
+    
   ]
 }
