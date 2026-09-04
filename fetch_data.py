@@ -113,7 +113,6 @@ TARGET_PRODUCTS = {
     "yam-ratalu": ["Yam(Ratalu)"],
     "alsandikai": ["Alsandikai"],
     "amla": ["Amla(Nelli Kai)"],
-    "egg": ["Egg"],
     "papaya-raw": ["Papaya(Raw)"],
 }
 
@@ -190,7 +189,7 @@ PRODUCT_NAMES = {
     "yam-ratalu": "Yam (Ratalu)",
     "alsandikai": "Alsandikai (Long Beans)",
     "amla": "Amla (Indian Gooseberry)",
-    "egg": "Egg",
+
     "papaya-raw": "Papaya (Raw)",
 }
 
