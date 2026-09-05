@@ -1,10 +1,21 @@
 {
   "product": "apple",
   "product_name": "Apple",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "apple-44eaedc3ef",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 18000.0,
+      "max_price": 19000.0,
+      "modal_price": 18500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "apple-9d512185d0",
       "market": "Mukkom Market",

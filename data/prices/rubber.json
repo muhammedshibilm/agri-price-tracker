@@ -1,10 +1,21 @@
 {
   "product": "rubber",
   "product_name": "Rubber",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "rubber-6f0aa697d2",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-09-05",
+      "min_price": 25800.0,
+      "max_price": 26000.0,
+      "modal_price": 25900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "rubber-80f810af2e",
       "market": "Kuttoor Market",

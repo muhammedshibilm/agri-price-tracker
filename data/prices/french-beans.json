@@ -1,10 +1,54 @@
 {
   "product": "french-beans",
   "product_name": "French Beans",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "french-beans-6b780409bd",
+      "market": "Athirampuzha Market",
+      "district": "Kottayam",
+      "date": "2026-09-05",
+      "min_price": 6500.0,
+      "max_price": 6700.0,
+      "modal_price": 6600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-5b1f5a9cb8",
+      "market": "Quilandy Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 5800.0,
+      "max_price": 6000.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-9d16b8f7b2",
+      "market": "Perambra Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-37302a8be7",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "french-beans-21fe81a432",
       "market": "Vengeri(Kozhikode) Market",

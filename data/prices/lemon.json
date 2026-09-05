@@ -1,10 +1,76 @@
 {
   "product": "lemon",
   "product_name": "Lemon",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "lemon-26f67aec37",
+      "market": "Parassala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 8800.0,
+      "max_price": 9200.0,
+      "modal_price": 9000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-6e1b9b3d0e",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 8500.0,
+      "max_price": 9500.0,
+      "modal_price": 9000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-6a25fdcf81",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-09-05",
+      "min_price": 6400.0,
+      "max_price": 6400.0,
+      "modal_price": 6400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-90ac4251dd",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-05",
+      "min_price": 12600.0,
+      "max_price": 12800.0,
+      "modal_price": 12800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-b79d09b1d5",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 24000.0,
+      "max_price": 26000.0,
+      "modal_price": 24500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-76c40a1f1c",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "lemon-e770884a31",
       "market": "Parassala Market",

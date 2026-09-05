@@ -1,10 +1,21 @@
 {
   "product": "coffee",
   "product_name": "Coffee",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coffee-e777dcd0c9",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-09-05",
+      "min_price": 21400.0,
+      "max_price": 21600.0,
+      "modal_price": 21500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coffee-abfc65476c",
       "market": "Pulpally Market",

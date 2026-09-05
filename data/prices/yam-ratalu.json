@@ -1,10 +1,21 @@
 {
   "product": "yam-ratalu",
   "product_name": "Yam (Ratalu)",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "yam-ratalu-97071d0222",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-05",
+      "min_price": 5300.0,
+      "max_price": 5500.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "yam-ratalu-76d0c198e8",
       "market": "Kollam Market",

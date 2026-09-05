@@ -1,10 +1,142 @@
 {
   "product": "bottle-gourd",
   "product_name": "Bottle Gourd",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "bottle-gourd-c0cc70e068",
+      "market": "Thirurrangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 3200.0,
+      "max_price": 3300.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-17e9522c4f",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 2500.0,
+      "max_price": 3000.0,
+      "modal_price": 2800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-c0dac85957",
+      "market": "Perambra Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 3000.0,
+      "max_price": 3500.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-dcb90cc5f8",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-05",
+      "min_price": 1900.0,
+      "max_price": 2200.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-29b852e954",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 2800.0,
+      "max_price": 3200.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-d918ee7dc1",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 5000.0,
+      "max_price": 6000.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-bd7a1274a5",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-09-05",
+      "min_price": 2700.0,
+      "max_price": 2700.0,
+      "modal_price": 2700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-877e0dedc6",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 3800.0,
+      "max_price": 4200.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-7b8d3c6526",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-46d5abb9b0",
+      "market": "Quilandy Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 3500.0,
+      "max_price": 4000.0,
+      "modal_price": 3700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-feb13441ed",
+      "market": "Harippad Market",
+      "district": "Alappuzha",
+      "date": "2026-09-05",
+      "min_price": 2500.0,
+      "max_price": 3000.0,
+      "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-0d058d92c7",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-05",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "bottle-gourd-9c2506f181",
       "market": "Kollam Market",

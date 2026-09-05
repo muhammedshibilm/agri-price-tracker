@@ -1,10 +1,54 @@
 {
   "product": "indian-beans",
   "product_name": "Indian Beans (Seam)",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "indian-beans-166d569f02",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 8200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-0abb1a6803",
+      "market": "Pampady Market",
+      "district": "Kottayam",
+      "date": "2026-09-05",
+      "min_price": 6500.0,
+      "max_price": 8000.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-965eb950e5",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 5000.0,
+      "max_price": 6000.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-4083a66a6a",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 5500.0,
+      "max_price": 6500.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "indian-beans-a44091869a",
       "market": "Kayamkulam Market",

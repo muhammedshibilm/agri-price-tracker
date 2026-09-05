@@ -1,10 +1,43 @@
 {
   "product": "garlic",
   "product_name": "Garlic",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-05T07:03:26.472923Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "garlic-1cb8d4c27c",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 21000.0,
+      "max_price": 23000.0,
+      "modal_price": 21500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-aa4d5ff2ed",
+      "market": "Athirampuzha Market",
+      "district": "Kottayam",
+      "date": "2026-09-05",
+      "min_price": 18000.0,
+      "max_price": 20000.0,
+      "modal_price": 19000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-4533e1ce08",
+      "market": "Perambra Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 19000.0,
+      "max_price": 21000.0,
+      "modal_price": 20000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "garlic-75aa56dacb",
       "market": "Athirampuzha Market",
