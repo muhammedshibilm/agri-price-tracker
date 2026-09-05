@@ -1,7 +1,7 @@
 {
   "product": "cluster-beans",
   "product_name": "Cluster Beans",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -77,6 +77,50 @@
       "district": "Kozhikode(Calicut)",
       "date": "2026-09-05",
       "min_price": 4000.0,
+      "max_price": 4300.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-833ba4fa51",
+      "market": "Thamarassery Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 5600.0,
+      "max_price": 6000.0,
+      "modal_price": 5800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-fdfe49f3e4",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-5cc3b551ff",
+      "market": "Perinthalmanna Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 7500.0,
+      "max_price": 8000.0,
+      "modal_price": 7800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-32b5437a40",
+      "market": "Pothencode Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 4200.0,
       "max_price": 4300.0,
       "modal_price": 4200.0,
       "unit": "per quintal",

@@ -1,7 +1,7 @@
 {
   "product": "coffee",
   "product_name": "Coffee",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -13,6 +13,17 @@
       "min_price": 21400.0,
       "max_price": 21600.0,
       "modal_price": 21500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coffee-f453bf5aa6",
+      "market": "Mananthavady Market",
+      "district": "Wayanad",
+      "date": "2026-09-05",
+      "min_price": 21900.0,
+      "max_price": 22000.0,
+      "modal_price": 22000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

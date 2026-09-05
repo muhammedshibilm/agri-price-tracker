@@ -1,7 +1,7 @@
 {
   "product": "coconut-seed",
   "product_name": "Coconut Seed",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -13,6 +13,17 @@
       "min_price": 5400.0,
       "max_price": 5600.0,
       "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-seed-d6ec5c722a",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-05",
+      "min_price": 5000.0,
+      "max_price": 5800.0,
+      "modal_price": 5400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

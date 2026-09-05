@@ -1,7 +1,7 @@
 {
   "product": "colacasia",
   "product_name": "Colocasia (Chembu)",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -111,6 +111,72 @@
       "date": "2026-09-05",
       "min_price": 5800.0,
       "max_price": 6100.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-eada4fd72f",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-09-05",
+      "min_price": 6200.0,
+      "max_price": 6800.0,
+      "modal_price": 6600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-0d4af97c6e",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-09-05",
+      "min_price": 6300.0,
+      "max_price": 6800.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-ab66265c7a",
+      "market": "Kothamangalam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 6500.0,
+      "max_price": 7500.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-b50564727f",
+      "market": "Perinthalmanna Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 3500.0,
+      "max_price": 4000.0,
+      "modal_price": 3800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-f61a2c825c",
+      "market": "Kattappana Market",
+      "district": "Idukki",
+      "date": "2026-09-05",
+      "min_price": 5800.0,
+      "max_price": 6300.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-894418b114",
+      "market": "Pothencode Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
       "modal_price": 6000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"

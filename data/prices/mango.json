@@ -1,10 +1,21 @@
 {
   "product": "mango",
   "product_name": "Mango",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "mango-d341a54ad1",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 4950.0,
+      "max_price": 5050.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "mango-675a2f7a51",
       "market": "Thodupuzha Market",

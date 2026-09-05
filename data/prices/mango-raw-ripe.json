@@ -1,7 +1,7 @@
 {
   "product": "mango-raw-ripe",
   "product_name": "Mango(Raw-Ripe)",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -79,6 +79,72 @@
       "min_price": 4200.0,
       "max_price": 4400.0,
       "modal_price": 4400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-458f129a39",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 7000.0,
+      "max_price": 9000.0,
+      "modal_price": 9000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-1e20db6d47",
+      "market": "Pothencode Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-0a935d5782",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-05",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-2008548884",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-09-05",
+      "min_price": 4000.0,
+      "max_price": 4400.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-e4fa2217f9",
+      "market": "Chelakkara Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 5500.0,
+      "max_price": 6000.0,
+      "modal_price": 5800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-99c83b179c",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 9000.0,
+      "max_price": 10000.0,
+      "modal_price": 10000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

@@ -1,7 +1,7 @@
 {
   "product": "pumpkin",
   "product_name": "Pumpkin",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -156,6 +156,127 @@
       "min_price": 2500.0,
       "max_price": 4000.0,
       "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-f791b6ffb7",
+      "market": "Mananthavady Market",
+      "district": "Wayanad",
+      "date": "2026-09-05",
+      "min_price": 1200.0,
+      "max_price": 1300.0,
+      "modal_price": 1300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-4ccfb3938c",
+      "market": "Chelakkara Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 2800.0,
+      "max_price": 3000.0,
+      "modal_price": 2900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-48a9fad594",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-05",
+      "min_price": 1200.0,
+      "max_price": 2000.0,
+      "modal_price": 1700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-f4b5064e01",
+      "market": "Chathanoor Market",
+      "district": "Kollam",
+      "date": "2026-09-05",
+      "min_price": 2800.0,
+      "max_price": 3200.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-8ff417c0e1",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 2000.0,
+      "max_price": 2400.0,
+      "modal_price": 2200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-112b5cf799",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 2500.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-1f4c96b2e8",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 1450.0,
+      "max_price": 1550.0,
+      "modal_price": 1500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-814850fe07",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-05",
+      "min_price": 1300.0,
+      "max_price": 1500.0,
+      "modal_price": 1400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-4adf9a94d0",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 1300.0,
+      "max_price": 1500.0,
+      "modal_price": 1400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-7aa724a76a",
+      "market": "Pothencode Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 4200.0,
+      "max_price": 4300.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "pumpkin-fa0e800a80",
+      "market": "Thamarassery Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-05",
+      "min_price": 1400.0,
+      "max_price": 1500.0,
+      "modal_price": 1400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

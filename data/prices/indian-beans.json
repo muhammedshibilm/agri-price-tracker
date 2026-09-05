@@ -1,7 +1,7 @@
 {
   "product": "indian-beans",
   "product_name": "Indian Beans (Seam)",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -46,6 +46,17 @@
       "min_price": 5500.0,
       "max_price": 6500.0,
       "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-9b1201e454",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-05",
+      "min_price": 2500.0,
+      "max_price": 2700.0,
+      "modal_price": 2600.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

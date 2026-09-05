@@ -1,7 +1,7 @@
 {
   "product": "cauliflower",
   "product_name": "Cauliflower",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -112,6 +112,138 @@
       "min_price": 3700.0,
       "max_price": 4200.0,
       "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-0b725e77fc",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-09-05",
+      "min_price": 3800.0,
+      "max_price": 4200.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-3f30fdec7b",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 5400.0,
+      "max_price": 6400.0,
+      "modal_price": 6400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-3925b38484",
+      "market": "Pothencode Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 4500.0,
+      "max_price": 5000.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-f01509c3b4",
+      "market": "Kattappana Market",
+      "district": "Idukki",
+      "date": "2026-09-05",
+      "min_price": 4500.0,
+      "max_price": 5300.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-0c0970a982",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 9000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-28af17ed05",
+      "market": "Kothamangalam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-1a7c057ebb",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 4000.0,
+      "max_price": 4200.0,
+      "modal_price": 4100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-5ee8c9294f",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 4300.0,
+      "max_price": 4500.0,
+      "modal_price": 4400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-ba2d1ea28d",
+      "market": "Perinthalmanna Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 3500.0,
+      "max_price": 3800.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-bf4bc451e8",
+      "market": "Chelakkara Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 4500.0,
+      "max_price": 5000.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-97960f55dd",
+      "market": "Aroor Market",
+      "district": "Alappuzha",
+      "date": "2026-09-05",
+      "min_price": 5000.0,
+      "max_price": 5200.0,
+      "modal_price": 5100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cauliflower-d1a738d221",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-05",
+      "min_price": 3600.0,
+      "max_price": 3800.0,
+      "modal_price": 3700.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

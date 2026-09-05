@@ -1,7 +1,7 @@
 {
   "product": "lemon",
   "product_name": "Lemon",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -68,6 +68,39 @@
       "min_price": 6000.0,
       "max_price": 7000.0,
       "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-ccbb3c62a7",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 9000.0,
+      "max_price": 10000.0,
+      "modal_price": 10000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-bf8786db52",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 12950.0,
+      "max_price": 13050.0,
+      "modal_price": 13000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-8e6ad5e437",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-05",
+      "min_price": 20000.0,
+      "max_price": 22000.0,
+      "modal_price": 21100.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },

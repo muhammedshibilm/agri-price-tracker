@@ -1,7 +1,7 @@
 {
   "product": "tapioca",
   "product_name": "Tapioca",
-  "generated_at": "2026-09-05T07:03:26.472923Z",
+  "generated_at": "2026-09-05T18:52:10.795449Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -90,6 +90,149 @@
       "min_price": 4300.0,
       "max_price": 4500.0,
       "modal_price": 4400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-a03b672f67",
+      "market": "ARWM Muvattupuzha",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 2200.0,
+      "max_price": 3200.0,
+      "modal_price": 2800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-45aae1d432",
+      "market": "Chelakkara Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 3500.0,
+      "max_price": 3800.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-326ab81a22",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-05",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-fd3ed95a5d",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-05",
+      "min_price": 3100.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-213f9694d2",
+      "market": "Punalur Market",
+      "district": "Kollam",
+      "date": "2026-09-05",
+      "min_price": 5000.0,
+      "max_price": 5500.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-159e2e30f9",
+      "market": "Vamanapuram Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 4500.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-e97b3f4aaf",
+      "market": "Pothencode Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 3500.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-ba006c274c",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-5b63e17ffe",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-05",
+      "min_price": 2350.0,
+      "max_price": 2450.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-16606afcb6",
+      "market": "Mananthavady Market",
+      "district": "Wayanad",
+      "date": "2026-09-05",
+      "min_price": 2800.0,
+      "max_price": 3000.0,
+      "modal_price": 2900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-021f27a7ab",
+      "market": "Ranniangadi Market",
+      "district": "Pathanamthitta",
+      "date": "2026-09-05",
+      "min_price": 3200.0,
+      "max_price": 3400.0,
+      "modal_price": 3300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-8ea54f9350",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-09-05",
+      "min_price": 2400.0,
+      "max_price": 3600.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "tapioca-e1d2d387c6",
+      "market": "Kovilnada  VFPCK Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-05",
+      "min_price": 2800.0,
+      "max_price": 2800.0,
+      "modal_price": 2800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     },
