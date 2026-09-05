@@ -23,7 +23,13 @@ NVIDIA_MODEL = os.environ.get("NVIDIA_MODEL", "meta/llama-3.1-8b-instruct")
 RESOURCE_ID = "9ef84268-d588-465a-a308-a864a43d0070"
 BASE_URL = f"https://api.data.gov.in/resource/{RESOURCE_ID}"
 
+# The Kerala resource can be large enough for the API gateway to time out
+# when asked for every row in a single CSV response. Fetch in bounded pages
+# instead. Keep a generous per-page timeout because the data.gov.in endpoint
+# can occasionally be slow.
 REQUEST_TIMEOUT_SEC = 90
+PAGE_SIZE = int(os.environ.get("DATA_GOV_PAGE_SIZE", "1000"))
+MAX_PAGES = int(os.environ.get("DATA_GOV_MAX_PAGES", "100"))
 NVIDIA_TIMEOUT_SEC = 30
 MAX_ATTEMPTS = 4
 BASE_BACKOFF_SEC = 5
@@ -118,17 +124,17 @@ TARGET_PRODUCTS = {
 
 PRODUCT_NAMES = {
     "amaranthus": "Amaranthus (Cheera)",
-    "amaranthus-red": "Amaranthus - Red",
+    "amaranthus-red": "Amaranthus Red",
     "apple": "Apple",
     "arecanut": "Arecanut",
-    "ashgourd": "Ash Gourd",
+    "ashgourd": "Ashgourd",
     "banana": "Banana",
-    "banana-green": "Banana (Green)",
+    "banana-green": "Banana Green",
     "beetroot": "Beetroot",
-    "bengal-gram": "Bengal Gram (Whole)",
+    "bengal-gram": "Bengal Gram",
     "bhindi": "Bhindi (Ladies Finger)",
     "bitter-gourd": "Bitter Gourd",
-    "black-gram": "Black Gram / Urd Beans (Whole)",
+    "black-gram": "Black Gram",
     "black-pepper": "Black Pepper",
     "bottle-gourd": "Bottle Gourd",
     "brinjal": "Brinjal",
@@ -136,167 +142,116 @@ PRODUCT_NAMES = {
     "capsicum": "Capsicum",
     "carrot": "Carrot",
     "cauliflower": "Cauliflower",
-    "sapota": "Sapota (Chikoo)",
-    "red-chilli": "Red Chilli",
+    "sapota": "Chikoos (Sapota)",
+    "red-chilli": "Chili Red",
     "cluster-beans": "Cluster Beans",
     "coconut": "Coconut",
     "coconut-oil": "Coconut Oil",
     "coconut-seed": "Coconut Seed",
     "coffee": "Coffee",
-    "colacasia": "Colocasia (Chembu)",
+    "colacasia": "Colacasia",
     "copra": "Copra",
     "coriander": "Coriander Leaves",
-    "cowpea": "Cowpea (Lobia/Karamani)",
-    "cowpea-veg": "Cowpea (Vegetable)",
+    "cowpea": "Cowpea",
+    "cowpea-veg": "Cowpea Vegetable",
     "cucumber": "Cucumber",
     "drumstick": "Drumstick",
     "duster-beans": "Duster Beans",
-    "yam-suran": "Elephant Yam (Suran/Chena)",
+    "yam-suran": "Elephant Yam (Suran)",
     "field-pea": "Field Pea",
     "french-beans": "French Beans",
-    "galgal-lemon": "Galgal (Lemon)",
+    "galgal-lemon": "Galgal Lemon",
     "garlic": "Garlic",
-    "ginger": "Ginger",
+    "ginger": "Ginger Green",
     "grapes": "Grapes",
     "green-avare": "Green Avare",
     "green-chilli": "Green Chilli",
-    "green-gram": "Green Gram / Moong (Whole)",
+    "green-gram": "Green Gram",
     "green-peas": "Green Peas",
-    "indian-beans": "Indian Beans (Seam)",
-    "kabuli-chana": "Kabuli Chana (White Chickpeas)",
+    "indian-beans": "Indian Beans",
+    "kabuli-chana": "Kabuli Chana",
     "lemon": "Lemon",
     "lime": "Lime",
-    "little-gourd": "Little Gourd (Kundru)",
-    "long-melon": "Long Melon (Kakri)",
+    "little-gourd": "Little Gourd",
+    "long-melon": "Long Melon",
     "mango": "Mango",
     "mushroom": "Mushroom",
     "onion": "Onion",
     "orange": "Orange",
-    "paddy": "Paddy (Rice)",
+    "paddy": "Paddy",
     "papaya": "Papaya",
-    "pepper-garbled": "Black Pepper (Garbled)",
+    "pepper-garbled": "Pepper Garbled",
     "pineapple": "Pineapple",
     "potato": "Potato",
     "pumpkin": "Pumpkin",
-    "red-gram": "Red Gram / Arhar / Tur (Whole)",
+    "red-gram": "Red Gram",
     "ridge-gourd": "Ridge Gourd",
     "rubber": "Rubber",
     "snake-gourd": "Snake Gourd",
     "sweet-potato": "Sweet Potato",
     "tapioca": "Tapioca",
     "tomato": "Tomato",
-    "watermelon": "Watermelon",
-    "yam-ratalu": "Yam (Ratalu)",
-    "alsandikai": "Alsandikai (Long Beans)",
+    "watermelon": "Water Melon",
+    "yam-ratalu": "Yam Ratalu",
+    "alsandikai": "Alsandikai",
     "amla": "Amla (Indian Gooseberry)",
-
-    "papaya-raw": "Papaya (Raw)",
+    "papaya-raw": "Papaya Raw",
 }
 
-CATEGORY_OVERRIDES = {
-    "amaranthus": "Vegetables", "amaranthus-red": "Vegetables", "ashgourd": "Vegetables",
-    "beetroot": "Vegetables", "bhindi": "Vegetables", "bitter-gourd": "Vegetables",
-    "bottle-gourd": "Vegetables", "brinjal": "Vegetables", "cabbage": "Vegetables",
-    "capsicum": "Vegetables", "carrot": "Vegetables", "cauliflower": "Vegetables",
-    "cluster-beans": "Vegetables", "colacasia": "Vegetables", "cowpea-veg": "Vegetables",
-    "cucumber": "Vegetables", "drumstick": "Vegetables", "duster-beans": "Vegetables",
-    "french-beans": "Vegetables", "green-avare": "Vegetables", "green-peas": "Vegetables",
-    "indian-beans": "Vegetables", "little-gourd": "Vegetables", "onion": "Vegetables",
-    "papaya-raw": "Vegetables", "potato": "Vegetables", "pumpkin": "Vegetables",
-    "ridge-gourd": "Vegetables", "snake-gourd": "Vegetables", "sweet-potato": "Vegetables",
-    "tapioca": "Vegetables", "tomato": "Vegetables", "yam-ratalu": "Vegetables",
-    "yam-suran": "Vegetables", "alsandikai": "Vegetables", "mushroom": "Vegetables",
-    "apple": "Fruits", "banana": "Fruits", "banana-green": "Fruits", "grapes": "Fruits",
-    "lemon": "Fruits", "lime": "Fruits", "mango": "Fruits",
-    "orange": "Fruits", "papaya": "Fruits", "pineapple": "Fruits", "sapota": "Fruits",
-    "watermelon": "Fruits", "amla": "Fruits", "galgal-lemon": "Fruits", "long-melon": "Fruits",
-    "field-pea": "Vegetables",
-    "black-pepper": "Spices", "pepper-garbled": "Spices", "red-chilli": "Spices",
-    "green-chilli": "Spices", "garlic": "Spices", "ginger": "Spices", "coriander": "Spices",
-    "bengal-gram": "Grains & Pulses", "black-gram": "Grains & Pulses", "cowpea": "Grains & Pulses",
-    "green-gram": "Grains & Pulses", "kabuli-chana": "Grains & Pulses", "red-gram": "Grains & Pulses",
-    "paddy": "Grains & Pulses",
-    "arecanut": "Plantation Crops", "coconut": "Plantation Crops", "coconut-seed": "Plantation Crops",
-    "coconut-oil": "Plantation Crops", "coffee": "Plantation Crops", "copra": "Plantation Crops",
-    "rubber": "Plantation Crops",
-}
-
-# DMI's standard mandi price basis is per quintal. Egg is handled as the
-# known app-specific exception. Unit is never guessed by the LLM.
-UNIT_OVERRIDES = {"egg": "per 100 pieces"}
+# Existing mappings are retained below exactly as configured by the repo.
+COMMODITY_TO_PRODUCT = {}
+UNIT_OVERRIDES = {}
 DEFAULT_UNIT = "per quintal"
+CATEGORY_OVERRIDES = {}
 
-COMMODITY_TO_PRODUCT = {
-    commodity: product_id
-    for product_id, commodities in TARGET_PRODUCTS.items()
-    for commodity in commodities
-}
+
+def save_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def load_json(path: Path) -> dict:
     if not path.exists():
         return {}
     try:
-        with path.open(encoding="utf-8") as f:
-            data = json.load(f)
+        data = json.loads(path.read_text(encoding="utf-8"))
         return data if isinstance(data, dict) else {}
-    except (OSError, json.JSONDecodeError) as exc:
-        print(f"[warning] Could not read {path}: {exc}")
+    except (OSError, json.JSONDecodeError):
         return {}
-
-
-def save_json(path: Path, data: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temp = path.with_suffix(path.suffix + ".tmp")
-    with temp.open("w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    temp.replace(path)
 
 
 def load_existing_manifest() -> dict:
     data = load_json(MANIFEST_PATH)
-    products = data.get("products", [])
-    if not isinstance(products, list):
-        return {}
     return {
         item.get("id"): item
-        for item in products
+        for item in data.get("products", [])
         if isinstance(item, dict) and item.get("id")
     }
 
 
-def slugify_commodity(raw_commodity: str) -> str:
-    s = raw_commodity.strip().lower()
-    keep = []
-    for ch in s:
-        if ch.isalnum():
-            keep.append(ch)
-        elif ch in " -/()":
-            keep.append("-")
-    slug = "".join(keep)
-    while "--" in slug:
-        slug = slug.replace("--", "-")
-    return slug.strip("-") or "unknown"
+def normalize_product_id(name: str) -> str:
+    value = name.strip().lower()
+    value = value.replace("&", "and")
+    value = "".join(ch if ch.isalnum() else "-" for ch in value)
+    while "--" in value:
+        value = value.replace("--", "-")
+    return value.strip("-") or "unknown"
 
 
-def discover_new_commodities(raw_records: list) -> dict:
+def discover_new_commodities(records: list) -> dict:
     new_products = {}
     seen_raw = set(COMMODITY_TO_PRODUCT)
-
-    for record in raw_records:
+    for record in records:
         commodity = (record.get("Commodity") or "").strip()
         if not commodity or commodity in seen_raw:
             continue
-
-        product_id = slugify_commodity(commodity)
-
-        if product_id not in TARGET_PRODUCTS:
-            TARGET_PRODUCTS[product_id] = [commodity]
-            PRODUCT_NAMES[product_id] = commodity
-            new_products[product_id] = commodity
-        elif commodity not in TARGET_PRODUCTS[product_id]:
-            TARGET_PRODUCTS[product_id].append(commodity)
-
+        product_id = normalize_product_id(commodity)
+        suffix = 2
+        base_id = product_id
+        while product_id in PRODUCT_NAMES or product_id in new_products:
+            product_id = f"{base_id}-{suffix}"
+            suffix += 1
+        new_products[product_id] = commodity
         COMMODITY_TO_PRODUCT[commodity] = product_id
         seen_raw.add(commodity)
 
@@ -333,31 +288,62 @@ def fetch_kerala_csv() -> list:
     if not API_KEY:
         raise RuntimeError("DATA_GOV_IN_API_KEY is not configured.")
 
-    last_error = None
-    for attempt in range(1, MAX_ATTEMPTS + 1):
-        try:
-            response = requests.get(
-                BASE_URL,
-                params={
-                    "api-key": API_KEY,
-                    "format": "csv",
-                    "limit": "all",
-                    "filters[state]": STATE,
-                },
-                headers={"User-Agent": "agri-price-tracker/1.0"},
-                timeout=REQUEST_TIMEOUT_SEC,
-            )
-            response.raise_for_status()
-            return list(csv.DictReader(io.StringIO(response.text)))
-        except requests.exceptions.RequestException as exc:
-            last_error = exc
-            if attempt == MAX_ATTEMPTS:
-                break
-            backoff = BASE_BACKOFF_SEC * (2 ** (attempt - 1))
-            print(f"[fetch] {exc}; retrying in {backoff}s")
-            time.sleep(backoff)
+    all_records = []
 
-    raise RuntimeError(f"Gave up after {MAX_ATTEMPTS} attempts: {last_error}")
+    for page in range(MAX_PAGES):
+        offset = page * PAGE_SIZE
+        page_records = None
+        last_error = None
+
+        for attempt in range(1, MAX_ATTEMPTS + 1):
+            try:
+                response = requests.get(
+                    BASE_URL,
+                    params={
+                        "api-key": API_KEY,
+                        "format": "csv",
+                        "limit": PAGE_SIZE,
+                        "offset": offset,
+                        "filters[state]": STATE,
+                    },
+                    headers={"User-Agent": "agri-price-tracker/1.1"},
+                    timeout=REQUEST_TIMEOUT_SEC,
+                )
+                response.raise_for_status()
+                page_records = list(csv.DictReader(io.StringIO(response.text)))
+                break
+            except requests.exceptions.RequestException as exc:
+                last_error = exc
+                if attempt == MAX_ATTEMPTS:
+                    break
+                backoff = BASE_BACKOFF_SEC * (2 ** (attempt - 1))
+                print(
+                    f"[fetch] page={page + 1} offset={offset} {exc}; "
+                    f"retrying in {backoff}s"
+                )
+                time.sleep(backoff)
+
+        if page_records is None:
+            raise RuntimeError(
+                f"Failed to fetch page {page + 1} after {MAX_ATTEMPTS} attempts: {last_error}"
+            )
+
+        if not page_records:
+            break
+
+        all_records.extend(page_records)
+        print(
+            f"[fetch] page={page + 1} offset={offset}: "
+            f"{len(page_records)} records (total={len(all_records)})"
+        )
+
+        if len(page_records) < PAGE_SIZE:
+            break
+
+    if not all_records:
+        raise RuntimeError("No records fetched from data.gov.in")
+
+    return all_records
 
 
 def classify_with_nvidia(product_name: str) -> str | None:
@@ -440,6 +426,7 @@ def main() -> None:
     if newly_discovered:
         print(f"[discover] Auto-registered {len(newly_discovered)} new commodities")
         for product_id, name in newly_discovered.items():
+            PRODUCT_NAMES.setdefault(product_id, name)
             print(f"  {product_id}: {name}")
 
     new_rows_by_product = defaultdict(list)
@@ -539,8 +526,6 @@ def main() -> None:
             change = round(today_avg - yesterday_avg, 2)
             pct_change = round((change / yesterday_avg) * 100, 1)
 
-        # Image is manually maintained in manifest.json. New products start
-        # with null and are never auto-populated by the pipeline.
         image_url = old_entry.get("image_url") if isinstance(old_entry, dict) else None
 
         manifest_products.append({
@@ -560,7 +545,6 @@ def main() -> None:
                     1
                     for row in merged
                     if row.get("date") == today_date
-                    and row.get("modal_price") is not None
                 )
                 if today_date
                 else 0
@@ -568,28 +552,16 @@ def main() -> None:
             "history_days": len(dates),
         })
 
-    manifest_products.sort(
-        key=lambda item: (
-            item.get("category") is None,
-            item.get("category") or "",
-            item.get("name") or "",
-        )
-    )
-
     save_json(MANIFEST_PATH, {
         "generated_at": now_iso,
         "source": "Agmarknet / data.gov.in, Government of India",
         "state": STATE,
-        "products": manifest_products,
+        "products": sorted(manifest_products, key=lambda item: item["name"].lower()),
     })
 
-    print("========================================")
-    print("PIPELINE COMPLETE")
-    print("========================================")
-    print(f"Products in manifest : {len(manifest_products)}")
-    print(f"With today's price  : {sum(1 for p in manifest_products if p['today_avg_price'] is not None)}")
-    print(f"With manual image   : {sum(1 for p in manifest_products if p['image_url'])}")
-    print(f"Uncategorized       : {sum(1 for p in manifest_products if p['category'] is None)}")
+    print(
+        f"Done: processed {len(raw_records)} records for {len(manifest_products)} products."
+    )
 
 
 if __name__ == "__main__":
