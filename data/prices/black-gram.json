@@ -1,7 +1,7 @@
 {
   "product": "black-gram",
   "product_name": "Black Gram / Urd Beans (Whole)",
-  "generated_at": "2026-09-05T18:52:10.795449Z",
+  "generated_at": "2026-09-06T18:55:48.164337Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -79,28 +79,6 @@
       "min_price": 11200.0,
       "max_price": 13600.0,
       "modal_price": 12400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-gram-b4666f9088",
-      "market": "Neeleswaram Market",
-      "district": "Kasargod",
-      "date": "2026-08-29",
-      "min_price": 13200.0,
-      "max_price": 13600.0,
-      "modal_price": 13400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-gram-7d1e281b57",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-08-29",
-      "min_price": 12000.0,
-      "max_price": 13000.0,
-      "modal_price": 12600.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

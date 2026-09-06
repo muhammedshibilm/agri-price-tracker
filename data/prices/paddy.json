@@ -1,7 +1,7 @@
 {
   "product": "paddy",
   "product_name": "Paddy (Rice)",
-  "generated_at": "2026-09-05T18:52:10.795449Z",
+  "generated_at": "2026-09-06T18:55:48.164337Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -68,17 +68,6 @@
       "min_price": 2400.0,
       "max_price": 2600.0,
       "modal_price": 2500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "paddy-f9d981eb2c",
-      "market": "Pulpally Market",
-      "district": "Wayanad",
-      "date": "2026-08-29",
-      "min_price": 3210.0,
-      "max_price": 3230.0,
-      "modal_price": 3220.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

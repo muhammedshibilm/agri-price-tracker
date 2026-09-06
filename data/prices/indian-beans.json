@@ -1,10 +1,21 @@
 {
   "product": "indian-beans",
   "product_name": "Indian Beans (Seam)",
-  "generated_at": "2026-09-05T18:52:10.795449Z",
+  "generated_at": "2026-09-06T18:55:48.164337Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "indian-beans-752fbfafa3",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-06",
+      "min_price": 2500.0,
+      "max_price": 2700.0,
+      "modal_price": 2600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "indian-beans-166d569f02",
       "market": "Thrippunithura Market",
@@ -241,50 +252,6 @@
       "market": "Kayamkulam Market",
       "district": "Alappuzha",
       "date": "2026-08-31",
-      "min_price": 2500.0,
-      "max_price": 2700.0,
-      "modal_price": 2600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "indian-beans-33031a98f9",
-      "market": "Thrippunithura Market",
-      "district": "Ernakulam",
-      "date": "2026-08-29",
-      "min_price": 6500.0,
-      "max_price": 8000.0,
-      "modal_price": 6800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "indian-beans-08f2c13224",
-      "market": "Manjeswaram Market",
-      "district": "Kasargod",
-      "date": "2026-08-29",
-      "min_price": 8000.0,
-      "max_price": 10000.0,
-      "modal_price": 9000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "indian-beans-f693ea1979",
-      "market": "Perumbavoor Market",
-      "district": "Ernakulam",
-      "date": "2026-08-29",
-      "min_price": 7000.0,
-      "max_price": 8000.0,
-      "modal_price": 7500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "indian-beans-a8299637a8",
-      "market": "Kayamkulam Market",
-      "district": "Alappuzha",
-      "date": "2026-08-29",
       "min_price": 2500.0,
       "max_price": 2700.0,
       "modal_price": 2600.0,

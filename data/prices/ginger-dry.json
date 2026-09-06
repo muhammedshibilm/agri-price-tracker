@@ -1,9 +1,21 @@
 {
   "product": "ginger-dry",
   "product_name": "Ginger(Dry)",
-  "generated_at": "2026-09-02T20:31:41.292272Z",
+  "generated_at": "2026-09-06T18:55:48.164337Z",
   "state": "Keralam",
+  "unit": "per quintal",
   "history": [
+    {
+      "id": "ginger-dry-a72d6d76bf",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-06",
+      "min_price": 14500.0,
+      "max_price": 14900.0,
+      "modal_price": 14700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "ginger-dry-bdd16a8f92",
       "market": "Koduvayoor Market",

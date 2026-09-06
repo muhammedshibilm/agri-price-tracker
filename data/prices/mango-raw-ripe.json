@@ -1,10 +1,65 @@
 {
   "product": "mango-raw-ripe",
   "product_name": "Mango(Raw-Ripe)",
-  "generated_at": "2026-09-05T18:52:10.795449Z",
+  "generated_at": "2026-09-06T18:55:48.164337Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "mango-raw-ripe-34e412f2a2",
+      "market": "Ettumanoor Market",
+      "district": "Kottayam",
+      "date": "2026-09-06",
+      "min_price": 4000.0,
+      "max_price": 4400.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-018f8705b3",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-06",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-8e967f3e2f",
+      "market": "Pothencode Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-06",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-b2dc9e4ded",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-06",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mango-raw-ripe-1bfd06122a",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-06",
+      "min_price": 6600.0,
+      "max_price": 7000.0,
+      "modal_price": 6800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "mango-raw-ripe-84f4f4fef8",
       "market": "Chengannur Market",

@@ -1,7 +1,7 @@
 {
   "product": "red-chilli",
   "product_name": "Red Chilli",
-  "generated_at": "2026-09-05T18:52:10.795449Z",
+  "generated_at": "2026-09-06T18:55:48.164337Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -54,17 +54,6 @@
       "market": "Palakkad Market",
       "district": "Palakad",
       "date": "2026-08-31",
-      "min_price": 27000.0,
-      "max_price": 29000.0,
-      "modal_price": 28100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "red-chilli-b51171b524",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-08-29",
       "min_price": 27000.0,
       "max_price": 29000.0,
       "modal_price": 28100.0,
