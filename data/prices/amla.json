@@ -1,10 +1,21 @@
 {
   "product": "amla",
   "product_name": "Amla (Indian Gooseberry)",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "amla-46e21dbc80",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-07",
+      "min_price": 8300.0,
+      "max_price": 9000.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "amla-087c3de16d",
       "market": "North Paravur Market",

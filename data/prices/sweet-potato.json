@@ -1,10 +1,54 @@
 {
   "product": "sweet-potato",
   "product_name": "Sweet Potato",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "sweet-potato-f025bce626",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-07",
+      "min_price": 3000.0,
+      "max_price": 3000.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "sweet-potato-8694e8f1f7",
+      "market": "Pattambi Market",
+      "district": "Palakad",
+      "date": "2026-09-07",
+      "min_price": 4500.0,
+      "max_price": 5000.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "sweet-potato-6ce24a1ac2",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-07",
+      "min_price": 5500.0,
+      "max_price": 6500.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "sweet-potato-daa4110b2f",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-07",
+      "min_price": 5200.0,
+      "max_price": 6000.0,
+      "modal_price": 5700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "sweet-potato-78a759b512",
       "market": "Koduvayoor Market",
@@ -288,28 +332,6 @@
       "min_price": 5000.0,
       "max_price": 6000.0,
       "modal_price": 5600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "sweet-potato-63a7c6380f",
-      "market": "Sasthamkotta Market",
-      "district": "Kollam",
-      "date": "2026-08-30",
-      "min_price": 4000.0,
-      "max_price": 4000.0,
-      "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "sweet-potato-8dca2cd32b",
-      "market": "Balarampuram Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-08-30",
-      "min_price": 5000.0,
-      "max_price": 5000.0,
-      "modal_price": 5000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

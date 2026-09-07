@@ -1,10 +1,32 @@
 {
   "product": "orange",
   "product_name": "Orange",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "orange-47d565d416",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-07",
+      "min_price": 10000.0,
+      "max_price": 11500.0,
+      "modal_price": 10500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "orange-e8f5e7b637",
+      "market": "Chala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-07",
+      "min_price": 10000.0,
+      "max_price": 11500.0,
+      "modal_price": 11000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "orange-ccdf01e443",
       "market": "Mukkom Market",

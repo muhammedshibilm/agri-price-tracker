@@ -1,10 +1,32 @@
 {
   "product": "duster-beans",
   "product_name": "Duster Beans",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "duster-beans-e94c85da94",
+      "market": "Chelakkara Market",
+      "district": "Thirssur",
+      "date": "2026-09-07",
+      "min_price": 8000.0,
+      "max_price": 8400.0,
+      "modal_price": 8200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "duster-beans-61d331a7d1",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-07",
+      "min_price": 5400.0,
+      "max_price": 6000.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "duster-beans-4a00cbd583",
       "market": "Neyyatinkara Market",

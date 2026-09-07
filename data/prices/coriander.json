@@ -1,10 +1,43 @@
 {
   "product": "coriander",
   "product_name": "Coriander Leaves",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coriander-07f6e393b3",
+      "market": "Quilandy Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-07",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coriander-8ac3f57b4e",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-07",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coriander-00228938ed",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-07",
+      "min_price": 8000.0,
+      "max_price": 10000.0,
+      "modal_price": 9000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coriander-7b238d709c",
       "market": "Piravam Market",

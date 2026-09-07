@@ -1,10 +1,21 @@
 {
   "product": "alsandikai",
   "product_name": "Alsandikai (Long Beans)",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "alsandikai-34517f7eb7",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-07",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "alsandikai-c3d79a96c9",
       "market": "North Paravur Market",

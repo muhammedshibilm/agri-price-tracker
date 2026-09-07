@@ -1,10 +1,32 @@
 {
   "product": "coffee",
   "product_name": "Coffee",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coffee-7f7d091aa5",
+      "market": "Sultan bathery Market",
+      "district": "Wayanad",
+      "date": "2026-09-07",
+      "min_price": 21295.0,
+      "max_price": 21300.0,
+      "modal_price": 21300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coffee-a9139a763a",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-09-07",
+      "min_price": 21400.0,
+      "max_price": 21600.0,
+      "modal_price": 21500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coffee-e777dcd0c9",
       "market": "Pulpally Market",

@@ -1,10 +1,76 @@
 {
   "product": "black-pepper",
   "product_name": "Black Pepper",
-  "generated_at": "2026-09-06T18:55:48.164337Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "black-pepper-14a9675386",
+      "market": "Sultan bathery Market",
+      "district": "Wayanad",
+      "date": "2026-09-07",
+      "min_price": 68495.0,
+      "max_price": 68500.0,
+      "modal_price": 68500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-8c25428c75",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-07",
+      "min_price": 70000.0,
+      "max_price": 80000.0,
+      "modal_price": 75000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-6b6b22b4ca",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-07",
+      "min_price": 60000.0,
+      "max_price": 60200.0,
+      "modal_price": 60100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-eb3c0bb433",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-07",
+      "min_price": 65000.0,
+      "max_price": 70000.0,
+      "modal_price": 67500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-1309cea786",
+      "market": "Irikkur Market",
+      "district": "Kannur",
+      "date": "2026-09-07",
+      "min_price": 67300.0,
+      "max_price": 67500.0,
+      "modal_price": 67400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-2b6f21329c",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-07",
+      "min_price": 65600.0,
+      "max_price": 66500.0,
+      "modal_price": 66000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "black-pepper-a06040c468",
       "market": "Pulpally Market",

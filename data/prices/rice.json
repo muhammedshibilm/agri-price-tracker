@@ -1,10 +1,21 @@
 {
   "product": "rice",
   "product_name": "Rice",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-07T20:23:31.621215Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "rice-2872a696ad",
+      "market": "Kottayam Market",
+      "district": "Kottayam",
+      "date": "2026-09-07",
+      "min_price": 4400.0,
+      "max_price": 5200.0,
+      "modal_price": 4900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "rice-2121a60875",
       "market": "Kottayam Market",
