@@ -1,10 +1,32 @@
 {
   "product": "ridge-gourd",
   "product_name": "Ridge Gourd",
-  "generated_at": "2026-09-07T20:23:31.621215Z",
+  "generated_at": "2026-09-08T19:46:21.152483Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "ridge-gourd-8d45ce671f",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-08",
+      "min_price": 5500.0,
+      "max_price": 6500.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ridge-gourd-114ae0316e",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-08",
+      "min_price": 5700.0,
+      "max_price": 6400.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "ridge-gourd-28ce9b0e5f",
       "market": "North Paravur Market",
@@ -208,39 +230,6 @@
       "market": "Pullur Periya  VFPCK Market",
       "district": "Kasargod",
       "date": "2026-09-01",
-      "min_price": 2800.0,
-      "max_price": 3000.0,
-      "modal_price": 2900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ridge-gourd-e20757c3b3",
-      "market": "Manjeswaram Market",
-      "district": "Kasargod",
-      "date": "2026-08-31",
-      "min_price": 5000.0,
-      "max_price": 7000.0,
-      "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ridge-gourd-4874a078f3",
-      "market": "vadakarapathy Market",
-      "district": "Palakad",
-      "date": "2026-08-31",
-      "min_price": 3000.0,
-      "max_price": 3500.0,
-      "modal_price": 3300.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ridge-gourd-7551330f8d",
-      "market": "Pullur Periya  VFPCK Market",
-      "district": "Kasargod",
-      "date": "2026-08-31",
       "min_price": 2800.0,
       "max_price": 3000.0,
       "modal_price": 2900.0,

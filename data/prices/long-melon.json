@@ -1,10 +1,32 @@
 {
   "product": "long-melon",
   "product_name": "Long Melon (Kakri)",
-  "generated_at": "2026-09-07T20:23:31.621215Z",
+  "generated_at": "2026-09-08T19:46:21.152483Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "long-melon-b4f0e81157",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-08",
+      "min_price": 3300.0,
+      "max_price": 3800.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "long-melon-a102525309",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-08",
+      "min_price": 3950.0,
+      "max_price": 4050.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "long-melon-5bf6a88a22",
       "market": "Kanjangadu Market",
@@ -189,28 +211,6 @@
       "min_price": 2800.0,
       "max_price": 3000.0,
       "modal_price": 2900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "long-melon-df86f05b4a",
-      "market": "Manjeswaram Market",
-      "district": "Kasargod",
-      "date": "2026-08-31",
-      "min_price": 6000.0,
-      "max_price": 8000.0,
-      "modal_price": 7000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "long-melon-0d371fd800",
-      "market": "Pullur Periya  VFPCK Market",
-      "district": "Kasargod",
-      "date": "2026-08-31",
-      "min_price": 2300.0,
-      "max_price": 2500.0,
-      "modal_price": 2400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

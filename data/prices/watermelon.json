@@ -1,10 +1,32 @@
 {
   "product": "watermelon",
   "product_name": "Watermelon",
-  "generated_at": "2026-09-07T20:23:31.621215Z",
+  "generated_at": "2026-09-08T19:46:21.152483Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "watermelon-97e45f38ae",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-08",
+      "min_price": 1750.0,
+      "max_price": 1850.0,
+      "modal_price": 1800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "watermelon-1b36fe9989",
+      "market": "Perinthalmanna Market",
+      "district": "Malappuram",
+      "date": "2026-09-08",
+      "min_price": 1900.0,
+      "max_price": 2400.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "watermelon-7d74a753cb",
       "market": "Manjeri Market",
@@ -65,17 +87,6 @@
       "market": "Manjeri Market",
       "district": "Malappuram",
       "date": "2026-09-01",
-      "min_price": 1150.0,
-      "max_price": 1250.0,
-      "modal_price": 1200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "watermelon-8f4df18c1f",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-08-31",
       "min_price": 1150.0,
       "max_price": 1250.0,
       "modal_price": 1200.0,

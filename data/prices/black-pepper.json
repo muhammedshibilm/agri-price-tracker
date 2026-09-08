@@ -1,10 +1,131 @@
 {
   "product": "black-pepper",
   "product_name": "Black Pepper",
-  "generated_at": "2026-09-07T20:23:31.621215Z",
+  "generated_at": "2026-09-08T19:46:21.152483Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "black-pepper-62aee57c60",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-09-08",
+      "min_price": 68600.0,
+      "max_price": 68800.0,
+      "modal_price": 68700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-b9a9f3515b",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-08",
+      "min_price": 65000.0,
+      "max_price": 70000.0,
+      "modal_price": 67500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-d00d30d3a1",
+      "market": "Sultan bathery Market",
+      "district": "Wayanad",
+      "date": "2026-09-08",
+      "min_price": 68495.0,
+      "max_price": 68500.0,
+      "modal_price": 68500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-ba4dfca047",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-08",
+      "min_price": 66950.0,
+      "max_price": 67050.0,
+      "modal_price": 67000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-3f88858c04",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-08",
+      "min_price": 68000.0,
+      "max_price": 70000.0,
+      "modal_price": 69000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-e53492509e",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-08",
+      "min_price": 70000.0,
+      "max_price": 80000.0,
+      "modal_price": 75000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-0c3bc78612",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-08",
+      "min_price": 80000.0,
+      "max_price": 90000.0,
+      "modal_price": 85000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-8847e737e8",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-08",
+      "min_price": 60000.0,
+      "max_price": 60500.0,
+      "modal_price": 60200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-02d430c01b",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-08",
+      "min_price": 65700.0,
+      "max_price": 66600.0,
+      "modal_price": 66000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-693600b34d",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-09-08",
+      "min_price": 65000.0,
+      "max_price": 67000.0,
+      "modal_price": 66000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-ce6f52175a",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-09-08",
+      "min_price": 65000.0,
+      "max_price": 67000.0,
+      "modal_price": 66000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "black-pepper-14a9675386",
       "market": "Sultan bathery Market",
@@ -398,94 +519,6 @@
       "min_price": 67500.0,
       "max_price": 69500.0,
       "modal_price": 68500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-c994bc6591",
-      "market": "Kannur Market",
-      "district": "Kannur",
-      "date": "2026-08-31",
-      "min_price": 65500.0,
-      "max_price": 67500.0,
-      "modal_price": 66500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-6f39e10b95",
-      "market": "Payyannur Market",
-      "district": "Kannur",
-      "date": "2026-08-31",
-      "min_price": 66000.0,
-      "max_price": 68000.0,
-      "modal_price": 67000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-bced4b8430",
-      "market": "Kalpetta Market",
-      "district": "Wayanad",
-      "date": "2026-08-31",
-      "min_price": 67500.0,
-      "max_price": 69500.0,
-      "modal_price": 68500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-eef65fe0a8",
-      "market": "Mananthavady Market",
-      "district": "Wayanad",
-      "date": "2026-08-31",
-      "min_price": 68600.0,
-      "max_price": 68700.0,
-      "modal_price": 68700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-f31c8e6527",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-08-31",
-      "min_price": 65000.0,
-      "max_price": 70000.0,
-      "modal_price": 67500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-af2c09452b",
-      "market": "Kasargod Market",
-      "district": "Kasargod",
-      "date": "2026-08-31",
-      "min_price": 60000.0,
-      "max_price": 60500.0,
-      "modal_price": 60200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-22c3ef1672",
-      "market": "Sultan bathery Market",
-      "district": "Wayanad",
-      "date": "2026-08-31",
-      "min_price": 68495.0,
-      "max_price": 68500.0,
-      "modal_price": 68500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-f78094ee69",
-      "market": "Pulpally Market",
-      "district": "Wayanad",
-      "date": "2026-08-31",
-      "min_price": 67800.0,
-      "max_price": 68000.0,
-      "modal_price": 67900.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }
