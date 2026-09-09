@@ -1,10 +1,32 @@
 {
   "product": "long-melon",
   "product_name": "Long Melon (Kakri)",
-  "generated_at": "2026-09-08T19:46:21.152483Z",
+  "generated_at": "2026-09-09T19:37:34.435458Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "long-melon-4106de94f9",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-09",
+      "min_price": 3300.0,
+      "max_price": 3800.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "long-melon-ded737c523",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-09",
+      "min_price": 3500.0,
+      "max_price": 4500.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "long-melon-b4f0e81157",
       "market": "Kanjangadu Market",
@@ -178,39 +200,6 @@
       "min_price": 1800.0,
       "max_price": 2200.0,
       "modal_price": 2000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "long-melon-386dc6bbda",
-      "market": "Kollam Market",
-      "district": "Kollam",
-      "date": "2026-09-01",
-      "min_price": 1800.0,
-      "max_price": 2200.0,
-      "modal_price": 2000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "long-melon-57048769c2",
-      "market": "Kanjangadu Market",
-      "district": "Kasargod",
-      "date": "2026-09-01",
-      "min_price": 2700.0,
-      "max_price": 3400.0,
-      "modal_price": 3000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "long-melon-d8ff605dae",
-      "market": "Madikai  VFPCK Market",
-      "district": "Kasargod",
-      "date": "2026-09-01",
-      "min_price": 2800.0,
-      "max_price": 3000.0,
-      "modal_price": 2900.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

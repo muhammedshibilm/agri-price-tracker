@@ -1,0 +1,20 @@
+{
+  "product": "nutmeg",
+  "product_name": "Nutmeg",
+  "generated_at": "2026-09-09T19:37:34.435458Z",
+  "state": "Keralam",
+  "unit": "per quintal",
+  "history": [
+    {
+      "id": "nutmeg-b24835f579",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-09",
+      "min_price": 89800.0,
+      "max_price": 90000.0,
+      "modal_price": 90000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

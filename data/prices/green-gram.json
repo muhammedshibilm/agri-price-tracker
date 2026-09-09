@@ -1,10 +1,21 @@
 {
   "product": "green-gram",
   "product_name": "Green Gram / Moong (Whole)",
-  "generated_at": "2026-09-08T19:46:21.152483Z",
+  "generated_at": "2026-09-09T19:37:34.435458Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "green-gram-e6554f7d4b",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-09",
+      "min_price": 11000.0,
+      "max_price": 12500.0,
+      "modal_price": 11800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "green-gram-e392633a16",
       "market": "Kottayam Market",
@@ -87,17 +98,6 @@
       "market": "Palakkad Market",
       "district": "Palakad",
       "date": "2026-09-02",
-      "min_price": 11000.0,
-      "max_price": 12500.0,
-      "modal_price": 11800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-gram-cda41ebc33",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-01",
       "min_price": 11000.0,
       "max_price": 12500.0,
       "modal_price": 11800.0,
