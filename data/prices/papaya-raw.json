@@ -1,10 +1,21 @@
 {
   "product": "papaya-raw",
   "product_name": "Papaya (Raw)",
-  "generated_at": "2026-09-09T19:37:34.435458Z",
+  "generated_at": "2026-09-10T19:28:46.626912Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "papaya-raw-e95fa89c95",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-10",
+      "min_price": 3000.0,
+      "max_price": 4000.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "papaya-raw-8236257ea4",
       "market": "Piravam Market",
@@ -24,17 +35,6 @@
       "min_price": 4000.0,
       "max_price": 5000.0,
       "modal_price": 4500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "papaya-raw-0bea889014",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-02",
-      "min_price": 5000.0,
-      "max_price": 6000.0,
-      "modal_price": 5500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

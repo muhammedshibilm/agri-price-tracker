@@ -1,0 +1,20 @@
+{
+  "product": "guava",
+  "product_name": "Guava",
+  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "state": "Keralam",
+  "unit": "per quintal",
+  "history": [
+    {
+      "id": "guava-e9c58d836b",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-10",
+      "min_price": 4300.0,
+      "max_price": 4500.0,
+      "modal_price": 4400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    }
+  ]
+}

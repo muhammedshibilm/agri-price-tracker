@@ -1,7 +1,7 @@
 {
   "product": "yam-ratalu",
   "product_name": "Yam (Ratalu)",
-  "generated_at": "2026-09-09T19:37:34.435458Z",
+  "generated_at": "2026-09-10T19:28:46.626912Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -98,28 +98,6 @@
       "market": "Sasthamkotta Market",
       "district": "Kollam",
       "date": "2026-09-03",
-      "min_price": 5000.0,
-      "max_price": 5000.0,
-      "modal_price": 5000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-ratalu-d45c52c458",
-      "market": "Kollam Market",
-      "district": "Kollam",
-      "date": "2026-09-02",
-      "min_price": 6800.0,
-      "max_price": 7500.0,
-      "modal_price": 7200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-ratalu-afa58f94aa",
-      "market": "Sasthamkotta Market",
-      "district": "Kollam",
-      "date": "2026-09-02",
       "min_price": 5000.0,
       "max_price": 5000.0,
       "modal_price": 5000.0,

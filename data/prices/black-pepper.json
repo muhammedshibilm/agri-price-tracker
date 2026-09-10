@@ -1,10 +1,120 @@
 {
   "product": "black-pepper",
   "product_name": "Black Pepper",
-  "generated_at": "2026-09-09T19:37:34.435458Z",
+  "generated_at": "2026-09-10T19:28:46.626912Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "black-pepper-dfdb18d0a4",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-10",
+      "min_price": 80000.0,
+      "max_price": 90000.0,
+      "modal_price": 85000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-f9eea96d12",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-09-10",
+      "min_price": 70000.0,
+      "max_price": 70200.0,
+      "modal_price": 70100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-c60f915851",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-10",
+      "min_price": 68000.0,
+      "max_price": 70000.0,
+      "modal_price": 69000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-d1d26a1de9",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-09-10",
+      "min_price": 66500.0,
+      "max_price": 68500.0,
+      "modal_price": 67500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-e886c73337",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-10",
+      "min_price": 66950.0,
+      "max_price": 67050.0,
+      "modal_price": 67000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-8da1f81506",
+      "market": "Sultan bathery Market",
+      "district": "Wayanad",
+      "date": "2026-09-10",
+      "min_price": 68495.0,
+      "max_price": 68500.0,
+      "modal_price": 68500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-58d3fbd321",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-10",
+      "min_price": 70000.0,
+      "max_price": 80000.0,
+      "modal_price": 75000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-03dede7a6f",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-10",
+      "min_price": 60000.0,
+      "max_price": 60500.0,
+      "modal_price": 60200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-377790b420",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-10",
+      "min_price": 65000.0,
+      "max_price": 70000.0,
+      "modal_price": 67500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-pepper-8735c61f87",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-10",
+      "min_price": 66600.0,
+      "max_price": 67500.0,
+      "modal_price": 67000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "black-pepper-e1b45cb0ee",
       "market": "Pulpally Market",
@@ -475,94 +585,6 @@
       "min_price": 67500.0,
       "max_price": 69500.0,
       "modal_price": 68500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-1a75372bc8",
-      "market": "Kuttoor Market",
-      "district": "Pathanamthitta",
-      "date": "2026-09-02",
-      "min_price": 68600.0,
-      "max_price": 70000.0,
-      "modal_price": 68800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-7da5b9e213",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-02",
-      "min_price": 70000.0,
-      "max_price": 80000.0,
-      "modal_price": 75000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-b2fe9b96ce",
-      "market": "Kalpetta Market",
-      "district": "Wayanad",
-      "date": "2026-09-02",
-      "min_price": 67500.0,
-      "max_price": 69500.0,
-      "modal_price": 68500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-182ae4b190",
-      "market": "Perumbavoor Market",
-      "district": "Ernakulam",
-      "date": "2026-09-02",
-      "min_price": 80000.0,
-      "max_price": 90000.0,
-      "modal_price": 85000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-7abc5c986b",
-      "market": "Kannur Market",
-      "district": "Kannur",
-      "date": "2026-09-02",
-      "min_price": 65000.0,
-      "max_price": 67000.0,
-      "modal_price": 65500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-ca351b108f",
-      "market": "Payyannur Market",
-      "district": "Kannur",
-      "date": "2026-09-02",
-      "min_price": 66000.0,
-      "max_price": 68000.0,
-      "modal_price": 67000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-d46eccd05c",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-09-02",
-      "min_price": 6500.0,
-      "max_price": 70000.0,
-      "modal_price": 67500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-pepper-e8a3108218",
-      "market": "Kasargod Market",
-      "district": "Kasargod",
-      "date": "2026-09-02",
-      "min_price": 60000.0,
-      "max_price": 60500.0,
-      "modal_price": 60200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

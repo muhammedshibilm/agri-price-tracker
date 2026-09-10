@@ -1,10 +1,54 @@
 {
   "product": "arecanut",
   "product_name": "Arecanut",
-  "generated_at": "2026-09-09T19:37:34.435458Z",
+  "generated_at": "2026-09-10T19:28:46.626912Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "arecanut-76754ca589",
+      "market": "Manjeswaram Market",
+      "district": "Kasargod",
+      "date": "2026-09-10",
+      "min_price": 47500.0,
+      "max_price": 47700.0,
+      "modal_price": 47600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "arecanut-1ef3162345",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-10",
+      "min_price": 35000.0,
+      "max_price": 40000.0,
+      "modal_price": 37500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "arecanut-8d336847b0",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-10",
+      "min_price": 42000.0,
+      "max_price": 42500.0,
+      "modal_price": 42200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "arecanut-a15c81142d",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-10",
+      "min_price": 41000.0,
+      "max_price": 41600.0,
+      "modal_price": 41200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "arecanut-23976a5e81",
       "market": "Payyannur Market",
@@ -244,50 +288,6 @@
       "min_price": 35800.0,
       "max_price": 36000.0,
       "modal_price": 35900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "arecanut-0264dbaf5d",
-      "market": "Payyannur Market",
-      "district": "Kannur",
-      "date": "2026-09-02",
-      "min_price": 37000.0,
-      "max_price": 39000.0,
-      "modal_price": 38000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "arecanut-b0c18a914b",
-      "market": "Manjeswaram Market",
-      "district": "Kasargod",
-      "date": "2026-09-02",
-      "min_price": 47000.0,
-      "max_price": 47200.0,
-      "modal_price": 47100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "arecanut-0d3b8c5c0b",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-09-02",
-      "min_price": 35000.0,
-      "max_price": 40000.0,
-      "modal_price": 37500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "arecanut-8d06235bfd",
-      "market": "Kasargod Market",
-      "district": "Kasargod",
-      "date": "2026-09-02",
-      "min_price": 42000.0,
-      "max_price": 42500.0,
-      "modal_price": 42200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }
