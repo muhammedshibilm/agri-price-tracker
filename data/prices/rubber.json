@@ -1,10 +1,21 @@
 {
   "product": "rubber",
   "product_name": "Rubber",
-  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "generated_at": "2026-09-12T19:01:17.979554Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "rubber-fc46d0e94b",
+      "market": "Mananthavady Market",
+      "district": "Wayanad",
+      "date": "2026-09-12",
+      "min_price": 26100.0,
+      "max_price": 26200.0,
+      "modal_price": 26200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "rubber-c2a8d967fd",
       "market": "Kalpetta Market",
@@ -123,50 +134,6 @@
       "min_price": 25800.0,
       "max_price": 26000.0,
       "modal_price": 25900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "rubber-80f810af2e",
-      "market": "Kuttoor Market",
-      "district": "Pathanamthitta",
-      "date": "2026-09-03",
-      "min_price": 28600.0,
-      "max_price": 29000.0,
-      "modal_price": 28800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "rubber-e69c1f9504",
-      "market": "Pulpally Market",
-      "district": "Wayanad",
-      "date": "2026-09-03",
-      "min_price": 26400.0,
-      "max_price": 26600.0,
-      "modal_price": 26500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "rubber-f3dbbf08dd",
-      "market": "Mananthavady Market",
-      "district": "Wayanad",
-      "date": "2026-09-03",
-      "min_price": 26100.0,
-      "max_price": 26200.0,
-      "modal_price": 26200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "rubber-140375eb5e",
-      "market": "Kalpetta Market",
-      "district": "Wayanad",
-      "date": "2026-09-03",
-      "min_price": 25500.0,
-      "max_price": 25700.0,
-      "modal_price": 25600.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

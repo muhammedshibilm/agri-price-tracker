@@ -1,10 +1,54 @@
 {
   "product": "garlic",
   "product_name": "Garlic",
-  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "generated_at": "2026-09-12T19:01:17.979554Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "garlic-673a7091dc",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-12",
+      "min_price": 25500.0,
+      "max_price": 27000.0,
+      "modal_price": 26300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-281b685a59",
+      "market": "Kollengode Market",
+      "district": "Palakad",
+      "date": "2026-09-12",
+      "min_price": 16000.0,
+      "max_price": 20000.0,
+      "modal_price": 18000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-c6395f7152",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-12",
+      "min_price": 21000.0,
+      "max_price": 21400.0,
+      "modal_price": 21200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "garlic-f57006c886",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-12",
+      "min_price": 19600.0,
+      "max_price": 21000.0,
+      "modal_price": 20000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "garlic-2967cab739",
       "market": "Angamaly Market",
@@ -376,72 +420,6 @@
       "min_price": 24000.0,
       "max_price": 26000.0,
       "modal_price": 26000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "garlic-75aa56dacb",
-      "market": "Athirampuzha Market",
-      "district": "Kottayam",
-      "date": "2026-09-03",
-      "min_price": 20000.0,
-      "max_price": 21000.0,
-      "modal_price": 20500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "garlic-d8912f3830",
-      "market": "Angamaly Market",
-      "district": "Ernakulam",
-      "date": "2026-09-03",
-      "min_price": 21000.0,
-      "max_price": 25000.0,
-      "modal_price": 23000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "garlic-beb3e3e807",
-      "market": "Chengannur Market",
-      "district": "Alappuzha",
-      "date": "2026-09-03",
-      "min_price": 21700.0,
-      "max_price": 22300.0,
-      "modal_price": 22000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "garlic-ab07d810c2",
-      "market": "Kollengode Market",
-      "district": "Palakad",
-      "date": "2026-09-03",
-      "min_price": 16000.0,
-      "max_price": 20000.0,
-      "modal_price": 18000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "garlic-6494538ec4",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-03",
-      "min_price": 25000.0,
-      "max_price": 26000.0,
-      "modal_price": 25600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "garlic-eff7fceae7",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-03",
-      "min_price": 20000.0,
-      "max_price": 21500.0,
-      "modal_price": 21000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

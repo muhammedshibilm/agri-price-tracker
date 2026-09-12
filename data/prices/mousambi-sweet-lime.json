@@ -1,10 +1,21 @@
 {
   "product": "mousambi-sweet-lime",
   "product_name": "Mousambi(Sweet Lime)",
-  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "generated_at": "2026-09-12T19:01:17.979554Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "mousambi-sweet-lime-e9ff7b2b5d",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-12",
+      "min_price": 3450.0,
+      "max_price": 3550.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "mousambi-sweet-lime-8e7a5c1abe",
       "market": "Manjeri Market",

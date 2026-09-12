@@ -1,10 +1,32 @@
 {
   "product": "orange",
   "product_name": "Orange",
-  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "generated_at": "2026-09-12T19:01:17.979554Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "orange-4a74a5c273",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-12",
+      "min_price": 10000.0,
+      "max_price": 11000.0,
+      "modal_price": 10500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "orange-6c02edcb53",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-12",
+      "min_price": 7450.0,
+      "max_price": 7550.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "orange-674597accf",
       "market": "Chala Market",
@@ -112,39 +134,6 @@
       "min_price": 10000.0,
       "max_price": 11000.0,
       "modal_price": 10500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "orange-24169d7091",
-      "market": "Thodupuzha Market",
-      "district": "Idukki",
-      "date": "2026-09-03",
-      "min_price": 11300.0,
-      "max_price": 11500.0,
-      "modal_price": 11500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "orange-c6c054e568",
-      "market": "Chala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-03",
-      "min_price": 10000.0,
-      "max_price": 11000.0,
-      "modal_price": 10000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "orange-70bcb13f5d",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-03",
-      "min_price": 10500.0,
-      "max_price": 11500.0,
-      "modal_price": 11000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

@@ -1,10 +1,21 @@
 {
   "product": "coconut-oil",
   "product_name": "Coconut Oil",
-  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "generated_at": "2026-09-12T19:01:17.979554Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coconut-oil-c1c85b265d",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-09-12",
+      "min_price": 29000.0,
+      "max_price": 30000.0,
+      "modal_price": 29500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coconut-oil-f16f53be8c",
       "market": "Kuthuparambu Market",
@@ -241,50 +252,6 @@
       "market": "Kuthuparambu Market",
       "district": "Kannur",
       "date": "2026-09-05",
-      "min_price": 27500.0,
-      "max_price": 29000.0,
-      "modal_price": 28000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-847ec364ba",
-      "market": "Kannur Market",
-      "district": "Kannur",
-      "date": "2026-09-03",
-      "min_price": 29000.0,
-      "max_price": 30000.0,
-      "modal_price": 29500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-c23bba19c5",
-      "market": "Kuttoor Market",
-      "district": "Pathanamthitta",
-      "date": "2026-09-03",
-      "min_price": 31400.0,
-      "max_price": 31800.0,
-      "modal_price": 31600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-f291a7917f",
-      "market": "Kanjangadu Market",
-      "district": "Kasargod",
-      "date": "2026-09-03",
-      "min_price": 29700.0,
-      "max_price": 30500.0,
-      "modal_price": 30000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-527de27e21",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-09-03",
       "min_price": 27500.0,
       "max_price": 29000.0,
       "modal_price": 28000.0,

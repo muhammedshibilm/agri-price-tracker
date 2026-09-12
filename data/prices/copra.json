@@ -1,10 +1,32 @@
 {
   "product": "copra",
   "product_name": "Copra",
-  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "generated_at": "2026-09-12T19:01:17.979554Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "copra-ef06438b3d",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-12",
+      "min_price": 14000.0,
+      "max_price": 14500.0,
+      "modal_price": 14200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "copra-ee61655af6",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-09-12",
+      "min_price": 13900.0,
+      "max_price": 14100.0,
+      "modal_price": 14000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "copra-3add2f76fe",
       "market": "Manjeswaram Market",
@@ -219,50 +241,6 @@
       "market": "Kuthuparambu Market",
       "district": "Kannur",
       "date": "2026-09-05",
-      "min_price": 15000.0,
-      "max_price": 17000.0,
-      "modal_price": 16000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "copra-5ceec42b23",
-      "market": "Payyannur Market",
-      "district": "Kannur",
-      "date": "2026-09-03",
-      "min_price": 13900.0,
-      "max_price": 14100.0,
-      "modal_price": 14000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "copra-09225d0bc8",
-      "market": "Kanjangadu Market",
-      "district": "Kasargod",
-      "date": "2026-09-03",
-      "min_price": 12700.0,
-      "max_price": 13400.0,
-      "modal_price": 13000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "copra-e135816c30",
-      "market": "Manjeswaram Market",
-      "district": "Kasargod",
-      "date": "2026-09-03",
-      "min_price": 17000.0,
-      "max_price": 17200.0,
-      "modal_price": 17100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "copra-6aa2076533",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-09-03",
       "min_price": 15000.0,
       "max_price": 17000.0,
       "modal_price": 16000.0,
