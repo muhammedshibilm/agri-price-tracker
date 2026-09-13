@@ -1,7 +1,7 @@
 {
   "product": "cowpea",
   "product_name": "Cowpea (Lobia/Karamani)",
-  "generated_at": "2026-09-12T19:01:17.979554Z",
+  "generated_at": "2026-09-13T19:13:51.700369Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -54,17 +54,6 @@
       "market": "Palakkad Market",
       "district": "Palakad",
       "date": "2026-09-07",
-      "min_price": 10000.0,
-      "max_price": 12000.0,
-      "modal_price": 11100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cowpea-2a583a0c19",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-05",
       "min_price": 10000.0,
       "max_price": 12000.0,
       "modal_price": 11100.0,

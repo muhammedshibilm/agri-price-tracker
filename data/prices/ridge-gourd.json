@@ -1,7 +1,7 @@
 {
   "product": "ridge-gourd",
   "product_name": "Ridge Gourd",
-  "generated_at": "2026-09-12T19:01:17.979554Z",
+  "generated_at": "2026-09-13T19:13:51.700369Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -156,50 +156,6 @@
       "min_price": 3000.0,
       "max_price": 4000.0,
       "modal_price": 3500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ridge-gourd-6d083485ff",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-05",
-      "min_price": 5500.0,
-      "max_price": 6500.0,
-      "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ridge-gourd-5c157ca534",
-      "market": "Pullur Periya  VFPCK Market",
-      "district": "Kasargod",
-      "date": "2026-09-05",
-      "min_price": 3300.0,
-      "max_price": 3500.0,
-      "modal_price": 3400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ridge-gourd-cae345a53c",
-      "market": "Thodupuzha Market",
-      "district": "Idukki",
-      "date": "2026-09-05",
-      "min_price": 6400.0,
-      "max_price": 6600.0,
-      "modal_price": 6600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ridge-gourd-aa92fb1ff7",
-      "market": "Kanjangadu Market",
-      "district": "Kasargod",
-      "date": "2026-09-05",
-      "min_price": 5800.0,
-      "max_price": 6600.0,
-      "modal_price": 6200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

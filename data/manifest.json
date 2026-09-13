@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:01:17.979554Z",
+  "generated_at": "2026-09-13T19:13:51.700369Z",
   "source": "Agmarknet / data.gov.in, Government of India",
   "state": "Keralam",
   "products": [
@@ -16,7 +16,7 @@
       "change": -2200.0,
       "pct_change": -25.9,
       "market_count": 2,
-      "history_days": 5
+      "history_days": 4
     },
     {
       "id": "apple",
@@ -24,13 +24,13 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/960px-Red_Apple.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 18500.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 21380.0,
-      "change": -2880.0,
-      "pct_change": -13.5,
-      "market_count": 2,
+      "today_date": "2026-09-13",
+      "today_avg_price": 17500.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 18500.0,
+      "change": -1000.0,
+      "pct_change": -5.4,
+      "market_count": 1,
       "history_days": 7
     },
     {
@@ -39,13 +39,13 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cavendish_banana_from_Maracaibo.jpg/960px-Cavendish_banana_from_Maracaibo.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4629.77,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5205.13,
-      "change": -575.36,
-      "pct_change": -11.1,
-      "market_count": 43,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5305.43,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4629.77,
+      "change": 675.66,
+      "pct_change": 14.6,
+      "market_count": 46,
       "history_days": 7
     },
     {
@@ -54,13 +54,13 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2019_Plantain_%2848608152563%29.jpg/960px-2019_Plantain_%2848608152563%29.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5161.9,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5150.0,
-      "change": 11.9,
-      "pct_change": 0.2,
-      "market_count": 21,
+      "today_date": "2026-09-13",
+      "today_avg_price": 4957.14,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5161.9,
+      "change": -204.76,
+      "pct_change": -4.0,
+      "market_count": 7,
       "history_days": 7
     },
     {
@@ -69,12 +69,12 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Galgal_%28hill_lemon%29_in_Kullu_district%2C_Himachal_Pradesh%2C_India%2C1.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3500.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 12500.0,
-      "change": -9000.0,
-      "pct_change": -72.0,
+      "today_date": "2026-09-13",
+      "today_avg_price": 4000.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3500.0,
+      "change": 500.0,
+      "pct_change": 14.3,
       "market_count": 1,
       "history_days": 7
     },
@@ -84,13 +84,13 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Wine_grapes03.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 7250.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 7050.0,
-      "change": 200.0,
-      "pct_change": 2.8,
-      "market_count": 2,
+      "today_date": "2026-09-13",
+      "today_avg_price": 8500.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 7250.0,
+      "change": 1250.0,
+      "pct_change": 17.2,
+      "market_count": 1,
       "history_days": 7
     },
     {
@@ -99,13 +99,13 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Lemon.jpg/960px-Lemon.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 10122.22,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 14875.0,
-      "change": -4752.78,
-      "pct_change": -32.0,
-      "market_count": 9,
+      "today_date": "2026-09-13",
+      "today_avg_price": 15333.33,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 10122.22,
+      "change": 5211.11,
+      "pct_change": 51.5,
+      "market_count": 3,
       "history_days": 7
     },
     {
@@ -121,7 +121,7 @@
       "change": 1900.0,
       "pct_change": 14.3,
       "market_count": 2,
-      "history_days": 7
+      "history_days": 6
     },
     {
       "id": "long-melon",
@@ -129,13 +129,13 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Canteloupe_and_cross_section.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
+      "today_date": "2026-09-13",
       "today_avg_price": 4000.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4833.33,
-      "change": -833.33,
-      "pct_change": -17.2,
-      "market_count": 2,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4000.0,
+      "change": 0.0,
+      "pct_change": 0.0,
+      "market_count": 1,
       "history_days": 6
     },
     {
@@ -146,12 +146,12 @@
       "unit": "per quintal",
       "today_date": "2026-09-07",
       "today_avg_price": 5000.0,
-      "yesterday_date": "2026-09-05",
-      "yesterday_avg_price": 5000.0,
-      "change": 0.0,
-      "pct_change": 0.0,
+      "yesterday_date": null,
+      "yesterday_avg_price": null,
+      "change": null,
+      "pct_change": null,
       "market_count": 1,
-      "history_days": 2
+      "history_days": 1
     },
     {
       "id": "orange",
@@ -159,13 +159,13 @@
       "category": "Fruits",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 9000.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 9500.0,
-      "change": -500.0,
-      "pct_change": -5.3,
-      "market_count": 2,
+      "today_date": "2026-09-13",
+      "today_avg_price": 9800.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 9000.0,
+      "change": 800.0,
+      "pct_change": 8.9,
+      "market_count": 1,
       "history_days": 6
     },
     {
@@ -181,7 +181,7 @@
       "change": 616.67,
       "pct_change": 14.6,
       "market_count": 2,
-      "history_days": 7
+      "history_days": 6
     },
     {
       "id": "pineapple",
@@ -189,13 +189,13 @@
       "category": "Fruits",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ananas~May_2008-1.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 6466.67,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 6880.0,
-      "change": -413.33,
-      "pct_change": -6.0,
-      "market_count": 9,
+      "today_date": "2026-09-13",
+      "today_avg_price": 7333.33,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 6466.67,
+      "change": 866.66,
+      "pct_change": 13.4,
+      "market_count": 3,
       "history_days": 7
     },
     {
@@ -211,7 +211,7 @@
       "change": 1050.0,
       "pct_change": 23.6,
       "market_count": 1,
-      "history_days": 5
+      "history_days": 4
     },
     {
       "id": "watermelon",
@@ -226,7 +226,7 @@
       "change": 200.0,
       "pct_change": 12.5,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "bengal-gram",
@@ -241,7 +241,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 2,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "black-gram",
@@ -256,7 +256,7 @@
       "change": 500.0,
       "pct_change": 4.0,
       "market_count": 2,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "cowpea",
@@ -271,7 +271,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "green-gram",
@@ -286,7 +286,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "kabuli-chana",
@@ -301,7 +301,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "paddy",
@@ -316,7 +316,7 @@
       "change": -315.0,
       "pct_change": -11.2,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "red-gram",
@@ -331,7 +331,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "arecanut",
@@ -346,7 +346,7 @@
       "change": -2025.0,
       "pct_change": -4.8,
       "market_count": 2,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "coconut",
@@ -354,13 +354,13 @@
       "category": "Plantation Crops",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5520.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5745.45,
-      "change": -225.45,
-      "pct_change": -3.9,
-      "market_count": 5,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6000.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5520.0,
+      "change": 480.0,
+      "pct_change": 8.7,
+      "market_count": 2,
       "history_days": 7
     },
     {
@@ -376,7 +376,7 @@
       "change": 1100.0,
       "pct_change": 3.9,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "coconut-seed",
@@ -384,12 +384,12 @@
       "category": "Plantation Crops",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5500.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5950.0,
-      "change": -450.0,
-      "pct_change": -7.6,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6500.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5500.0,
+      "change": 1000.0,
+      "pct_change": 18.2,
       "market_count": 1,
       "history_days": 6
     },
@@ -406,7 +406,7 @@
       "change": 866.67,
       "pct_change": 4.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "copra",
@@ -421,7 +421,7 @@
       "change": -975.0,
       "pct_change": -6.5,
       "market_count": 2,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "rubber",
@@ -436,7 +436,7 @@
       "change": 550.0,
       "pct_change": 2.1,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "black-pepper",
@@ -451,7 +451,7 @@
       "change": -546.67,
       "pct_change": -0.8,
       "market_count": 6,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "pepper-garbled",
@@ -474,13 +474,13 @@
       "category": "Spices",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 8000.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 7875.0,
-      "change": 125.0,
-      "pct_change": 1.6,
-      "market_count": 2,
+      "today_date": "2026-09-13",
+      "today_avg_price": 9000.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 8000.0,
+      "change": 1000.0,
+      "pct_change": 12.5,
+      "market_count": 1,
       "history_days": 7
     },
     {
@@ -496,7 +496,7 @@
       "change": -945.0,
       "pct_change": -4.2,
       "market_count": 4,
-      "history_days": 7
+      "history_days": 6
     },
     {
       "id": "ginger",
@@ -504,13 +504,13 @@
       "category": "Spices",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 12657.14,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 14486.36,
-      "change": -1829.22,
-      "pct_change": -12.6,
-      "market_count": 14,
+      "today_date": "2026-09-13",
+      "today_avg_price": 15537.5,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 12657.14,
+      "change": 2880.36,
+      "pct_change": 22.8,
+      "market_count": 8,
       "history_days": 7
     },
     {
@@ -519,13 +519,13 @@
       "category": "Spices",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5793.33,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5459.38,
-      "change": 333.95,
-      "pct_change": 6.1,
-      "market_count": 15,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5925.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5793.33,
+      "change": 131.67,
+      "pct_change": 2.3,
+      "market_count": 8,
       "history_days": 7
     },
     {
@@ -541,7 +541,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "alsandikai",
@@ -556,7 +556,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 5
+      "history_days": 4
     },
     {
       "id": "amaranthus",
@@ -564,13 +564,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3612.5,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3516.67,
-      "change": 95.83,
-      "pct_change": 2.7,
-      "market_count": 20,
+      "today_date": "2026-09-13",
+      "today_avg_price": 4077.27,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3612.5,
+      "change": 464.77,
+      "pct_change": 12.9,
+      "market_count": 11,
       "history_days": 7
     },
     {
@@ -579,13 +579,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4000.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3350.0,
-      "change": 650.0,
-      "pct_change": 19.4,
-      "market_count": 1,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3200.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4000.0,
+      "change": -800.0,
+      "pct_change": -20.0,
+      "market_count": 2,
       "history_days": 7
     },
     {
@@ -594,13 +594,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 2210.95,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 2345.95,
-      "change": -135.0,
-      "pct_change": -5.8,
-      "market_count": 21,
+      "today_date": "2026-09-13",
+      "today_avg_price": 2380.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 2210.95,
+      "change": 169.05,
+      "pct_change": 7.6,
+      "market_count": 9,
       "history_days": 7
     },
     {
@@ -609,13 +609,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4288.89,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4700.0,
-      "change": -411.11,
-      "pct_change": -8.7,
-      "market_count": 18,
+      "today_date": "2026-09-13",
+      "today_avg_price": 4411.11,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4288.89,
+      "change": 122.22,
+      "pct_change": 2.8,
+      "market_count": 9,
       "history_days": 7
     },
     {
@@ -624,13 +624,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4379.55,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4526.83,
-      "change": -147.28,
-      "pct_change": -3.3,
-      "market_count": 22,
+      "today_date": "2026-09-13",
+      "today_avg_price": 4308.33,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4379.55,
+      "change": -71.22,
+      "pct_change": -1.6,
+      "market_count": 12,
       "history_days": 7
     },
     {
@@ -639,13 +639,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5804.55,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5791.67,
-      "change": 12.88,
-      "pct_change": 0.2,
-      "market_count": 22,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5762.5,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5804.55,
+      "change": -42.05,
+      "pct_change": -0.7,
+      "market_count": 12,
       "history_days": 7
     },
     {
@@ -654,13 +654,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 2850.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3469.57,
-      "change": -619.57,
-      "pct_change": -17.9,
-      "market_count": 10,
+      "today_date": "2026-09-13",
+      "today_avg_price": 2680.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 2850.0,
+      "change": -170.0,
+      "pct_change": -6.0,
+      "market_count": 5,
       "history_days": 7
     },
     {
@@ -669,13 +669,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3722.5,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3897.5,
-      "change": -175.0,
-      "pct_change": -4.5,
-      "market_count": 20,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3588.89,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3722.5,
+      "change": -133.61,
+      "pct_change": -3.6,
+      "market_count": 9,
       "history_days": 7
     },
     {
@@ -684,13 +684,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3206.25,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3317.24,
-      "change": -110.99,
-      "pct_change": -3.3,
-      "market_count": 16,
+      "today_date": "2026-09-13",
+      "today_avg_price": 4050.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3206.25,
+      "change": 843.75,
+      "pct_change": 26.3,
+      "market_count": 8,
       "history_days": 7
     },
     {
@@ -699,13 +699,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 6166.67,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 6370.0,
-      "change": -203.33,
-      "pct_change": -3.2,
-      "market_count": 6,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5800.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 6166.67,
+      "change": -366.67,
+      "pct_change": -5.9,
+      "market_count": 3,
       "history_days": 7
     },
     {
@@ -714,13 +714,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5970.59,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5775.76,
-      "change": 194.83,
-      "pct_change": 3.4,
-      "market_count": 17,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6183.33,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5970.59,
+      "change": 212.74,
+      "pct_change": 3.6,
+      "market_count": 6,
       "history_days": 7
     },
     {
@@ -729,13 +729,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5169.23,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4895.45,
-      "change": 273.78,
-      "pct_change": 5.6,
-      "market_count": 13,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5740.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5169.23,
+      "change": 570.77,
+      "pct_change": 11.0,
+      "market_count": 5,
       "history_days": 7
     },
     {
@@ -744,13 +744,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4883.33,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5130.0,
-      "change": -246.67,
-      "pct_change": -4.8,
-      "market_count": 6,
+      "today_date": "2026-09-13",
+      "today_avg_price": 4000.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4883.33,
+      "change": -883.33,
+      "pct_change": -18.1,
+      "market_count": 1,
       "history_days": 7
     },
     {
@@ -759,13 +759,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5909.09,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5725.0,
-      "change": 184.09,
-      "pct_change": 3.2,
-      "market_count": 11,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6333.33,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5909.09,
+      "change": 424.24,
+      "pct_change": 7.2,
+      "market_count": 3,
       "history_days": 7
     },
     {
@@ -774,13 +774,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5408.7,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 5591.67,
-      "change": -182.97,
-      "pct_change": -3.3,
-      "market_count": 23,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6327.27,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5408.7,
+      "change": 918.57,
+      "pct_change": 17.0,
+      "market_count": 11,
       "history_days": 7
     },
     {
@@ -789,13 +789,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 2766.67,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3000.0,
-      "change": -233.33,
-      "pct_change": -7.8,
-      "market_count": 21,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3442.86,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 2766.67,
+      "change": 676.19,
+      "pct_change": 24.4,
+      "market_count": 7,
       "history_days": 7
     },
     {
@@ -804,13 +804,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5068.75,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4700.0,
-      "change": 368.75,
-      "pct_change": 7.8,
-      "market_count": 16,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6020.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5068.75,
+      "change": 951.25,
+      "pct_change": 18.8,
+      "market_count": 5,
       "history_days": 7
     },
     {
@@ -826,7 +826,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "yam-suran",
@@ -834,13 +834,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4515.38,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4250.0,
-      "change": 265.38,
-      "pct_change": 6.2,
-      "market_count": 13,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5385.71,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4515.38,
+      "change": 870.33,
+      "pct_change": 19.3,
+      "market_count": 7,
       "history_days": 7
     },
     {
@@ -856,7 +856,7 @@
       "change": -2100.0,
       "pct_change": -31.8,
       "market_count": 1,
-      "history_days": 5
+      "history_days": 4
     },
     {
       "id": "french-beans",
@@ -864,13 +864,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 6080.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 6170.0,
-      "change": -90.0,
-      "pct_change": -1.5,
-      "market_count": 5,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6500.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 6080.0,
+      "change": 420.0,
+      "pct_change": 6.9,
+      "market_count": 1,
       "history_days": 7
     },
     {
@@ -886,7 +886,7 @@
       "change": -233.33,
       "pct_change": -3.8,
       "market_count": 3,
-      "history_days": 7
+      "history_days": 6
     },
     {
       "id": "green-peas",
@@ -901,7 +901,7 @@
       "change": 0.0,
       "pct_change": 0.0,
       "market_count": 1,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "indian-beans",
@@ -909,13 +909,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 5400.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 6566.67,
-      "change": -1166.67,
-      "pct_change": -17.8,
-      "market_count": 3,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3850.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 5400.0,
+      "change": -1550.0,
+      "pct_change": -28.7,
+      "market_count": 2,
       "history_days": 7
     },
     {
@@ -924,13 +924,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4293.75,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4794.12,
-      "change": -500.37,
-      "pct_change": -10.4,
-      "market_count": 8,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5250.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4293.75,
+      "change": 956.25,
+      "pct_change": 22.3,
+      "market_count": 2,
       "history_days": 7
     },
     {
@@ -954,13 +954,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 6031.25,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 6162.07,
-      "change": -130.82,
-      "pct_change": -2.1,
-      "market_count": 16,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5442.86,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 6031.25,
+      "change": -588.39,
+      "pct_change": -9.8,
+      "market_count": 7,
       "history_days": 7
     },
     {
@@ -969,14 +969,14 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4500.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3500.0,
-      "change": 1000.0,
-      "pct_change": 28.6,
+      "today_date": "2026-09-13",
+      "today_avg_price": 5000.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 4500.0,
+      "change": 500.0,
+      "pct_change": 11.1,
       "market_count": 1,
-      "history_days": 3
+      "history_days": 4
     },
     {
       "id": "potato",
@@ -984,13 +984,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3493.33,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3232.14,
-      "change": 261.19,
-      "pct_change": 8.1,
-      "market_count": 15,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3166.67,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3493.33,
+      "change": -326.66,
+      "pct_change": -9.4,
+      "market_count": 6,
       "history_days": 7
     },
     {
@@ -999,13 +999,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 2055.56,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 1977.78,
-      "change": 77.78,
-      "pct_change": 3.9,
-      "market_count": 18,
+      "today_date": "2026-09-13",
+      "today_avg_price": 2160.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 2055.56,
+      "change": 104.44,
+      "pct_change": 5.1,
+      "market_count": 5,
       "history_days": 7
     },
     {
@@ -1021,7 +1021,7 @@
       "change": -750.0,
       "pct_change": -12.9,
       "market_count": 4,
-      "history_days": 6
+      "history_days": 5
     },
     {
       "id": "snake-gourd",
@@ -1029,13 +1029,13 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3194.44,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3572.73,
-      "change": -378.29,
-      "pct_change": -10.6,
-      "market_count": 18,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3300.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3194.44,
+      "change": 105.56,
+      "pct_change": 3.3,
+      "market_count": 8,
       "history_days": 7
     },
     {
@@ -1051,7 +1051,7 @@
       "change": -900.0,
       "pct_change": -15.9,
       "market_count": 5,
-      "history_days": 7
+      "history_days": 6
     },
     {
       "id": "tapioca",
@@ -1059,13 +1059,13 @@
       "category": "Vegetables",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cassava_Tapioca_Alappuzha_2021.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3461.54,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3176.47,
-      "change": 285.07,
-      "pct_change": 9.0,
-      "market_count": 13,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3000.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3461.54,
+      "change": -461.54,
+      "pct_change": -13.3,
+      "market_count": 2,
       "history_days": 7
     },
     {
@@ -1074,13 +1074,13 @@
       "category": "Vegetables",
       "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/960px-Tomato_je.jpg",
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3261.11,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3066.13,
-      "change": 194.98,
-      "pct_change": 6.4,
-      "market_count": 18,
+      "today_date": "2026-09-13",
+      "today_avg_price": 3350.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 3261.11,
+      "change": 88.89,
+      "pct_change": 2.7,
+      "market_count": 6,
       "history_days": 7
     },
     {
@@ -1089,44 +1089,14 @@
       "category": "Vegetables",
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 6000.0,
-      "yesterday_date": "2026-09-09",
+      "today_date": "2026-09-13",
+      "today_avg_price": 5500.0,
+      "yesterday_date": "2026-09-12",
       "yesterday_avg_price": 6000.0,
-      "change": 0.0,
-      "pct_change": 0.0,
+      "change": -500.0,
+      "pct_change": -8.3,
       "market_count": 1,
       "history_days": 6
-    },
-    {
-      "id": "cashewnuts",
-      "name": "Cashewnuts",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 12200.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 12200.0,
-      "change": 0.0,
-      "pct_change": 0.0,
-      "market_count": 1,
-      "history_days": 4
-    },
-    {
-      "id": "ginger-dry",
-      "name": "Ginger(Dry)",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 14700.0,
-      "yesterday_date": "2026-09-09",
-      "yesterday_avg_price": 15150.0,
-      "change": -450.0,
-      "pct_change": -3.0,
-      "market_count": 1,
-      "history_days": 4
     },
     {
       "id": "mango-raw-ripe",
@@ -1134,59 +1104,14 @@
       "category": null,
       "image_url": null,
       "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 6540.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 7392.31,
-      "change": -852.31,
-      "pct_change": -11.5,
-      "market_count": 10,
+      "today_date": "2026-09-13",
+      "today_avg_price": 6400.0,
+      "yesterday_date": "2026-09-12",
+      "yesterday_avg_price": 6540.0,
+      "change": -140.0,
+      "pct_change": -2.1,
+      "market_count": 3,
       "history_days": 7
-    },
-    {
-      "id": "mousambi-sweet-lime",
-      "name": "Mousambi(Sweet Lime)",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 3500.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 3700.0,
-      "change": -200.0,
-      "pct_change": -5.4,
-      "market_count": 1,
-      "history_days": 6
-    },
-    {
-      "id": "raddish",
-      "name": "Raddish",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 2500.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 2550.0,
-      "change": -50.0,
-      "pct_change": -2.0,
-      "market_count": 1,
-      "history_days": 6
-    },
-    {
-      "id": "rice",
-      "name": "Rice",
-      "category": null,
-      "image_url": null,
-      "unit": "per quintal",
-      "today_date": "2026-09-12",
-      "today_avg_price": 4900.0,
-      "yesterday_date": "2026-09-10",
-      "yesterday_avg_price": 4900.0,
-      "change": 0.0,
-      "pct_change": 0.0,
-      "market_count": 1,
-      "history_days": 5
     }
   ]
 }
