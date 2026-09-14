@@ -1,10 +1,65 @@
 {
   "product": "indian-beans",
   "product_name": "Indian Beans (Seam)",
-  "generated_at": "2026-09-13T19:13:51.700369Z",
+  "generated_at": "2026-09-14T20:46:00.407202Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "indian-beans-a6fb4a6d5b",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-14",
+      "min_price": 5000.0,
+      "max_price": 6000.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-cad6672cbb",
+      "market": "Broadway market Market",
+      "district": "Ernakulam",
+      "date": "2026-09-14",
+      "min_price": 8000.0,
+      "max_price": 8500.0,
+      "modal_price": 8200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-9be207309c",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-14",
+      "min_price": 10500.0,
+      "max_price": 11000.0,
+      "modal_price": 10700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-ea20f5e52e",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-14",
+      "min_price": 2800.0,
+      "max_price": 3000.0,
+      "modal_price": 2900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "indian-beans-64a62711de",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-14",
+      "min_price": 6000.0,
+      "max_price": 7500.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "indian-beans-11a58cb022",
       "market": "Pampady Market",
@@ -274,17 +329,6 @@
       "market": "Kayamkulam Market",
       "district": "Alappuzha",
       "date": "2026-09-07",
-      "min_price": 2500.0,
-      "max_price": 2700.0,
-      "modal_price": 2600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "indian-beans-752fbfafa3",
-      "market": "Kayamkulam Market",
-      "district": "Alappuzha",
-      "date": "2026-09-06",
       "min_price": 2500.0,
       "max_price": 2700.0,
       "modal_price": 2600.0,

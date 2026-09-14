@@ -1,10 +1,21 @@
 {
   "product": "grapes",
   "product_name": "Grapes",
-  "generated_at": "2026-09-13T19:13:51.700369Z",
+  "generated_at": "2026-09-14T20:46:00.407202Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "grapes-b092c9c919",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-14",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "grapes-4926495241",
       "market": "Mukkom Market",
@@ -145,17 +156,6 @@
       "min_price": 8500.0,
       "max_price": 9500.0,
       "modal_price": 9000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "grapes-0eebae3443",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-06",
-      "min_price": 8500.0,
-      "max_price": 9000.0,
-      "modal_price": 8800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

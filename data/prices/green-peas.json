@@ -1,10 +1,21 @@
 {
   "product": "green-peas",
   "product_name": "Green Peas",
-  "generated_at": "2026-09-13T19:13:51.700369Z",
+  "generated_at": "2026-09-14T20:46:00.407202Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "green-peas-f037948732",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-14",
+      "min_price": 6200.0,
+      "max_price": 8000.0,
+      "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "green-peas-2e093ae7fd",
       "market": "Palakkad Market",

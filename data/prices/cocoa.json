@@ -1,10 +1,21 @@
 {
   "product": "cocoa",
   "product_name": "Cocoa",
-  "generated_at": "2026-09-08T19:46:21.152483Z",
+  "generated_at": "2026-09-14T20:46:00.407202Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "cocoa-5f93dffeb6",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-09-14",
+      "min_price": 15300.0,
+      "max_price": 15500.0,
+      "modal_price": 15400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cocoa-1938f6458f",
       "market": "Pulpally Market",
@@ -21,17 +32,6 @@
       "market": "Pulpally Market",
       "district": "Wayanad",
       "date": "2026-09-07",
-      "min_price": 14500.0,
-      "max_price": 14700.0,
-      "modal_price": 14600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cocoa-b4475752c0",
-      "market": "Pulpally Market",
-      "district": "Wayanad",
-      "date": "2026-09-05",
       "min_price": 14500.0,
       "max_price": 14700.0,
       "modal_price": 14600.0,

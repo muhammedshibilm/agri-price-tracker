@@ -1,10 +1,21 @@
 {
   "product": "cardamom",
   "product_name": "Cardamom",
-  "generated_at": "2026-09-09T19:37:34.435458Z",
+  "generated_at": "2026-09-14T20:46:00.407202Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "cardamom-c86e6dd3d2",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-14",
+      "min_price": 292100.0,
+      "max_price": 292300.0,
+      "modal_price": 292300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cardamom-d17c0bf304",
       "market": "Thodupuzha Market",

@@ -1,10 +1,21 @@
 {
   "product": "seemebadnekai",
   "product_name": "Seemebadnekai",
-  "generated_at": "2026-09-10T19:28:46.626912Z",
+  "generated_at": "2026-09-14T20:46:00.407202Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "seemebadnekai-bb3a9cb4c9",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-14",
+      "min_price": 2200.0,
+      "max_price": 3000.0,
+      "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "seemebadnekai-6404992024",
       "market": "North Paravur Market",
@@ -43,28 +54,6 @@
       "market": "North Paravur Market",
       "district": "Ernakulam",
       "date": "2026-09-07",
-      "min_price": 2200.0,
-      "max_price": 3000.0,
-      "modal_price": 2500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "seemebadnekai-663b4dd04d",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-05",
-      "min_price": 2200.0,
-      "max_price": 3000.0,
-      "modal_price": 2500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "seemebadnekai-03674816ea",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-03",
       "min_price": 2200.0,
       "max_price": 3000.0,
       "modal_price": 2500.0,

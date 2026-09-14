@@ -1,10 +1,21 @@
 {
   "product": "yam-ratalu",
   "product_name": "Yam (Ratalu)",
-  "generated_at": "2026-09-13T19:13:51.700369Z",
+  "generated_at": "2026-09-14T20:46:00.407202Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "yam-ratalu-22f7b78a8d",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-14",
+      "min_price": 6000.0,
+      "max_price": 6000.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "yam-ratalu-6dd8262b9f",
       "market": "Piravanthoor VFPCK Market",
@@ -68,17 +79,6 @@
       "min_price": 6800.0,
       "max_price": 7500.0,
       "modal_price": 7200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-ratalu-210e98a033",
-      "market": "Sasthamkotta Market",
-      "district": "Kollam",
-      "date": "2026-09-06",
-      "min_price": 4000.0,
-      "max_price": 4000.0,
-      "modal_price": 4000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }
