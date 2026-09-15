@@ -1,10 +1,32 @@
 {
   "product": "amaranthus-red",
   "product_name": "Amaranthus - Red",
-  "generated_at": "2026-09-14T20:46:00.407202Z",
+  "generated_at": "2026-09-15T20:03:36.550985Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "amaranthus-red-e0ea9a6eef",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-15",
+      "min_price": 2400.0,
+      "max_price": 2600.0,
+      "modal_price": 2500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amaranthus-red-1ccee547c4",
+      "market": "Pappanchani VFPCK Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-15",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "amaranthus-red-389490685f",
       "market": "Pappanchani VFPCK Market",
@@ -98,17 +120,6 @@
       "market": "Pappanchani VFPCK Market",
       "district": "Thiruvananthapuram",
       "date": "2026-09-08",
-      "min_price": 4000.0,
-      "max_price": 4000.0,
-      "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "amaranthus-red-55201da5f6",
-      "market": "Pappanchani VFPCK Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-07",
       "min_price": 4000.0,
       "max_price": 4000.0,
       "modal_price": 4000.0,

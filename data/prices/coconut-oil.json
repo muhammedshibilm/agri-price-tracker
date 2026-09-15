@@ -1,10 +1,65 @@
 {
   "product": "coconut-oil",
   "product_name": "Coconut Oil",
-  "generated_at": "2026-09-14T20:46:00.407202Z",
+  "generated_at": "2026-09-15T20:03:36.550985Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coconut-oil-300cf17d4f",
+      "market": "Kanjangadu Market",
+      "district": "Kasargod",
+      "date": "2026-09-15",
+      "min_price": 29300.0,
+      "max_price": 30000.0,
+      "modal_price": 29600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-oil-9ddb2fb388",
+      "market": "Thalasserry Market",
+      "district": "Kannur",
+      "date": "2026-09-15",
+      "min_price": 26000.0,
+      "max_price": 27200.0,
+      "modal_price": 26600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-oil-8842296a0c",
+      "market": "Kannur Market",
+      "district": "Kannur",
+      "date": "2026-09-15",
+      "min_price": 28000.0,
+      "max_price": 29000.0,
+      "modal_price": 28500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-oil-ac317d6539",
+      "market": "Kuttoor Market",
+      "district": "Pathanamthitta",
+      "date": "2026-09-15",
+      "min_price": 29600.0,
+      "max_price": 30000.0,
+      "modal_price": 29800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-oil-22490d29b3",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-15",
+      "min_price": 26500.0,
+      "max_price": 28000.0,
+      "modal_price": 27000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coconut-oil-ece35c5633",
       "market": "Kannur Market",
@@ -208,61 +263,6 @@
       "market": "Kannur Market",
       "district": "Kannur",
       "date": "2026-09-08",
-      "min_price": 29000.0,
-      "max_price": 30000.0,
-      "modal_price": 29500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-ac6256795b",
-      "market": "Kanjangadu Market",
-      "district": "Kasargod",
-      "date": "2026-09-07",
-      "min_price": 29000.0,
-      "max_price": 30000.0,
-      "modal_price": 29500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-c9a47f8312",
-      "market": "Kuttoor Market",
-      "district": "Pathanamthitta",
-      "date": "2026-09-07",
-      "min_price": 27900.0,
-      "max_price": 28300.0,
-      "modal_price": 28100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-fb93423b6d",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-09-07",
-      "min_price": 27500.0,
-      "max_price": 29000.0,
-      "modal_price": 28000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-1159fa9859",
-      "market": "Thalasserry Market",
-      "district": "Kannur",
-      "date": "2026-09-07",
-      "min_price": 26000.0,
-      "max_price": 27200.0,
-      "modal_price": 26600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-oil-6d5ebacb02",
-      "market": "Kannur Market",
-      "district": "Kannur",
-      "date": "2026-09-07",
       "min_price": 29000.0,
       "max_price": 30000.0,
       "modal_price": 29500.0,

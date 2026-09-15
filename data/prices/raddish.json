@@ -1,10 +1,21 @@
 {
   "product": "raddish",
   "product_name": "Raddish",
-  "generated_at": "2026-09-14T20:46:00.407202Z",
+  "generated_at": "2026-09-15T20:03:36.550985Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "raddish-e6d537e885",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-15",
+      "min_price": 1500.0,
+      "max_price": 2000.0,
+      "modal_price": 1700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "raddish-2e4905f85a",
       "market": "Quilandy Market",
@@ -100,28 +111,6 @@
       "date": "2026-09-08",
       "min_price": 2000.0,
       "max_price": 2400.0,
-      "modal_price": 2200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "raddish-07dc95339b",
-      "market": "vadakarapathy Market",
-      "district": "Palakad",
-      "date": "2026-09-07",
-      "min_price": 1000.0,
-      "max_price": 1500.0,
-      "modal_price": 1200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "raddish-a49d4830b4",
-      "market": "Quilandy Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-07",
-      "min_price": 2200.0,
-      "max_price": 2300.0,
       "modal_price": 2200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"

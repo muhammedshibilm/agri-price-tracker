@@ -1,7 +1,7 @@
 {
   "product": "papaya",
   "product_name": "Papaya",
-  "generated_at": "2026-09-14T20:46:00.407202Z",
+  "generated_at": "2026-09-15T20:03:36.550985Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
@@ -79,17 +79,6 @@
       "min_price": 4450.0,
       "max_price": 4550.0,
       "modal_price": 4500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "papaya-94fbdb32b6",
-      "market": "Madhavapuram Market",
-      "district": "Alappuzha",
-      "date": "2026-09-07",
-      "min_price": 2800.0,
-      "max_price": 3200.0,
-      "modal_price": 3000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

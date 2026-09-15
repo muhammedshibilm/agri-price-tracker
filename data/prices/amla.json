@@ -1,10 +1,32 @@
 {
   "product": "amla",
   "product_name": "Amla (Indian Gooseberry)",
-  "generated_at": "2026-09-14T20:46:00.407202Z",
+  "generated_at": "2026-09-15T20:03:36.550985Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "amla-161ce91ac1",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-15",
+      "min_price": 11500.0,
+      "max_price": 12500.0,
+      "modal_price": 12000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amla-a6e2b8aac5",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-15",
+      "min_price": 5300.0,
+      "max_price": 5500.0,
+      "modal_price": 5400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "amla-12f36f403f",
       "market": "North Paravur Market",
@@ -76,17 +98,6 @@
       "market": "North Paravur Market",
       "district": "Ernakulam",
       "date": "2026-09-08",
-      "min_price": 8300.0,
-      "max_price": 9000.0,
-      "modal_price": 8500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "amla-46e21dbc80",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-07",
       "min_price": 8300.0,
       "max_price": 9000.0,
       "modal_price": 8500.0,
