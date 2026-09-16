@@ -1,10 +1,43 @@
 {
   "product": "lime",
   "product_name": "Lime",
-  "generated_at": "2026-09-15T20:03:36.550985Z",
+  "generated_at": "2026-09-16T19:52:29.550296Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "lime-b62b58799b",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-16",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lime-f049428fd5",
+      "market": "Pattambi Market",
+      "district": "Palakad",
+      "date": "2026-09-16",
+      "min_price": 20000.0,
+      "max_price": 22000.0,
+      "modal_price": 21000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lime-cc4e0fa9d7",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-16",
+      "min_price": 22100.0,
+      "max_price": 22500.0,
+      "modal_price": 22300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "lime-efc4e3ef7e",
       "market": "Pattambi Market",
@@ -134,39 +167,6 @@
       "min_price": 20000.0,
       "max_price": 22000.0,
       "modal_price": 21000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "lime-a6c34ae7d1",
-      "market": "Pattambi Market",
-      "district": "Palakad",
-      "date": "2026-09-08",
-      "min_price": 20000.0,
-      "max_price": 22000.0,
-      "modal_price": 21000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "lime-bed4f3fa7a",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-08",
-      "min_price": 20000.0,
-      "max_price": 20800.0,
-      "modal_price": 20400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "lime-9ed65b975b",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-08",
-      "min_price": 6000.0,
-      "max_price": 7000.0,
-      "modal_price": 6600.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

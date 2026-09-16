@@ -1,10 +1,54 @@
 {
   "product": "green-avare",
   "product_name": "Green Avare",
-  "generated_at": "2026-09-15T20:03:36.550985Z",
+  "generated_at": "2026-09-16T19:52:29.550296Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "green-avare-d3ad23fcc0",
+      "market": "Pattambi Market",
+      "district": "Palakad",
+      "date": "2026-09-16",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-avare-ca84c30eba",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-16",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-avare-2206e696db",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-16",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-avare-803a114466",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-16",
+      "min_price": 5200.0,
+      "max_price": 5600.0,
+      "modal_price": 5400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "green-avare-df2345c341",
       "market": "Pattambi Market",
@@ -186,39 +230,6 @@
       "market": "Pattambi Market",
       "district": "Palakad",
       "date": "2026-09-09",
-      "min_price": 5500.0,
-      "max_price": 6000.0,
-      "modal_price": 5800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-avare-793a36a47e",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-08",
-      "min_price": 4500.0,
-      "max_price": 4900.0,
-      "modal_price": 4700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-avare-1360ca4f03",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-08",
-      "min_price": 6000.0,
-      "max_price": 7000.0,
-      "modal_price": 6600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-avare-13e8012411",
-      "market": "Pattambi Market",
-      "district": "Palakad",
-      "date": "2026-09-08",
       "min_price": 5500.0,
       "max_price": 6000.0,
       "modal_price": 5800.0,

@@ -1,26 +1,26 @@
 {
   "product": "egg",
   "product_name": "Egg",
-  "generated_at": "2026-09-05T18:52:10.795449Z",
+  "generated_at": "2026-09-16T19:52:29.550296Z",
   "state": "Keralam",
   "unit": "per 100 pieces",
   "history": [
     {
-      "id": "egg-34c13c3cb8",
+      "id": "egg-379745c444",
       "market": "Thamarakkulam VFPCK Market",
       "district": "Alappuzha",
-      "date": "2026-09-05",
+      "date": "2026-09-16",
       "min_price": 8.5,
-      "max_price": 9.0,
-      "modal_price": 8.7,
+      "max_price": 9.5,
+      "modal_price": 9.0,
       "unit": "per 100 pieces",
       "source": "Agmarknet / data.gov.in"
     },
     {
-      "id": "egg-8dfbb2dcc5",
+      "id": "egg-c37461d47c",
       "market": "Venmony  VFPCK Market",
       "district": "Alappuzha",
-      "date": "2026-09-05",
+      "date": "2026-09-16",
       "min_price": 8.5,
       "max_price": 9.0,
       "modal_price": 8.7,
