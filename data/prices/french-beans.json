@@ -1,10 +1,120 @@
 {
   "product": "french-beans",
   "product_name": "French Beans",
-  "generated_at": "2026-09-16T19:52:29.550296Z",
+  "generated_at": "2026-09-17T20:04:17.044558Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "french-beans-0a14d92555",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-17",
+      "min_price": 7000.0,
+      "max_price": 7500.0,
+      "modal_price": 7200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-8708e01374",
+      "market": "Kollengode Market",
+      "district": "Palakad",
+      "date": "2026-09-17",
+      "min_price": 5600.0,
+      "max_price": 6000.0,
+      "modal_price": 5800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-e7755c61c5",
+      "market": "Pattambi Market",
+      "district": "Palakad",
+      "date": "2026-09-17",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-b29bdda414",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-17",
+      "min_price": 8400.0,
+      "max_price": 8600.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-7529bcab98",
+      "market": "Quilandy Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-17",
+      "min_price": 6500.0,
+      "max_price": 7000.0,
+      "modal_price": 6800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-8178f7730e",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-17",
+      "min_price": 5450.0,
+      "max_price": 5550.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-57a4c23f47",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-17",
+      "min_price": 7200.0,
+      "max_price": 8000.0,
+      "modal_price": 7700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-f78ed8e137",
+      "market": "Aroor Market",
+      "district": "Alappuzha",
+      "date": "2026-09-17",
+      "min_price": 7200.0,
+      "max_price": 7400.0,
+      "modal_price": 7300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-04872fd14f",
+      "market": "Kattappana Market",
+      "district": "Idukki",
+      "date": "2026-09-17",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-ece5494d34",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-17",
+      "min_price": 6800.0,
+      "max_price": 7000.0,
+      "modal_price": 6900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "french-beans-c7a80613d1",
       "market": "North Paravur Market",
@@ -442,94 +552,6 @@
       "min_price": 7500.0,
       "max_price": 8500.0,
       "modal_price": 8100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-903e184e57",
-      "market": "Aroor Market",
-      "district": "Alappuzha",
-      "date": "2026-09-09",
-      "min_price": 7000.0,
-      "max_price": 7200.0,
-      "modal_price": 7100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-e5bef48e1c",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-09",
-      "min_price": 6200.0,
-      "max_price": 7000.0,
-      "modal_price": 6600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-5432014df9",
-      "market": "Pattambi Market",
-      "district": "Palakad",
-      "date": "2026-09-09",
-      "min_price": 6000.0,
-      "max_price": 7000.0,
-      "modal_price": 6500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-8e1c89715d",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-09",
-      "min_price": 5500.0,
-      "max_price": 5900.0,
-      "modal_price": 5700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-2e50f7105e",
-      "market": "Kayamkulam Market",
-      "district": "Alappuzha",
-      "date": "2026-09-09",
-      "min_price": 6900.0,
-      "max_price": 7100.0,
-      "modal_price": 7000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-4f2126bed4",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-09",
-      "min_price": 6000.0,
-      "max_price": 7000.0,
-      "modal_price": 6500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-b4a16364e8",
-      "market": "Quilandy Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-09",
-      "min_price": 5500.0,
-      "max_price": 5800.0,
-      "modal_price": 5600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-448164c9fa",
-      "market": "Athirampuzha Market",
-      "district": "Kottayam",
-      "date": "2026-09-09",
-      "min_price": 6300.0,
-      "max_price": 6500.0,
-      "modal_price": 6400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

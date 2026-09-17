@@ -1,18 +1,18 @@
 {
   "product": "tender-coconut",
   "product_name": "Tender Coconut",
-  "generated_at": "2026-09-03T21:47:29.358350Z",
+  "generated_at": "2026-09-17T20:04:17.044558Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
     {
-      "id": "tender-coconut-985df272c0",
+      "id": "tender-coconut-d4abf01404",
       "market": "Thodupuzha Market",
       "district": "Idukki",
-      "date": "2026-09-03",
-      "min_price": 4300.0,
-      "max_price": 4500.0,
-      "modal_price": 4500.0,
+      "date": "2026-09-17",
+      "min_price": 4100.0,
+      "max_price": 4300.0,
+      "modal_price": 4300.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

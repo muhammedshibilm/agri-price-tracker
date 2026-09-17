@@ -1,10 +1,43 @@
 {
   "product": "orange",
   "product_name": "Orange",
-  "generated_at": "2026-09-16T19:52:29.550296Z",
+  "generated_at": "2026-09-17T20:04:17.044558Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "orange-6ae93153a0",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-17",
+      "min_price": 7450.0,
+      "max_price": 7550.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "orange-63e0a9fe19",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-17",
+      "min_price": 10500.0,
+      "max_price": 11500.0,
+      "modal_price": 11000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "orange-deaeb14233",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-17",
+      "min_price": 10900.0,
+      "max_price": 11100.0,
+      "modal_price": 11100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "orange-a7b6c9cca6",
       "market": "Munnar Market",
@@ -134,28 +167,6 @@
       "min_price": 11000.0,
       "max_price": 12000.0,
       "modal_price": 11500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "orange-422ec00d19",
-      "market": "Chala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-09",
-      "min_price": 10000.0,
-      "max_price": 11000.0,
-      "modal_price": 10000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "orange-1f2b8687d1",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-09",
-      "min_price": 7450.0,
-      "max_price": 7550.0,
-      "modal_price": 7500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }
