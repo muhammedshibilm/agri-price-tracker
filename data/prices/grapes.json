@@ -1,10 +1,32 @@
 {
   "product": "grapes",
   "product_name": "Grapes",
-  "generated_at": "2026-09-17T20:04:17.044558Z",
+  "generated_at": "2026-09-18T19:28:00.784590Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "grapes-6b68ba026e",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-18",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "grapes-238afafdc8",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-18",
+      "min_price": 7300.0,
+      "max_price": 7500.0,
+      "modal_price": 7400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "grapes-0d67db49b5",
       "market": "Thodupuzha Market",
@@ -123,50 +145,6 @@
       "min_price": 8000.0,
       "max_price": 9000.0,
       "modal_price": 8500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "grapes-80429aa080",
-      "market": "Chala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-10",
-      "min_price": 9000.0,
-      "max_price": 9500.0,
-      "modal_price": 9000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "grapes-4d35d17fa2",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-10",
-      "min_price": 8500.0,
-      "max_price": 9000.0,
-      "modal_price": 8800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "grapes-e90c50402f",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-10",
-      "min_price": 5950.0,
-      "max_price": 6050.0,
-      "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "grapes-6d37d6348b",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-10",
-      "min_price": 4300.0,
-      "max_price": 4500.0,
-      "modal_price": 4400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

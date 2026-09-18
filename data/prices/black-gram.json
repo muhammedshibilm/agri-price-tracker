@@ -1,10 +1,32 @@
 {
   "product": "black-gram",
   "product_name": "Black Gram / Urd Beans (Whole)",
-  "generated_at": "2026-09-17T20:04:17.044558Z",
+  "generated_at": "2026-09-18T19:28:00.784590Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "black-gram-a721db84af",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-18",
+      "min_price": 12500.0,
+      "max_price": 14000.0,
+      "modal_price": 13300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "black-gram-6ce50176fa",
+      "market": "Kottayam Market",
+      "district": "Kottayam",
+      "date": "2026-09-18",
+      "min_price": 11200.0,
+      "max_price": 13600.0,
+      "modal_price": 12400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "black-gram-fc2fa8ad8a",
       "market": "Palakkad Market",
@@ -101,28 +123,6 @@
       "min_price": 12800.0,
       "max_price": 14000.0,
       "modal_price": 13500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-gram-795f9204ec",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-10",
-      "min_price": 11800.0,
-      "max_price": 13000.0,
-      "modal_price": 12500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "black-gram-389e53b549",
-      "market": "Kottayam Market",
-      "district": "Kottayam",
-      "date": "2026-09-10",
-      "min_price": 11200.0,
-      "max_price": 13600.0,
-      "modal_price": 12400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

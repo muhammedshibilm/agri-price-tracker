@@ -1,10 +1,32 @@
 {
   "product": "raddish",
   "product_name": "Raddish",
-  "generated_at": "2026-09-17T20:04:17.044558Z",
+  "generated_at": "2026-09-18T19:28:00.784590Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "raddish-79084bd21b",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-18",
+      "min_price": 1000.0,
+      "max_price": 1500.0,
+      "modal_price": 1200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "raddish-91a8ec9ccd",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-18",
+      "min_price": 3600.0,
+      "max_price": 3800.0,
+      "modal_price": 3700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "raddish-6d49ae26e5",
       "market": "vadakarapathy Market",
@@ -101,28 +123,6 @@
       "min_price": 2300.0,
       "max_price": 2700.0,
       "modal_price": 2500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "raddish-78a9480011",
-      "market": "vadakarapathy Market",
-      "district": "Palakad",
-      "date": "2026-09-10",
-      "min_price": 1500.0,
-      "max_price": 2000.0,
-      "modal_price": 1700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "raddish-780b258f8e",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-10",
-      "min_price": 3300.0,
-      "max_price": 3500.0,
-      "modal_price": 3400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

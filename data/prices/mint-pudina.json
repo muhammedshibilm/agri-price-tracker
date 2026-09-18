@@ -1,10 +1,32 @@
 {
   "product": "mint-pudina",
   "product_name": "Mint(Pudina)",
-  "generated_at": "2026-09-17T20:04:17.044558Z",
+  "generated_at": "2026-09-18T19:28:00.784590Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "mint-pudina-834f9393e3",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-18",
+      "min_price": 7500.0,
+      "max_price": 8500.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "mint-pudina-faf9bd8992",
+      "market": "Parappanangadi Market",
+      "district": "Malappuram",
+      "date": "2026-09-18",
+      "min_price": 5600.0,
+      "max_price": 5800.0,
+      "modal_price": 5700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "mint-pudina-e6424d29b2",
       "market": "Parappanangadi Market",
@@ -65,17 +87,6 @@
       "market": "North Paravur Market",
       "district": "Ernakulam",
       "date": "2026-09-14",
-      "min_price": 7000.0,
-      "max_price": 8000.0,
-      "modal_price": 7500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "mint-pudina-da42e09f48",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-10",
       "min_price": 7000.0,
       "max_price": 8000.0,
       "modal_price": 7500.0,

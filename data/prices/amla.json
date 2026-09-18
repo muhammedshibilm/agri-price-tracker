@@ -1,10 +1,32 @@
 {
   "product": "amla",
   "product_name": "Amla (Indian Gooseberry)",
-  "generated_at": "2026-09-17T20:04:17.044558Z",
+  "generated_at": "2026-09-18T19:28:00.784590Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "amla-66cfa3a08e",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-18",
+      "min_price": 5300.0,
+      "max_price": 5500.0,
+      "modal_price": 5400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amla-34f00f234d",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-18",
+      "min_price": 11500.0,
+      "max_price": 12500.0,
+      "modal_price": 12000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "amla-52dbbbea44",
       "market": "Kattappana Market",
@@ -90,28 +112,6 @@
       "min_price": 5300.0,
       "max_price": 5500.0,
       "modal_price": 5400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "amla-af941a90f8",
-      "market": "Kattappana Market",
-      "district": "Idukki",
-      "date": "2026-09-10",
-      "min_price": 4000.0,
-      "max_price": 4400.0,
-      "modal_price": 4100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "amla-57d4c3dfb5",
-      "market": "North Paravur Market",
-      "district": "Ernakulam",
-      "date": "2026-09-10",
-      "min_price": 8300.0,
-      "max_price": 9000.0,
-      "modal_price": 8500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

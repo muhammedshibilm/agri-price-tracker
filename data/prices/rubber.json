@@ -1,10 +1,43 @@
 {
   "product": "rubber",
   "product_name": "Rubber",
-  "generated_at": "2026-09-17T20:04:17.044558Z",
+  "generated_at": "2026-09-18T19:28:00.784590Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "rubber-720239deef",
+      "market": "Mananthavady Market",
+      "district": "Wayanad",
+      "date": "2026-09-18",
+      "min_price": 25800.0,
+      "max_price": 25800.0,
+      "modal_price": 25800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "rubber-3ad73afd6f",
+      "market": "Kalpetta Market",
+      "district": "Wayanad",
+      "date": "2026-09-18",
+      "min_price": 24900.0,
+      "max_price": 25100.0,
+      "modal_price": 25000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "rubber-b94339d114",
+      "market": "Pulpally Market",
+      "district": "Wayanad",
+      "date": "2026-09-18",
+      "min_price": 25000.0,
+      "max_price": 25200.0,
+      "modal_price": 25100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "rubber-56e08ef80e",
       "market": "Kalpetta Market",
@@ -156,28 +189,6 @@
       "min_price": 26100.0,
       "max_price": 26200.0,
       "modal_price": 26200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "rubber-c2a8d967fd",
-      "market": "Kalpetta Market",
-      "district": "Wayanad",
-      "date": "2026-09-10",
-      "min_price": 25400.0,
-      "max_price": 25600.0,
-      "modal_price": 25500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "rubber-6ed86ccbe2",
-      "market": "Pulpally Market",
-      "district": "Wayanad",
-      "date": "2026-09-10",
-      "min_price": 25700.0,
-      "max_price": 25900.0,
-      "modal_price": 25800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }
