@@ -1,10 +1,131 @@
 {
   "product": "cluster-beans",
   "product_name": "Cluster Beans",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "cluster-beans-ceb4068264",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 4500.0,
+      "max_price": 6000.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-7bdfe3457f",
+      "market": "Thrissur Market",
+      "district": "Thirssur",
+      "date": "2026-09-19",
+      "min_price": 7500.0,
+      "max_price": 8000.0,
+      "modal_price": 7800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-9215f8723a",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 3600.0,
+      "max_price": 5600.0,
+      "modal_price": 4600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-1ec46282fc",
+      "market": "Thamarassery Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-19",
+      "min_price": 8500.0,
+      "max_price": 8800.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-9bf0154955",
+      "market": "Pala Market",
+      "district": "Kottayam",
+      "date": "2026-09-19",
+      "min_price": 8400.0,
+      "max_price": 9000.0,
+      "modal_price": 8600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-fcf7cb8f91",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-19",
+      "min_price": 7400.0,
+      "max_price": 7800.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-71ed7945dd",
+      "market": "Kottayam Market",
+      "district": "Kottayam",
+      "date": "2026-09-19",
+      "min_price": 5200.0,
+      "max_price": 5600.0,
+      "modal_price": 5400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-fdcf92d950",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-19",
+      "min_price": 10000.0,
+      "max_price": 14000.0,
+      "modal_price": 12000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-29c0a1e7c7",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-09-19",
+      "min_price": 8000.0,
+      "max_price": 10000.0,
+      "modal_price": 10000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-7c32f185ea",
+      "market": "Quilandy Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-19",
+      "min_price": 4000.0,
+      "max_price": 4200.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "cluster-beans-65e8b60a7a",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-19",
+      "min_price": 3300.0,
+      "max_price": 4000.0,
+      "modal_price": 3700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cluster-beans-842cf5599c",
       "market": "Kanjirappally Market",

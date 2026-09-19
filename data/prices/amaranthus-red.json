@@ -1,10 +1,32 @@
 {
   "product": "amaranthus-red",
   "product_name": "Amaranthus - Red",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "amaranthus-red-3f52da83cb",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-19",
+      "min_price": 2300.0,
+      "max_price": 2500.0,
+      "modal_price": 2400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "amaranthus-red-1e74980100",
+      "market": "Pappanchani VFPCK Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-19",
+      "min_price": 4000.0,
+      "max_price": 4000.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "amaranthus-red-d6232602b4",
       "market": "Kottakkal Market",

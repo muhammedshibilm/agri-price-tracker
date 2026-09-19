@@ -1,10 +1,32 @@
 {
   "product": "bengal-gram",
   "product_name": "Bengal Gram (Whole)",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "bengal-gram-73ebeb45db",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-19",
+      "min_price": 7800.0,
+      "max_price": 9000.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bengal-gram-6121a1d522",
+      "market": "Kottayam Market",
+      "district": "Kottayam",
+      "date": "2026-09-19",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "bengal-gram-ff5bc58aec",
       "market": "Kottayam Market",

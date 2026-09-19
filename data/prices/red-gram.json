@@ -1,10 +1,32 @@
 {
   "product": "red-gram",
   "product_name": "Red Gram / Arhar / Tur (Whole)",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "red-gram-4f53e2e85f",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-09-19",
+      "min_price": 14200.0,
+      "max_price": 14600.0,
+      "modal_price": 14400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "red-gram-20b8341d16",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-19",
+      "min_price": 13000.0,
+      "max_price": 15500.0,
+      "modal_price": 14300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "red-gram-1fc7e71441",
       "market": "Palakkad Market",

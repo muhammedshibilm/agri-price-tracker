@@ -1,10 +1,43 @@
 {
   "product": "french-beans",
   "product_name": "French Beans",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "french-beans-45d3f28717",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 8000.0,
+      "max_price": 8500.0,
+      "modal_price": 8200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-237dd19017",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-19",
+      "min_price": 7000.0,
+      "max_price": 8000.0,
+      "modal_price": 7600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-44719e65f1",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-19",
+      "min_price": 8500.0,
+      "max_price": 8700.0,
+      "modal_price": 8600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "french-beans-be4ea1f52d",
       "market": "Palakkad Market",

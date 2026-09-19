@@ -1,10 +1,43 @@
 {
   "product": "papaya",
   "product_name": "Papaya",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "papaya-8cd95bfec7",
+      "market": "Nedumpaikulam  VFPCK Market",
+      "district": "Kollam",
+      "date": "2026-09-19",
+      "min_price": 4500.0,
+      "max_price": 4500.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "papaya-1ab495f093",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-19",
+      "min_price": 4450.0,
+      "max_price": 4550.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "papaya-73f8a7d1a4",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-09-19",
+      "min_price": 3800.0,
+      "max_price": 3800.0,
+      "modal_price": 3800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "papaya-54cb5e25da",
       "market": "Manjeri Market",

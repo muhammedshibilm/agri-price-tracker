@@ -1,10 +1,142 @@
 {
   "product": "lemon",
   "product_name": "Lemon",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "lemon-28b420b338",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 6500.0,
+      "max_price": 7500.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-d4e48575f6",
+      "market": "Thrissur Market",
+      "district": "Thirssur",
+      "date": "2026-09-19",
+      "min_price": 20000.0,
+      "max_price": 20000.0,
+      "modal_price": 20000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-be291bfd61",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 22000.0,
+      "max_price": 25000.0,
+      "modal_price": 24000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-e5c9eb84e0",
+      "market": "Kottakkal Market",
+      "district": "Malappuram",
+      "date": "2026-09-19",
+      "min_price": 17300.0,
+      "max_price": 17500.0,
+      "modal_price": 17400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-790ce6ec41",
+      "market": "Aralamoodu Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-19",
+      "min_price": 9000.0,
+      "max_price": 10000.0,
+      "modal_price": 10000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-83cc87da5e",
+      "market": "Neeleswaram Market",
+      "district": "Kasargod",
+      "date": "2026-09-19",
+      "min_price": 18000.0,
+      "max_price": 18400.0,
+      "modal_price": 18200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-3e7035b088",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-19",
+      "min_price": 12600.0,
+      "max_price": 12800.0,
+      "modal_price": 12800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-23b026478b",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-09-19",
+      "min_price": 6500.0,
+      "max_price": 6500.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-fa14852eb0",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-19",
+      "min_price": 3200.0,
+      "max_price": 3200.0,
+      "modal_price": 3200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-57c111d5ed",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-19",
+      "min_price": 7500.0,
+      "max_price": 8200.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-f14b1dade3",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-19",
+      "min_price": 25000.0,
+      "max_price": 27000.0,
+      "modal_price": 26100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-4ba364edb7",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 25000.0,
+      "max_price": 28000.0,
+      "modal_price": 26000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "lemon-938a0fbe2c",
       "market": "Thrippunithura Market",

@@ -1,10 +1,120 @@
 {
   "product": "colacasia",
   "product_name": "Colocasia (Chembu)",
-  "generated_at": "2026-09-18T19:28:00.784590Z",
+  "generated_at": "2026-09-19T19:13:44.030126Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "colacasia-2208295bb8",
+      "market": "Thrippunithura Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 5500.0,
+      "max_price": 7000.0,
+      "modal_price": 5700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-9466f500d5",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 4500.0,
+      "max_price": 5500.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-2ac3567366",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-19",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-2991dd3317",
+      "market": "North Paravur Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 4500.0,
+      "max_price": 5500.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-e925898d12",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-09-19",
+      "min_price": 6700.0,
+      "max_price": 6700.0,
+      "modal_price": 6700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-1e5ccd383a",
+      "market": "Angamaly Market",
+      "district": "Ernakulam",
+      "date": "2026-09-19",
+      "min_price": 4200.0,
+      "max_price": 7000.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-728b041fb2",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-19",
+      "min_price": 5800.0,
+      "max_price": 6100.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-9daa956072",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-19",
+      "min_price": 5400.0,
+      "max_price": 6000.0,
+      "modal_price": 5600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-d60343d4fd",
+      "market": "Kottarakkara Market",
+      "district": "Kollam",
+      "date": "2026-09-19",
+      "min_price": 3200.0,
+      "max_price": 3200.0,
+      "modal_price": 3200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "colacasia-7b700aa598",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-19",
+      "min_price": 4450.0,
+      "max_price": 4550.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "colacasia-2628ecf184",
       "market": "Kanjirappally Market",
