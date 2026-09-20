@@ -1,10 +1,21 @@
 {
   "product": "cluster-beans",
   "product_name": "Cluster Beans",
-  "generated_at": "2026-09-19T19:13:44.030126Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "cluster-beans-81befec62c",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-20",
+      "min_price": 3000.0,
+      "max_price": 3400.0,
+      "modal_price": 3200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cluster-beans-ceb4068264",
       "market": "Thrippunithura Market",
@@ -871,72 +882,6 @@
       "min_price": 3800.0,
       "max_price": 4200.0,
       "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cluster-beans-a580b3fda7",
-      "market": "Kollengode Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 3600.0,
-      "max_price": 4000.0,
-      "modal_price": 3800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cluster-beans-c3b77989f6",
-      "market": "Parassala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-12",
-      "min_price": 3800.0,
-      "max_price": 4200.0,
-      "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cluster-beans-b2038a5e14",
-      "market": "Chengannur Market",
-      "district": "Alappuzha",
-      "date": "2026-09-12",
-      "min_price": 6500.0,
-      "max_price": 7000.0,
-      "modal_price": 6800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cluster-beans-a650b5894d",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 2800.0,
-      "max_price": 4000.0,
-      "modal_price": 3500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cluster-beans-843b513a87",
-      "market": "Chavakkad Market",
-      "district": "Thirssur",
-      "date": "2026-09-12",
-      "min_price": 6400.0,
-      "max_price": 7400.0,
-      "modal_price": 7400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cluster-beans-dec844c29f",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 3600.0,
-      "max_price": 4000.0,
-      "modal_price": 3800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

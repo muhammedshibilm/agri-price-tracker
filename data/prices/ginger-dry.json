@@ -1,10 +1,32 @@
 {
   "product": "ginger-dry",
   "product_name": "Ginger(Dry)",
-  "generated_at": "2026-09-16T19:52:29.550296Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "ginger-dry-7ac2caa8d8",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-20",
+      "min_price": 14000.0,
+      "max_price": 14400.0,
+      "modal_price": 14200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "ginger-dry-78ef302f58",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-20",
+      "min_price": 14800.0,
+      "max_price": 15000.0,
+      "modal_price": 15000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "ginger-dry-53d38412d6",
       "market": "Koduvayoor Market",
@@ -35,39 +57,6 @@
       "min_price": 13500.0,
       "max_price": 13900.0,
       "modal_price": 13700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ginger-dry-ade9e14fb6",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 14500.0,
-      "max_price": 14900.0,
-      "modal_price": 14700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ginger-dry-7967fd2846",
-      "market": "Thodupuzha Market",
-      "district": "Idukki",
-      "date": "2026-09-09",
-      "min_price": 15900.0,
-      "max_price": 16100.0,
-      "modal_price": 16100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "ginger-dry-6d1c38ed6f",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-09",
-      "min_price": 14000.0,
-      "max_price": 14400.0,
-      "modal_price": 14200.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

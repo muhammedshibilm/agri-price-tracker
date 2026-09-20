@@ -1,10 +1,65 @@
 {
   "product": "green-chilli",
   "product_name": "Green Chilli",
-  "generated_at": "2026-09-19T19:13:44.030126Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "green-chilli-8b995b88e8",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-20",
+      "min_price": 5100.0,
+      "max_price": 5300.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-2109ee72b4",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-20",
+      "min_price": 6000.0,
+      "max_price": 6400.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-b5328af198",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-20",
+      "min_price": 8500.0,
+      "max_price": 9500.0,
+      "modal_price": 9000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-4e210f4566",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-20",
+      "min_price": 5000.0,
+      "max_price": 5400.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "green-chilli-db63cdc871",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-20",
+      "min_price": 4450.0,
+      "max_price": 4550.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "green-chilli-301e54e866",
       "market": "Perumbavoor Market",
@@ -2125,171 +2180,6 @@
       "min_price": 7800.0,
       "max_price": 8200.0,
       "modal_price": 8000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-1b4f7f785d",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 4000.0,
-      "max_price": 5000.0,
-      "modal_price": 4600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-5a5ffcfebb",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 3800.0,
-      "max_price": 4200.0,
-      "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-96ef935218",
-      "market": "Chelakkara Market",
-      "district": "Thirssur",
-      "date": "2026-09-12",
-      "min_price": 7200.0,
-      "max_price": 7400.0,
-      "modal_price": 7300.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-b8358cc9d1",
-      "market": "Parassala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-12",
-      "min_price": 7800.0,
-      "max_price": 8200.0,
-      "modal_price": 8000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-114c940eff",
-      "market": "Mananthavady Market",
-      "district": "Wayanad",
-      "date": "2026-09-12",
-      "min_price": 4000.0,
-      "max_price": 4200.0,
-      "modal_price": 4100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-0e4ca221f2",
-      "market": "Kollengode Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 4600.0,
-      "max_price": 5000.0,
-      "modal_price": 4800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-8dfd095f38",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-12",
-      "min_price": 6000.0,
-      "max_price": 6300.0,
-      "modal_price": 6100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-7241daf1d3",
-      "market": "Perumbavoor Market",
-      "district": "Ernakulam",
-      "date": "2026-09-12",
-      "min_price": 4500.0,
-      "max_price": 5500.0,
-      "modal_price": 5000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-c6fec03da2",
-      "market": "Ettumanoor Market",
-      "district": "Kottayam",
-      "date": "2026-09-12",
-      "min_price": 4700.0,
-      "max_price": 5200.0,
-      "modal_price": 5000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-b2bb3d43f7",
-      "market": "Aralamoodu Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-12",
-      "min_price": 7000.0,
-      "max_price": 8000.0,
-      "modal_price": 8000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-f62797b016",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-12",
-      "min_price": 4450.0,
-      "max_price": 4550.0,
-      "modal_price": 4500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-2598234517",
-      "market": "Kayamkulam Market",
-      "district": "Alappuzha",
-      "date": "2026-09-12",
-      "min_price": 5300.0,
-      "max_price": 5500.0,
-      "modal_price": 5400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-8416275fba",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-12",
-      "min_price": 8000.0,
-      "max_price": 10000.0,
-      "modal_price": 9000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-222ca2607e",
-      "market": "Chavakkad Market",
-      "district": "Thirssur",
-      "date": "2026-09-12",
-      "min_price": 6500.0,
-      "max_price": 8000.0,
-      "modal_price": 8000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-chilli-6d3f45d7dc",
-      "market": "Kottarakkara Market",
-      "district": "Kollam",
-      "date": "2026-09-12",
-      "min_price": 3100.0,
-      "max_price": 3100.0,
-      "modal_price": 3100.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

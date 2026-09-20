@@ -1,10 +1,32 @@
 {
   "product": "long-melon",
   "product_name": "Long Melon (Kakri)",
-  "generated_at": "2026-09-19T19:13:44.030126Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "long-melon-00328c5c84",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-20",
+      "min_price": 3500.0,
+      "max_price": 4500.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "long-melon-29387bfb22",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-20",
+      "min_price": 3950.0,
+      "max_price": 4050.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "long-melon-3d4366d43c",
       "market": "Kollam Market",
@@ -188,28 +210,6 @@
       "date": "2026-09-13",
       "min_price": 3500.0,
       "max_price": 4500.0,
-      "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "long-melon-e351eb8ec3",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-12",
-      "min_price": 3500.0,
-      "max_price": 4500.0,
-      "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "long-melon-6617c08bdc",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-12",
-      "min_price": 3950.0,
-      "max_price": 4050.0,
       "modal_price": 4000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"

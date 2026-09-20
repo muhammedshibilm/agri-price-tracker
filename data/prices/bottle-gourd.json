@@ -1,10 +1,76 @@
 {
   "product": "bottle-gourd",
   "product_name": "Bottle Gourd",
-  "generated_at": "2026-09-19T19:13:44.030126Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "bottle-gourd-3bebc8f5b2",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-20",
+      "min_price": 3000.0,
+      "max_price": 3300.0,
+      "modal_price": 3100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-bbd9fc37d6",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-20",
+      "min_price": 3400.0,
+      "max_price": 3800.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-5891febbe9",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-20",
+      "min_price": 3450.0,
+      "max_price": 3550.0,
+      "modal_price": 3500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-19d34ad6ab",
+      "market": "Anchal Market",
+      "district": "Kollam",
+      "date": "2026-09-20",
+      "min_price": 2700.0,
+      "max_price": 2800.0,
+      "modal_price": 2754.1,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-1594b9015f",
+      "market": "Vithinasserri VFPCK Market",
+      "district": "Palakad",
+      "date": "2026-09-20",
+      "min_price": 2000.0,
+      "max_price": 2000.0,
+      "modal_price": 2000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "bottle-gourd-99e3f4804c",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-20",
+      "min_price": 2500.0,
+      "max_price": 3500.0,
+      "modal_price": 3000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "bottle-gourd-a77300ef36",
       "market": "Mukkom Market",
@@ -1498,116 +1564,6 @@
       "min_price": 2700.0,
       "max_price": 2700.0,
       "modal_price": 2700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-15c80daf97",
-      "market": "Chengannur Market",
-      "district": "Alappuzha",
-      "date": "2026-09-12",
-      "min_price": 1900.0,
-      "max_price": 2200.0,
-      "modal_price": 2000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-ff7e4dc811",
-      "market": "Kottarakkara Market",
-      "district": "Kollam",
-      "date": "2026-09-12",
-      "min_price": 1800.0,
-      "max_price": 1800.0,
-      "modal_price": 1800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-41359d38ee",
-      "market": "Kollengode Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 1600.0,
-      "max_price": 2000.0,
-      "modal_price": 1800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-ab4babe59c",
-      "market": "Anchal Market",
-      "district": "Kollam",
-      "date": "2026-09-12",
-      "min_price": 2700.0,
-      "max_price": 2700.0,
-      "modal_price": 2700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-e20985f3bb",
-      "market": "Perumbavoor Market",
-      "district": "Ernakulam",
-      "date": "2026-09-12",
-      "min_price": 3000.0,
-      "max_price": 4000.0,
-      "modal_price": 3500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-9fdeb83ee4",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-12",
-      "min_price": 2800.0,
-      "max_price": 3500.0,
-      "modal_price": 3000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-a053202bd9",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 2800.0,
-      "max_price": 3200.0,
-      "modal_price": 3000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-f2096527d0",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-12",
-      "min_price": 3450.0,
-      "max_price": 3550.0,
-      "modal_price": 3500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-66213a0cf7",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-12",
-      "min_price": 3200.0,
-      "max_price": 3500.0,
-      "modal_price": 3400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "bottle-gourd-e960c2cb7d",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 3500.0,
-      "max_price": 4000.0,
-      "modal_price": 3800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

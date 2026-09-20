@@ -1,18 +1,18 @@
 {
   "product": "white-pumpkin",
   "product_name": "White Pumpkin",
-  "generated_at": "2026-09-05T18:52:10.795449Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
     {
-      "id": "white-pumpkin-f6ec91630b",
-      "market": "Thodupuzha Market",
+      "id": "white-pumpkin-00a9d58ab7",
+      "market": "Munnar Market",
       "district": "Idukki",
-      "date": "2026-09-05",
-      "min_price": 1000.0,
-      "max_price": 1200.0,
-      "modal_price": 1200.0,
+      "date": "2026-09-20",
+      "min_price": 1400.0,
+      "max_price": 1400.0,
+      "modal_price": 1400.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

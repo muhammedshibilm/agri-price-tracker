@@ -1,15 +1,15 @@
 {
   "product": "mace",
   "product_name": "Mace",
-  "generated_at": "2026-09-09T19:37:34.435458Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
     {
-      "id": "mace-587bbd73ff",
+      "id": "mace-4d29c1d195",
       "market": "Thodupuzha Market",
       "district": "Idukki",
-      "date": "2026-09-09",
+      "date": "2026-09-20",
       "min_price": 29800.0,
       "max_price": 30000.0,
       "modal_price": 30000.0,

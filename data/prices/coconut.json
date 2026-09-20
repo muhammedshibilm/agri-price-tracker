@@ -1,10 +1,54 @@
 {
   "product": "coconut",
   "product_name": "Coconut",
-  "generated_at": "2026-09-19T19:13:44.030126Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coconut-01a7208619",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-20",
+      "min_price": 3950.0,
+      "max_price": 4050.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-466d30a3d2",
+      "market": "Koduvayoor Market",
+      "district": "Palakad",
+      "date": "2026-09-20",
+      "min_price": 5600.0,
+      "max_price": 6000.0,
+      "modal_price": 5800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-618b92a0f5",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-20",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-73c492ce59",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-20",
+      "min_price": 6000.0,
+      "max_price": 6400.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coconut-91dcc75250",
       "market": "Neeleswaram Market",
@@ -684,61 +728,6 @@
       "min_price": 5800.0,
       "max_price": 6000.0,
       "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-e769f1e60d",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-12",
-      "min_price": 5800.0,
-      "max_price": 6100.0,
-      "modal_price": 5900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-1ddeef4f4e",
-      "market": "Chengannur Market",
-      "district": "Alappuzha",
-      "date": "2026-09-12",
-      "min_price": 5900.0,
-      "max_price": 6200.0,
-      "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-581ceabf00",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-12",
-      "min_price": 3950.0,
-      "max_price": 4050.0,
-      "modal_price": 4000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-aba696107a",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 5700.0,
-      "max_price": 6000.0,
-      "modal_price": 5900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-cae9641c35",
-      "market": "Koduvayoor Market",
-      "district": "Palakad",
-      "date": "2026-09-12",
-      "min_price": 5600.0,
-      "max_price": 6000.0,
-      "modal_price": 5800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

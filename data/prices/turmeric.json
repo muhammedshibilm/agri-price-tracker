@@ -1,10 +1,21 @@
 {
   "product": "turmeric",
   "product_name": "Turmeric",
-  "generated_at": "2026-09-14T20:46:00.407202Z",
+  "generated_at": "2026-09-20T19:17:47.066516Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "turmeric-f43aef57eb",
+      "market": "Thodupuzha Market",
+      "district": "Idukki",
+      "date": "2026-09-20",
+      "min_price": 14500.0,
+      "max_price": 14700.0,
+      "modal_price": 14700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "turmeric-4cb0fd01ab",
       "market": "Thodupuzha Market",
@@ -13,17 +24,6 @@
       "min_price": 10600.0,
       "max_price": 10800.0,
       "modal_price": 10800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "turmeric-5ba7011ad5",
-      "market": "Thodupuzha Market",
-      "district": "Idukki",
-      "date": "2026-09-09",
-      "min_price": 13300.0,
-      "max_price": 13500.0,
-      "modal_price": 13500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }
