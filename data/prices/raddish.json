@@ -1,10 +1,21 @@
 {
   "product": "raddish",
   "product_name": "Raddish",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "raddish-29cecb8c0c",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-21",
+      "min_price": 1500.0,
+      "max_price": 2000.0,
+      "modal_price": 1700.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "raddish-cc10c411e5",
       "market": "Koduvayoor Market",

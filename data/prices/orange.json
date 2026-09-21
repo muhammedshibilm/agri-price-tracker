@@ -1,10 +1,32 @@
 {
   "product": "orange",
   "product_name": "Orange",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "orange-fcd7b1798d",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-21",
+      "min_price": 10000.0,
+      "max_price": 11000.0,
+      "modal_price": 10500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "orange-618b82a0e5",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-21",
+      "min_price": 7450.0,
+      "max_price": 7550.0,
+      "modal_price": 7500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "orange-a3effa2562",
       "market": "Mukkom Market",
@@ -189,17 +211,6 @@
       "min_price": 10500.0,
       "max_price": 12000.0,
       "modal_price": 11500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "orange-afbc3c61b2",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-13",
-      "min_price": 9000.0,
-      "max_price": 10500.0,
-      "modal_price": 9800.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

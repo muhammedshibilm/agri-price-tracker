@@ -1,18 +1,18 @@
 {
-  "product": "beans",
-  "product_name": "Beans",
+  "product": "sugar",
+  "product_name": "Sugar",
   "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
     {
-      "id": "beans-2adf252746",
+      "id": "sugar-adf97f0b32",
       "market": "Munnar Market",
       "district": "Idukki",
       "date": "2026-09-21",
-      "min_price": 8500.0,
-      "max_price": 8500.0,
-      "modal_price": 8500.0,
+      "min_price": 5500.0,
+      "max_price": 5500.0,
+      "modal_price": 5500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

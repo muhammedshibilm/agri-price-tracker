@@ -1,10 +1,131 @@
 {
   "product": "drumstick",
   "product_name": "Drumstick",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "drumstick-c91e158cbc",
+      "market": "Chelakkara Market",
+      "district": "Thirssur",
+      "date": "2026-09-21",
+      "min_price": 7200.0,
+      "max_price": 7500.0,
+      "modal_price": 7400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-b968963f69",
+      "market": "Aroor Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 5800.0,
+      "max_price": 6000.0,
+      "modal_price": 5900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-0fe1f7da90",
+      "market": "Kanjirappally Market",
+      "district": "Kottayam",
+      "date": "2026-09-21",
+      "min_price": 5000.0,
+      "max_price": 5500.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-be16fc8caf",
+      "market": "Chalakudy Market",
+      "district": "Thirssur",
+      "date": "2026-09-21",
+      "min_price": 5300.0,
+      "max_price": 6000.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-bda9405ea4",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 3500.0,
+      "max_price": 4500.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-18719e183a",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 10000.0,
+      "max_price": 12000.0,
+      "modal_price": 11000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-cfdfc1b8f2",
+      "market": "Wadakkanchery Market",
+      "district": "Thirssur",
+      "date": "2026-09-21",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-80ef8c86fb",
+      "market": "Chathanoor Market",
+      "district": "Kollam",
+      "date": "2026-09-21",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-464cfb7e34",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 2500.0,
+      "max_price": 2700.0,
+      "modal_price": 2600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-e9e243f25f",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-21",
+      "min_price": 4400.0,
+      "max_price": 4700.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "drumstick-62d7ceeb2d",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 3800.0,
+      "max_price": 4100.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "drumstick-c2152dbcd6",
       "market": "Koduvayoor Market",
@@ -1685,61 +1806,6 @@
       "min_price": 3000.0,
       "max_price": 3500.0,
       "modal_price": 3200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "drumstick-b4a0c2f8b7",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-13",
-      "min_price": 4400.0,
-      "max_price": 4800.0,
-      "modal_price": 4600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "drumstick-018654920c",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-13",
-      "min_price": 12500.0,
-      "max_price": 14000.0,
-      "modal_price": 13000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "drumstick-5f721fa1d7",
-      "market": "Parassala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-13",
-      "min_price": 2800.0,
-      "max_price": 3200.0,
-      "modal_price": 3000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "drumstick-6767e6a7df",
-      "market": "Pampady Market",
-      "district": "Kottayam",
-      "date": "2026-09-13",
-      "min_price": 5500.0,
-      "max_price": 6500.0,
-      "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "drumstick-b7073ae7a2",
-      "market": "Kayamkulam Market",
-      "district": "Alappuzha",
-      "date": "2026-09-13",
-      "min_price": 3400.0,
-      "max_price": 3600.0,
-      "modal_price": 3500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

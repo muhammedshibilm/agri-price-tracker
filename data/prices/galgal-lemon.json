@@ -1,10 +1,21 @@
 {
   "product": "galgal-lemon",
   "product_name": "Galgal (Lemon)",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "galgal-lemon-14d8b982a1",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 3000.0,
+      "max_price": 4500.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "galgal-lemon-8a186d5b39",
       "market": "Piravam Market",
@@ -57,17 +68,6 @@
       "min_price": 3000.0,
       "max_price": 4000.0,
       "modal_price": 3500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "galgal-lemon-97d40adfc9",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-13",
-      "min_price": 3000.0,
-      "max_price": 4500.0,
-      "modal_price": 4000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

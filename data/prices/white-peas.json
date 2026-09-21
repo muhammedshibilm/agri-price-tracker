@@ -1,18 +1,18 @@
 {
-  "product": "beans",
-  "product_name": "Beans",
+  "product": "white-peas",
+  "product_name": "White Peas",
   "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
     {
-      "id": "beans-2adf252746",
+      "id": "white-peas-296fe34bbc",
       "market": "Munnar Market",
       "district": "Idukki",
       "date": "2026-09-21",
-      "min_price": 8500.0,
-      "max_price": 8500.0,
-      "modal_price": 8500.0,
+      "min_price": 9000.0,
+      "max_price": 9000.0,
+      "modal_price": 9000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

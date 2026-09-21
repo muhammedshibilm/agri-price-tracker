@@ -1,10 +1,43 @@
 {
   "product": "french-beans",
   "product_name": "French Beans",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "french-beans-c0a3e203b2",
+      "market": "Kayamkulam Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 8700.0,
+      "max_price": 8900.0,
+      "modal_price": 8800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-c61b52961b",
+      "market": "Aroor Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 7000.0,
+      "max_price": 7200.0,
+      "modal_price": 7100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "french-beans-c45548e5a1",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-21",
+      "min_price": 5250.0,
+      "max_price": 5350.0,
+      "modal_price": 5300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "french-beans-438f558736",
       "market": "Kayamkulam Market",
@@ -519,17 +552,6 @@
       "min_price": 5000.0,
       "max_price": 5400.0,
       "modal_price": 5200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "french-beans-f9b7a168d1",
-      "market": "Kayamkulam Market",
-      "district": "Alappuzha",
-      "date": "2026-09-13",
-      "min_price": 6400.0,
-      "max_price": 6600.0,
-      "modal_price": 6500.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

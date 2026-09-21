@@ -1,10 +1,21 @@
 {
   "product": "green-avare",
   "product_name": "Green Avare",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "green-avare-a6b0e58980",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-21",
+      "min_price": 6000.0,
+      "max_price": 6500.0,
+      "modal_price": 6200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "green-avare-0215b709da",
       "market": "Koduvayoor Market",

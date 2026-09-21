@@ -1,10 +1,32 @@
 {
   "product": "arecanut",
   "product_name": "Arecanut",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "arecanut-b93de09b97",
+      "market": "Kuthuparambu Market",
+      "district": "Kannur",
+      "date": "2026-09-21",
+      "min_price": 36000.0,
+      "max_price": 38000.0,
+      "modal_price": 37000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "arecanut-ee184dbaba",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-21",
+      "min_price": 42000.0,
+      "max_price": 42500.0,
+      "modal_price": 42200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "arecanut-8ce905e0d0",
       "market": "Manjeswaram Market",

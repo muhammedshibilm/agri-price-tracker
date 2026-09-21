@@ -1,10 +1,54 @@
 {
   "product": "lemon",
   "product_name": "Lemon",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "lemon-e79840f74f",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-21",
+      "min_price": 25000.0,
+      "max_price": 35000.0,
+      "modal_price": 30000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-1bc1751687",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-21",
+      "min_price": 18000.0,
+      "max_price": 18100.0,
+      "modal_price": 18050.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-b6367fa636",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 8000.0,
+      "max_price": 9000.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "lemon-9d2868e2f0",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 22000.0,
+      "max_price": 24000.0,
+      "modal_price": 23000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "lemon-4c60b21239",
       "market": "Koduvayoor Market",
@@ -882,39 +926,6 @@
       "min_price": 17800.0,
       "max_price": 18000.0,
       "modal_price": 17900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "lemon-5e752e9f79",
-      "market": "Parassala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-13",
-      "min_price": 8800.0,
-      "max_price": 9200.0,
-      "modal_price": 9000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "lemon-5a3d1556ad",
-      "market": "Kuruppanthura Market",
-      "district": "Kottayam",
-      "date": "2026-09-13",
-      "min_price": 15000.0,
-      "max_price": 16000.0,
-      "modal_price": 16000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "lemon-bdd3597385",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-13",
-      "min_price": 20000.0,
-      "max_price": 22000.0,
-      "modal_price": 21000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

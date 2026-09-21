@@ -1,10 +1,32 @@
 {
   "product": "coriander",
   "product_name": "Coriander Leaves",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coriander-cf73b9b3f0",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-21",
+      "min_price": 6950.0,
+      "max_price": 7050.0,
+      "modal_price": 7000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coriander-d3562bb24f",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 6000.0,
+      "max_price": 7000.0,
+      "modal_price": 6500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coriander-8b60706a36",
       "market": "Piravam Market",
@@ -277,17 +299,6 @@
       "min_price": 6800.0,
       "max_price": 7000.0,
       "modal_price": 7000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coriander-49d62e9f82",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-13",
-      "min_price": 8000.0,
-      "max_price": 10000.0,
-      "modal_price": 9000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

@@ -1,10 +1,142 @@
 {
   "product": "yam-suran",
   "product_name": "Elephant Yam (Suran/Chena)",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "yam-suran-5e1dc830ca",
+      "market": "Aroor Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 6000.0,
+      "max_price": 6200.0,
+      "modal_price": 6100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-3712723118",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 4000.0,
+      "max_price": 4300.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-7e3cc29dff",
+      "market": "Piravam Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 4000.0,
+      "max_price": 6000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-abf7f4014e",
+      "market": "Kallachi Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-21",
+      "min_price": 3800.0,
+      "max_price": 4200.0,
+      "modal_price": 4000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-91567ab599",
+      "market": "Neyyatinkara Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-21",
+      "min_price": 3400.0,
+      "max_price": 4000.0,
+      "modal_price": 3600.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-450e728bbb",
+      "market": "Chelakkara Market",
+      "district": "Thirssur",
+      "date": "2026-09-21",
+      "min_price": 5000.0,
+      "max_price": 5500.0,
+      "modal_price": 5200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-a8161851eb",
+      "market": "Chavakkad Market",
+      "district": "Thirssur",
+      "date": "2026-09-21",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-cdfbdc2452",
+      "market": "Wadakkanchery Market",
+      "district": "Thirssur",
+      "date": "2026-09-21",
+      "min_price": 4000.0,
+      "max_price": 4500.0,
+      "modal_price": 4200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-9856a1a92a",
+      "market": "Chalakudy Market",
+      "district": "Thirssur",
+      "date": "2026-09-21",
+      "min_price": 4200.0,
+      "max_price": 4800.0,
+      "modal_price": 4800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-33ca702307",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-21",
+      "min_price": 3350.0,
+      "max_price": 3450.0,
+      "modal_price": 3400.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-9844414317",
+      "market": "Perumbavoor Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 4000.0,
+      "max_price": 5000.0,
+      "modal_price": 4500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "yam-suran-1609133398",
+      "market": "Mazhuvannur VFPCK Market",
+      "district": "Ernakulam",
+      "date": "2026-09-21",
+      "min_price": 2100.0,
+      "max_price": 3000.0,
+      "modal_price": 2300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "yam-suran-f22a7c0e1b",
       "market": "Kodungalloor Market",
@@ -1795,83 +1927,6 @@
       "min_price": 5000.0,
       "max_price": 5400.0,
       "modal_price": 5200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-suran-63acf6b482",
-      "market": "Wadakkanchery Market",
-      "district": "Thirssur",
-      "date": "2026-09-13",
-      "min_price": 4500.0,
-      "max_price": 5000.0,
-      "modal_price": 4700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-suran-1b2e136b0d",
-      "market": "Pandalam VFPCK Market",
-      "district": "Pathanamthitta",
-      "date": "2026-09-13",
-      "min_price": 3000.0,
-      "max_price": 4000.0,
-      "modal_price": 3500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-suran-b56fd1f3f6",
-      "market": "Pampady Market",
-      "district": "Kottayam",
-      "date": "2026-09-13",
-      "min_price": 4500.0,
-      "max_price": 5500.0,
-      "modal_price": 5000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-suran-ed603aa03e",
-      "market": "Kuruppanthura Market",
-      "district": "Kottayam",
-      "date": "2026-09-13",
-      "min_price": 5000.0,
-      "max_price": 5500.0,
-      "modal_price": 5500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-suran-b0adefb232",
-      "market": "Piravam Market",
-      "district": "Ernakulam",
-      "date": "2026-09-13",
-      "min_price": 5000.0,
-      "max_price": 7000.0,
-      "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-suran-2e69863445",
-      "market": "Kodungalloor Market",
-      "district": "Thirssur",
-      "date": "2026-09-13",
-      "min_price": 5000.0,
-      "max_price": 5000.0,
-      "modal_price": 5000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "yam-suran-d201ed6d44",
-      "market": "Parassala Market",
-      "district": "Thiruvananthapuram",
-      "date": "2026-09-13",
-      "min_price": 7800.0,
-      "max_price": 8200.0,
-      "modal_price": 8000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

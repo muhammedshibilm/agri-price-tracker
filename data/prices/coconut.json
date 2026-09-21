@@ -1,10 +1,65 @@
 {
   "product": "coconut",
   "product_name": "Coconut",
-  "generated_at": "2026-09-20T19:17:47.066516Z",
+  "generated_at": "2026-09-21T20:51:45.254624Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coconut-f1b9b9d6fe",
+      "market": "Chengannur Market",
+      "district": "Alappuzha",
+      "date": "2026-09-21",
+      "min_price": 5800.0,
+      "max_price": 6300.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-a4b47b4620",
+      "market": "Munnar Market",
+      "district": "Idukki",
+      "date": "2026-09-21",
+      "min_price": 9800.0,
+      "max_price": 9800.0,
+      "modal_price": 9800.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-a531d9c4de",
+      "market": "Ranniangadi Market",
+      "district": "Pathanamthitta",
+      "date": "2026-09-21",
+      "min_price": 5500.0,
+      "max_price": 5600.0,
+      "modal_price": 5500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-25c7039bde",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-21",
+      "min_price": 5800.0,
+      "max_price": 6100.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-8cdeb40ea6",
+      "market": "vadakarapathy Market",
+      "district": "Palakad",
+      "date": "2026-09-21",
+      "min_price": 5000.0,
+      "max_price": 5500.0,
+      "modal_price": 5300.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coconut-01a7208619",
       "market": "Manjeri Market",
@@ -706,28 +761,6 @@
       "min_price": 5500.0,
       "max_price": 5900.0,
       "modal_price": 5700.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-f11081e274",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-13",
-      "min_price": 5800.0,
-      "max_price": 6200.0,
-      "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-bcf3879c3a",
-      "market": "Ranniangadi Market",
-      "district": "Pathanamthitta",
-      "date": "2026-09-13",
-      "min_price": 5800.0,
-      "max_price": 6000.0,
-      "modal_price": 6000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }
