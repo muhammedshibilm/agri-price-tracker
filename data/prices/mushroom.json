@@ -1,10 +1,21 @@
 {
   "product": "mushroom",
   "product_name": "Mushroom",
-  "generated_at": "2026-09-21T20:51:45.254624Z",
+  "generated_at": "2026-09-22T20:02:14.517252Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "mushroom-01413a325a",
+      "market": "Sasthamkotta Market",
+      "district": "Kollam",
+      "date": "2026-09-22",
+      "min_price": 8000.0,
+      "max_price": 8000.0,
+      "modal_price": 8000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "mushroom-25c693b3ee",
       "market": "Sasthamkotta Market",
@@ -46,17 +57,6 @@
       "min_price": 6000.0,
       "max_price": 6000.0,
       "modal_price": 6000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "mushroom-5ef56cbcbb",
-      "market": "Sasthamkotta Market",
-      "district": "Kollam",
-      "date": "2026-09-14",
-      "min_price": 9000.0,
-      "max_price": 9000.0,
-      "modal_price": 9000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

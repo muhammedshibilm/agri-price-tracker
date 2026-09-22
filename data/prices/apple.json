@@ -1,10 +1,54 @@
 {
   "product": "apple",
   "product_name": "Apple",
-  "generated_at": "2026-09-21T20:51:45.254624Z",
+  "generated_at": "2026-09-22T20:02:14.517252Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "apple-f6d88d1a02",
+      "market": "Chala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-22",
+      "min_price": 12000.0,
+      "max_price": 12500.0,
+      "modal_price": 12000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-279a77fd51",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-22",
+      "min_price": 14500.0,
+      "max_price": 15500.0,
+      "modal_price": 15000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-c9ffd96ea1",
+      "market": "Kattappana Market",
+      "district": "Idukki",
+      "date": "2026-09-22",
+      "min_price": 32000.0,
+      "max_price": 33000.0,
+      "modal_price": 33000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-fe1cfe0ee8",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-22",
+      "min_price": 21950.0,
+      "max_price": 22050.0,
+      "modal_price": 22000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "apple-0259f00ef3",
       "market": "Manjeri Market",
@@ -200,17 +244,6 @@
       "min_price": 21950.0,
       "max_price": 22050.0,
       "modal_price": 22000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "apple-0d7cba27d2",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-14",
-      "min_price": 16500.0,
-      "max_price": 17500.0,
-      "modal_price": 17000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

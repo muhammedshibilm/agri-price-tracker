@@ -1,10 +1,21 @@
 {
   "product": "cashewnuts",
   "product_name": "Cashewnuts",
-  "generated_at": "2026-09-21T20:51:45.254624Z",
+  "generated_at": "2026-09-22T20:02:14.517252Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "cashewnuts-40ad53dca3",
+      "market": "Kasargod Market",
+      "district": "Kasargod",
+      "date": "2026-09-22",
+      "min_price": 12000.0,
+      "max_price": 12500.0,
+      "modal_price": 12200.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "cashewnuts-cae62b9b15",
       "market": "Kasargod Market",
@@ -54,17 +65,6 @@
       "market": "Kasargod Market",
       "district": "Kasargod",
       "date": "2026-09-16",
-      "min_price": 12000.0,
-      "max_price": 12500.0,
-      "modal_price": 12200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "cashewnuts-9cde4493e4",
-      "market": "Kasargod Market",
-      "district": "Kasargod",
-      "date": "2026-09-14",
       "min_price": 12000.0,
       "max_price": 12500.0,
       "modal_price": 12200.0,
