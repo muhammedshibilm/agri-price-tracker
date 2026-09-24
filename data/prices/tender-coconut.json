@@ -1,10 +1,21 @@
 {
   "product": "tender-coconut",
   "product_name": "Tender Coconut",
-  "generated_at": "2026-09-21T20:51:45.254624Z",
+  "generated_at": "2026-09-24T20:17:57.146354Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "tender-coconut-86cdd14ccb",
+      "market": "Munnar Market",
+      "district": "Idukki",
+      "date": "2026-09-24",
+      "min_price": 5000.0,
+      "max_price": 5000.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "tender-coconut-1cd97fad6f",
       "market": "Munnar Market",

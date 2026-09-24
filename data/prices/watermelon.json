@@ -1,10 +1,21 @@
 {
   "product": "watermelon",
   "product_name": "Watermelon",
-  "generated_at": "2026-09-22T20:02:14.517252Z",
+  "generated_at": "2026-09-24T20:17:57.146354Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "watermelon-7b79479d6d",
+      "market": "Munnar Market",
+      "district": "Idukki",
+      "date": "2026-09-24",
+      "min_price": 1500.0,
+      "max_price": 1500.0,
+      "modal_price": 1500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "watermelon-1182ff4da7",
       "market": "Manjeri Market",
@@ -123,50 +134,6 @@
       "min_price": 1600.0,
       "max_price": 1800.0,
       "modal_price": 1800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "watermelon-266d02a152",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-16",
-      "min_price": 1800.0,
-      "max_price": 2000.0,
-      "modal_price": 1900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "watermelon-eb4a493fd6",
-      "market": "Munnar Market",
-      "district": "Idukki",
-      "date": "2026-09-16",
-      "min_price": 2500.0,
-      "max_price": 2500.0,
-      "modal_price": 2500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "watermelon-94591a1fa4",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-15",
-      "min_price": 1750.0,
-      "max_price": 1850.0,
-      "modal_price": 1800.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "watermelon-ecb00b0dba",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-15",
-      "min_price": 1800.0,
-      "max_price": 2000.0,
-      "modal_price": 1900.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

@@ -1,10 +1,21 @@
 {
   "product": "green-gram",
   "product_name": "Green Gram / Moong (Whole)",
-  "generated_at": "2026-09-22T20:02:14.517252Z",
+  "generated_at": "2026-09-24T20:17:57.146354Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "green-gram-dcae59cf8f",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-24",
+      "min_price": 10800.0,
+      "max_price": 12000.0,
+      "modal_price": 11500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "green-gram-8499d2c990",
       "market": "Palakkad Market",
@@ -79,50 +90,6 @@
       "min_price": 9000.0,
       "max_price": 13000.0,
       "modal_price": 11000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-gram-0639858ecb",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-16",
-      "min_price": 10500.0,
-      "max_price": 12500.0,
-      "modal_price": 11600.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-gram-79b59c0b64",
-      "market": "Kottayam Market",
-      "district": "Kottayam",
-      "date": "2026-09-16",
-      "min_price": 9000.0,
-      "max_price": 13000.0,
-      "modal_price": 11000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-gram-ebfec1c203",
-      "market": "Kottayam Market",
-      "district": "Kottayam",
-      "date": "2026-09-15",
-      "min_price": 9000.0,
-      "max_price": 13000.0,
-      "modal_price": 11000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "green-gram-91c260e2da",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-15",
-      "min_price": 11000.0,
-      "max_price": 13000.0,
-      "modal_price": 12100.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

@@ -1,10 +1,43 @@
 {
   "product": "coconut-seed",
   "product_name": "Coconut Seed",
-  "generated_at": "2026-09-22T20:02:14.517252Z",
+  "generated_at": "2026-09-24T20:17:57.146354Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "coconut-seed-385c969d63",
+      "market": "Thamarakkulam VFPCK Market",
+      "district": "Alappuzha",
+      "date": "2026-09-24",
+      "min_price": 5500.0,
+      "max_price": 6200.0,
+      "modal_price": 6000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-seed-85a4764a53",
+      "market": "Payyannur Market",
+      "district": "Kannur",
+      "date": "2026-09-24",
+      "min_price": 4900.0,
+      "max_price": 5100.0,
+      "modal_price": 5000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "coconut-seed-01198890d7",
+      "market": "Kuttoor Market",
+      "district": "Pathanamthitta",
+      "date": "2026-09-24",
+      "min_price": 7700.0,
+      "max_price": 8100.0,
+      "modal_price": 7900.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "coconut-seed-1629005a90",
       "market": "Thamarakkulam VFPCK Market",
@@ -211,94 +244,6 @@
       "min_price": 5000.0,
       "max_price": 5800.0,
       "modal_price": 5400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-11fd9709e9",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-09-16",
-      "min_price": 5000.0,
-      "max_price": 5800.0,
-      "modal_price": 5400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-d867521697",
-      "market": "Payyannur Market",
-      "district": "Kannur",
-      "date": "2026-09-16",
-      "min_price": 5300.0,
-      "max_price": 5500.0,
-      "modal_price": 5400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-2431151291",
-      "market": "Aymanam VFPCK Market",
-      "district": "Kottayam",
-      "date": "2026-09-16",
-      "min_price": 5000.0,
-      "max_price": 5300.0,
-      "modal_price": 5200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-e495e68528",
-      "market": "Vakathanam VFPCK Market",
-      "district": "Kottayam",
-      "date": "2026-09-16",
-      "min_price": 5000.0,
-      "max_price": 5400.0,
-      "modal_price": 5200.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-fc4b8bcd48",
-      "market": "Venmony  VFPCK Market",
-      "district": "Alappuzha",
-      "date": "2026-09-16",
-      "min_price": 5000.0,
-      "max_price": 6000.0,
-      "modal_price": 5500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-df1c5a4316",
-      "market": "Kuthuparambu Market",
-      "district": "Kannur",
-      "date": "2026-09-15",
-      "min_price": 5000.0,
-      "max_price": 5800.0,
-      "modal_price": 5400.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-626c6dca18",
-      "market": "Payyannur Market",
-      "district": "Kannur",
-      "date": "2026-09-15",
-      "min_price": 5200.0,
-      "max_price": 5400.0,
-      "modal_price": 5300.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "coconut-seed-84b20ec1d2",
-      "market": "Kuttoor Market",
-      "district": "Pathanamthitta",
-      "date": "2026-09-15",
-      "min_price": 8100.0,
-      "max_price": 8500.0,
-      "modal_price": 8300.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

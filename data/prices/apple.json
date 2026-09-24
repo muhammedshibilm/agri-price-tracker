@@ -1,10 +1,54 @@
 {
   "product": "apple",
   "product_name": "Apple",
-  "generated_at": "2026-09-22T20:02:14.517252Z",
+  "generated_at": "2026-09-24T20:17:57.146354Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "apple-1ca5a0e682",
+      "market": "Munnar Market",
+      "district": "Idukki",
+      "date": "2026-09-24",
+      "min_price": 25000.0,
+      "max_price": 25000.0,
+      "modal_price": 25000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-3e6d17c847",
+      "market": "Chala Market",
+      "district": "Thiruvananthapuram",
+      "date": "2026-09-24",
+      "min_price": 23000.0,
+      "max_price": 25000.0,
+      "modal_price": 24000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-609a82fc51",
+      "market": "Mukkom Market",
+      "district": "Kozhikode(Calicut)",
+      "date": "2026-09-24",
+      "min_price": 14000.0,
+      "max_price": 15000.0,
+      "modal_price": 14500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
+    {
+      "id": "apple-a7109ba8fb",
+      "market": "Manjeri Market",
+      "district": "Malappuram",
+      "date": "2026-09-24",
+      "min_price": 21950.0,
+      "max_price": 22050.0,
+      "modal_price": 22000.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "apple-f6d88d1a02",
       "market": "Chala Market",
@@ -189,61 +233,6 @@
       "min_price": 16500.0,
       "max_price": 17500.0,
       "modal_price": 17000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "apple-cc457f6bf8",
-      "market": "Munnar Market",
-      "district": "Idukki",
-      "date": "2026-09-16",
-      "min_price": 30000.0,
-      "max_price": 30000.0,
-      "modal_price": 30000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "apple-ef7d481866",
-      "market": "Mukkom Market",
-      "district": "Kozhikode(Calicut)",
-      "date": "2026-09-16",
-      "min_price": 16500.0,
-      "max_price": 17500.0,
-      "modal_price": 17000.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "apple-9c0ff761f7",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-16",
-      "min_price": 14800.0,
-      "max_price": 15000.0,
-      "modal_price": 14900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "apple-78ff514e59",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-15",
-      "min_price": 14800.0,
-      "max_price": 15000.0,
-      "modal_price": 14900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "apple-0fc18b4b01",
-      "market": "Manjeri Market",
-      "district": "Malappuram",
-      "date": "2026-09-15",
-      "min_price": 21950.0,
-      "max_price": 22050.0,
-      "modal_price": 22000.0,
       "unit": "per quintal",
       "source": "Agmarknet / data.gov.in"
     }

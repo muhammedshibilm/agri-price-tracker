@@ -1,10 +1,21 @@
 {
   "product": "guava",
   "product_name": "Guava",
-  "generated_at": "2026-09-19T19:13:44.030126Z",
+  "generated_at": "2026-09-24T20:17:57.146354Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "guava-a3b7fb8d08",
+      "market": "Munnar Market",
+      "district": "Idukki",
+      "date": "2026-09-24",
+      "min_price": 8500.0,
+      "max_price": 8500.0,
+      "modal_price": 8500.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "guava-a5727d0ebf",
       "market": "Kottakkal Market",
@@ -21,39 +32,6 @@
       "market": "Kottakkal Market",
       "district": "Malappuram",
       "date": "2026-09-18",
-      "min_price": 5800.0,
-      "max_price": 6000.0,
-      "modal_price": 5900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "guava-2b85d45df9",
-      "market": "Munnar Market",
-      "district": "Idukki",
-      "date": "2026-09-16",
-      "min_price": 6500.0,
-      "max_price": 6500.0,
-      "modal_price": 6500.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "guava-38850b6830",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-16",
-      "min_price": 4800.0,
-      "max_price": 5000.0,
-      "modal_price": 4900.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "guava-b27ae4e8cb",
-      "market": "Kottakkal Market",
-      "district": "Malappuram",
-      "date": "2026-09-15",
       "min_price": 5800.0,
       "max_price": 6000.0,
       "modal_price": 5900.0,

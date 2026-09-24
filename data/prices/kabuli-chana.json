@@ -1,10 +1,21 @@
 {
   "product": "kabuli-chana",
   "product_name": "Kabuli Chana (White Chickpeas)",
-  "generated_at": "2026-09-22T20:02:14.517252Z",
+  "generated_at": "2026-09-24T20:17:57.146354Z",
   "state": "Keralam",
   "unit": "per quintal",
   "history": [
+    {
+      "id": "kabuli-chana-684f6feccd",
+      "market": "Palakkad Market",
+      "district": "Palakad",
+      "date": "2026-09-24",
+      "min_price": 10000.0,
+      "max_price": 12000.0,
+      "modal_price": 11100.0,
+      "unit": "per quintal",
+      "source": "Agmarknet / data.gov.in"
+    },
     {
       "id": "kabuli-chana-88eec848da",
       "market": "Palakkad Market",
@@ -43,28 +54,6 @@
       "market": "Palakkad Market",
       "district": "Palakad",
       "date": "2026-09-17",
-      "min_price": 10000.0,
-      "max_price": 12000.0,
-      "modal_price": 11100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "kabuli-chana-2fe5a1d1e8",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-16",
-      "min_price": 10000.0,
-      "max_price": 12000.0,
-      "modal_price": 11100.0,
-      "unit": "per quintal",
-      "source": "Agmarknet / data.gov.in"
-    },
-    {
-      "id": "kabuli-chana-c8a2084980",
-      "market": "Palakkad Market",
-      "district": "Palakad",
-      "date": "2026-09-15",
       "min_price": 10000.0,
       "max_price": 12000.0,
       "modal_price": 11100.0,
