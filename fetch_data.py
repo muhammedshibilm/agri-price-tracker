@@ -28,7 +28,46 @@ NVIDIA_TIMEOUT_SEC = 30
 MAX_ATTEMPTS = 4
 BASE_BACKOFF_SEC = 5
 RETENTION_DAYS = 7
+# Keep the existing app-facing label for compatibility with its current JSON data.
 STATE = "Keralam"
+# The API's canonical state name is "Kerala".
+API_STATE_FILTER = "Kerala"
+
+# Historical files do not contain a state field on each price row, so use a
+# conservative Kerala district allow-list when ingesting and pruning history.
+KERALA_DISTRICT_NAMES = {
+    "Alappuzha", "Alleppey", "Ernakulam", "Idukki", "Kannur", "Cannanore",
+    "Kasaragod", "Kasargod", "Kasargode", "Kollam", "Quilon", "Kottayam",
+    "Kozhikode", "Kozhikode(Calicut)", "Calicut", "Malappuram",
+    "Palakkad", "Palakad", "Palghat", "Pathanamthitta",
+    "Thiruvananthapuram", "Trivandrum", "Thrissur", "Thrisur",
+    "Thirssur", "Trichur", "Wayanad",
+}
+
+def normalize_location_name(value) -> str:
+    return "".join(ch.casefold() for ch in str(value or "") if ch.isalnum())
+
+
+KERALA_DISTRICTS_NORMALIZED = {
+    normalize_location_name(name) for name in KERALA_DISTRICT_NAMES
+}
+
+
+def is_kerala_state(value) -> bool:
+    return normalize_location_name(value) in {"kerala", "keralam"}
+
+
+def is_kerala_district(value) -> bool:
+    return normalize_location_name(value) in KERALA_DISTRICTS_NORMALIZED
+
+
+def get_record_state(record: dict) -> str:
+    for key, value in record.items():
+        if normalize_location_name(key) in {"state", "stateut"}:
+            return str(value or "").strip()
+    return ""
+
+
 
 DISPLAYABLE_CATEGORIES = {
     "Vegetables",
@@ -350,7 +389,7 @@ def fetch_kerala_csv() -> list:
                         "format": "csv",
                         "limit": page_size,
                         "offset": offset,
-                        "filters[state]": STATE,
+                        "filters[state.keyword]": API_STATE_FILTER,
                     },
                     headers={"User-Agent": "agri-price-tracker/1.0"},
                     timeout=REQUEST_TIMEOUT_SEC,
@@ -389,7 +428,26 @@ def fetch_kerala_csv() -> list:
     if not all_records:
         raise RuntimeError("No records fetched - aborting.")
 
-    return all_records
+    # Do not trust a server-side filter alone: reject rows without an explicit
+    # Kerala state and a recognized Kerala district.
+    kerala_records = [
+        record
+        for record in all_records
+        if is_kerala_state(get_record_state(record))
+        and is_kerala_district(record.get("District") or record.get("district"))
+    ]
+    rejected = len(all_records) - len(kerala_records)
+    print(
+        f"[fetch] Kerala-only validation: kept {len(kerala_records)} records; "
+        f"rejected {rejected} non-Kerala or unverified records"
+    )
+    if not kerala_records:
+        raise RuntimeError(
+            "No records were verified as Kerala. Refusing to process unverified or "
+            "other-state prices; check the API response schema and state filter."
+        )
+
+    return kerala_records
 
 
 def classify_with_nvidia(product_name: str) -> str | None:
@@ -518,6 +576,7 @@ def main() -> None:
             for row in existing_rows
             if isinstance(row, dict)
             and row.get("id")
+            and is_kerala_district(row.get("district"))
             and row.get("date", "") >= cutoff
         }
 
