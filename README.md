@@ -1,132 +1,241 @@
-# Agri Price Tracker
+# Agri Price Tracker — Data Pipeline
 
-A mobile application project focused on making agricultural market-price information easier to access. The goal is to help users explore crop and commodity prices and make more informed decisions.
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **Project status:** Under development. Features, supported markets, and data sources depend on the current implementation.
+A Python data pipeline that collects agricultural mandi prices for **Kerala, India**, validates the source records, normalizes commodity and market information, and publishes app-ready JSON files. It uses the Government of India's `data.gov.in` API for Agmarknet market data and can optionally use NVIDIA's LLM API to classify newly encountered commodities.
+
+> This repository contains the **data pipeline**, not the mobile application itself.
 
 ## Contents
 
 - [Overview](#overview)
-- [Features](#features)
-- [Technology](#technology)
-- [Getting Started](#getting-started)
+- [Pipeline workflow](#pipeline-workflow)
+- [Data source](#data-source)
+- [Output files](#output-files)
+- [Requirements](#requirements)
+- [Setup](#setup)
 - [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Run the pipeline](#run-the-pipeline)
+- [Data handling](#data-handling)
+- [Security](#security)
+- [Troubleshooting](#troubleshooting)
 - [License](#license)
 
 ## Overview
 
-Agricultural prices can vary by commodity, market, and date. Agri Price Tracker is intended to make this information easier to explore through a mobile-friendly experience.
+The pipeline turns raw government market-price records into structured JSON suitable for a consumer application. It is designed around Kerala market data and supports a known commodity catalogue while allowing new commodities to be discovered from incoming API records.
 
-This README avoids claiming specific live-data integrations or completed features that may not yet be implemented. Update the feature and configuration sections as the project evolves.
+### Key capabilities
 
-## Features
+- **API ingestion:** Fetches CSV data from the `data.gov.in` resource with pagination.
+- **Resilient requests:** Retries failed requests with exponential backoff and request timeouts.
+- **Kerala-only validation:** Checks the returned state and matches districts against a normalized allow-list to reduce accidental ingestion of other states' data.
+- **Commodity normalization:** Maps source commodity names to stable product IDs and display names.
+- **Automatic discovery:** Registers previously unseen commodities found in API records.
+- **Price normalization:** Extracts market, district, arrival date, minimum price, maximum price, modal price, unit, and source.
+- **Category assignment:** Uses predefined category overrides first, preserves a valid existing category where available, and optionally calls an NVIDIA-hosted language model for classification.
+- **JSON output:** Maintains a manifest and per-product price-history files for downstream use.
+- **Retention and merging:** Merges incoming data with existing history and applies a configurable retention window.
 
-The available features depend on the current version of the application. Potential areas of the project include:
+## Pipeline workflow
 
-- Browsing agricultural commodity prices
-- Exploring market-price information by location and date
-- Presenting price information in a clear, mobile-friendly interface
-
-Only describe a feature as available once it is implemented and verified in the repository.
-
-## Technology
-
-This project is developed as a mobile application. If the current implementation uses Flutter, the usual development tools are:
-
-- [Flutter](https://flutter.dev/)
-- [Dart](https://dart.dev/)
-- Android Studio or Visual Studio Code
-
-Adjust this section if the repository's actual stack differs.
-
-## Getting Started
-
-### Prerequisites
-
-Install the tools required by the project. For a Flutter application, install:
-
-- Flutter SDK
-- Dart SDK (included with Flutter)
-- Android Studio or another supported editor
-- An Android emulator or a physical Android device
-
-Verify your Flutter setup:
-
-```bash
-flutter doctor
+```text
+data.gov.in / Agmarknet API
+          |
+          v
+Paginated CSV ingestion
+          |
+          v
+Retry handling and Kerala validation
+          |
+          v
+Commodity discovery and normalization
+          |
+          v
+Price/date/unit processing
+          |
+          v
+Category assignment
+  (overrides / saved category / optional NVIDIA API)
+          |
+          v
+Merge history and apply retention policy
+          |
+          v
+data/manifest.json + data/prices/*.json
 ```
 
-### Installation
+## Data source
 
-1. Clone the repository:
+- **Provider:** Government of India's Open Government Data platform, `data.gov.in`
+- **Dataset:** Agmarknet mandi price resource
+- **Resource ID:** `9ef84268-d588-465a-a308-a864a43d0070`
+- **Filter:** State = Kerala, followed by local state and district validation
+- **Price fields:** Minimum, maximum, and modal price, along with market and arrival date
 
-   ```bash
-   git clone https://github.com/muhammedshibilm/agri-price-tracker.git
-   cd agri-price-tracker
-   ```
+The source API's availability, coverage, update frequency, and field names can change. Values should be interpreted according to the source dataset's definitions.
 
-2. Install dependencies (for Flutter projects):
+## Output files
 
-   ```bash
-   flutter pub get
-   ```
+The script writes data relative to its own directory:
 
-3. Run the application (for Flutter projects):
+```text
+data/
+├── manifest.json
+└── prices/
+    ├── <product-id>.json
+    └── ...
+```
 
-   ```bash
-   flutter run
-   ```
+- **`data/manifest.json`** — product catalogue and metadata used by the consuming application, including category information.
+- **`data/prices/<product-id>.json`** — price history for an individual product.
 
-If these commands do not match the current project structure, follow the setup instructions for the actual framework and update this section.
+Price-history rows include fields such as:
+
+| Field | Description |
+| --- | --- |
+| `id` | Stable row identifier derived from product, market, and date |
+| `market` | Market name reported by the source |
+| `district` | District name reported by the source |
+| `date` | Arrival date in ISO format (`YYYY-MM-DD`) |
+| `min_price` | Minimum reported price |
+| `max_price` | Maximum reported price |
+| `modal_price` | Modal reported price |
+| `unit` | Price basis assigned by the pipeline |
+| `source` | Source attribution |
+
+The script's current default retention period is **7 days**. Check the retention and merge logic before changing it, especially if the consuming application expects historical records.
+
+## Requirements
+
+- Python **3.10 or later**
+- A valid `data.gov.in` API key
+- Internet access to the data source
+- Optional: an NVIDIA API key if AI-based category classification is required
+
+Python dependency:
+- `requests`
+
+## Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/muhammedshibilm/agri-price-tracker.git
+cd agri-price-tracker
+```
+
+### 2. Create a virtual environment
+
+Linux/macOS:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Windows PowerShell:
+
+```powershell
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install requests
+```
+
+If the repository adds a `requirements.txt`, prefer installing from it:
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 ## Configuration
 
-If the app uses external APIs, credentials, or environment-specific settings:
+Configure credentials through environment variables. Do not hard-code API keys in source files.
 
-1. Check the project documentation and configuration files for the required variables.
-2. Keep private API keys and credentials out of source control.
-3. Provide a safe example configuration file (such as `.env.example`) when appropriate.
-4. Never commit production secrets.
+| Variable | Required? | Purpose |
+| --- | --- | --- |
+| `DATA_GOV_IN_API_KEY` | Yes | Authenticates requests to the data.gov.in API |
+| `NVIDIA_API_KEY` | No | Enables AI-based commodity classification |
+| `NVIDIA_MODEL` | No | NVIDIA API model name; defaults to `meta/llama-3.1-8b-instruct` |
 
-Document required configuration keys here once they are confirmed.
+### Linux/macOS
 
-## Project Structure
-
-The directory structure may change during development. A typical Flutter project contains:
-
-```text
-agri-price-tracker/
-├── android/
-├── lib/
-├── test/
-├── pubspec.yaml
-├── analysis_options.yaml
-└── README.md
+```bash
+export DATA_GOV_IN_API_KEY="your_data_gov_in_api_key"
+export NVIDIA_API_KEY="your_nvidia_api_key"
+# Optional: override the default model
+export NVIDIA_MODEL="meta/llama-3.1-8b-instruct"
 ```
 
-This is an illustrative structure; refer to the repository for the exact files and folders.
+### Windows PowerShell
+
+```powershell
+$env:DATA_GOV_IN_API_KEY = "your_data_gov_in_api_key"
+$env:NVIDIA_API_KEY = "your_nvidia_api_key"
+$env:NVIDIA_MODEL = "meta/llama-3.1-8b-instruct"
+```
+
+The NVIDIA variables are optional. Without `NVIDIA_API_KEY`, the script logs that classification is unavailable; products without a predefined or previously stored category may have a null category.
+
+## Run the pipeline
+
+Run the script from the repository root:
+
+```bash
+python fetch_data.py
+```
+
+The script fetches source records, validates them, processes recognized commodities, updates the JSON output files, and logs progress to the console. Ensure the required API key is set before running it.
+
+## Data handling
+
+- **State validation:** API-side filtering is supplemented by local state and district checks. District spelling aliases are normalized to support common source variations.
+- **Date parsing:** The script expects source arrival dates in `DD/MM/YYYY` format and writes ISO dates.
+- **Units:** The default price basis is per quintal, with explicit product-specific overrides where configured. Verify the source's unit conventions before relying on a value.
+- **Categories:** Known product categories take precedence over AI classification. AI output is accepted only when it matches a supported category.
+- **Retention:** The configured retention window is seven days. Review this behavior if the downstream app needs longer historical trends.
+
+## Security
+
+- Never commit API keys, access tokens, or other secrets.
+- Use environment variables or a secret manager in automated environments.
+- If credentials are accidentally committed, revoke and rotate them; deleting them from the latest file alone is not sufficient.
+- Treat external API responses and model-generated classifications as untrusted input.
+- Check API usage limits and the terms of the source data provider.
+
+## Troubleshooting
+
+**Missing `DATA_GOV_IN_API_KEY`**
+
+Set the required environment variable in the same shell or runtime that executes the script.
+
+**No records verified as Kerala**
+
+The pipeline deliberately stops if it cannot verify Kerala state and recognized district fields. Check whether the API response schema or source field names have changed; do not bypass validation without understanding the impact.
+
+**NVIDIA classification is unavailable**
+
+Confirm that `NVIDIA_API_KEY` is configured and that the selected model is available to your account. Classification is optional; predefined categories can still be assigned.
+
+**API request failures**
+
+Check network connectivity, API availability, credentials, and provider rate limits. The script retries failed requests, but it stops after the configured attempts.
 
 ## Contributing
 
-Contributions, bug reports, and suggestions are welcome.
-
-1. Fork the repository.
-2. Create a focused branch for your change.
-3. Make and test your changes.
-4. Open a pull request describing the problem and solution.
-
-For larger changes, open an issue first to discuss the proposal. Do not include secrets, personal data, or private credentials in issues or pull requests.
+Bug reports, improvements, and documentation updates are welcome. For substantial changes, open an issue to discuss the proposal before submitting a pull request. Please avoid committing credentials or private data.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full terms.
 
 ## Maintainer
 
-Maintained by [muhammedshibilm](https://github.com/muhammedshibilm).
-
----
-
-If you use market-price information for financial or agricultural decisions, verify important figures against the relevant official or primary source.
+Created and maintained by [muhammedshibilm](https://github.com/muhammedshibilm).
